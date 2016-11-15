@@ -7,106 +7,106 @@ BattleText_0x80730: ; 0x80730
 ; 0x80746
 
 WildPokemonAppearedText: ; 0x80746
-	text "Wild @"
-	text_from_ram EnemyMonNick
 	text ""
-	line "appeared!"
+	text_from_ram EnemyMonNick
+	text " sauvage @"
+	line "apparait !"
 	prompt
 ; 0x8075c
 
 HookedPokemonAttackedText: ; 0x8075c
-	text "The hooked"
+	text "Le "
 	line "@"
 	text_from_ram EnemyMonNick
 	text $55
-	db "attacked!"
+	db " péché attaque !"
 	prompt
 ; 0x80778
 
 PokemonFellFromTreeText: ; 0x80778
 	text_from_ram EnemyMonNick
-	text " fell"
-	line "out of the tree!"
+	text " est"
+	line "tombé de l'arbre !"
 	prompt
 ; 0x80793
 
 WildCelebiAppearedText: ; 0x80793
-	text "Wild @"
-	text_from_ram EnemyMonNick
 	text ""
-	line "appeared!"
+	text_from_ram EnemyMonNick
+	text " sauvage"
+	line "apparait !"
 	prompt
 ; 0x807a9
 
 WantsToBattleText:: ; 0x807a9
 	text $3f
-	line "wants to battle!"
+	line "veut combattre !"
 	prompt
 ; 0x807bd
 
 BattleText_0x807bd: ; 0x807bd
-	text "Wild @"
-	text_from_ram EnemyMonNick
 	text ""
-	line "fled!"
+	text_from_ram EnemyMonNick
+	text " sauvage"
+	line "s'est enfui !"
 	prompt
 ; 0x807cf
 
 BattleText_0x807cf: ; 0x807cf
-	text "Enemy @"
-	text_from_ram EnemyMonNick
 	text ""
-	line "fled!"
+	text_from_ram EnemyMonNick
+	text " ennemi@"
+	line "s'est enfui !"
 	prompt
 ; 0x807e2
 
 HurtByPoisonText: ; 0x807e2
 	text $5a
-	line "is hurt by poison!"
+	line "est blessé par le poison !"
 	prompt
 ; 0x807f8
 
 HurtByBurnText: ; 0x807f8
 	text $5a, "'s"
-	line "hurt by its burn!"
+	line " brule !"
 	prompt
 ; 0x8080e
 
 LeechSeedSapsText: ; 0x8080e
-	text "LEECH SEED saps"
+	text "LEECH SEED saps" ; TODO: A traduire
 	line $5a, "!"
 	prompt
 ; 0x80822
 
 HasANightmareText: ; 0x80822
 	text $5a
-	line "has a NIGHTMARE!"
+	line "a un cauchemar !"
 	prompt
 ; 0x80836
 
 HurtByCurseText: ; 0x80836
 	text $5a, "'s"
-	line "hurt by the CURSE!"
+	line "est bléssé par malédiction !" ;TODO: too long 
 	prompt
 ; 0x8084d
 
 SandstormHitsText: ; 0x8084d
-	text "The SANDSTORM hits"
+	text "La tempete blesse "
 	line $5a, "!"
 	prompt
 ; 0x80864
 
 PerishCountText: ; 0x80864
-	text $5a, "'s"
-	line "PERISH count is @"
+	text $5a, "'s" ;TODO: incorrect
+	line "@"
 	deciram wd265, $11
-	text "!"
+	text "tours restants !"
 	prompt
 ; 0x80880
 
 BattleText_0x80880: ; 0x80880
 	text $59
-	line "recovered with"
+	line "récupere avec"
 	cont "@"
 	text_from_ram StringBuffer1
 	text "."
@@ -115,7 +115,7 @@ BattleText_0x80880: ; 0x80880
 
 BattleText_0x80899: ; 0x80899
 	text $5a
-	line "recovered PP using"
+	line "récupere ses PP avec"
 	cont "@"
 	text_from_ram StringBuffer1
 	text "."
@@ -124,34 +124,34 @@ BattleText_0x80899: ; 0x80899
 
 BattleText_0x808b6: ; 0x808b6
 	text $59
-	line "was hit by FUTURE"
-	cont "SIGHT!"
+	line "est touché par"
+	cont "PRESCIENCE !"
 	prompt
 ; 0x808d2
 
 BattleText_0x808d2: ; 0x808d2
-	text $5a, "'s"
-	line "SAFEGUARD faded!"
+	text "RUNE PROTECT de"
+	line $5a, "s'évanouit." ;TODO: check
 	prompt
 ; 0x808e7
 
 BattleText_0x808e7: ; 0x808e7
-	text_from_ram StringBuffer1
+	text_from_ram StringBuffer1 ;TODO: incorrect
 	text " #MON's"
 	line "LIGHT SCREEN fell!"
 	prompt
 ; 0x80905
 
 BattleText_PkmnReflectFaded: ; 0x80905
-	text_from_ram StringBuffer1
+	text_from_ram StringBuffer1 ;TODO: incorrect
 	text " #MON's"
 	line "REFLECT faded!"
 	prompt
 ; 0x8091f
 
 BattleText_0x8091f: ; 0x8091f
-	text "Rain continues to"
-	line "fall."
+	text "La pluie continue"
+	line "de tomber."
 	prompt
 ; 0x80938
 
@@ -173,111 +173,114 @@ BattleText_0x80967: ; 0x80967
 ; 0x8097a
 
 BattleText_0x8097a: ; 0x8097a
-	text "The sunlight"
-	line "faded."
+	text "Le soleil" ;TODO: check
+	line "disparait."
 	prompt
 ; 0x8098f
 
 BattleText_0x8098f: ; 0x8098f
-	text "The SANDSTORM"
-	line "subsided."
+	text "La tempete de sable"
+	line "s'affaiblit."
 	prompt
 ; 0x809a8
 
 BattleText_0x809a8: ; 0x809a8
-	text "Enemy @"
-	text_from_ram EnemyMonNick
 	text ""
-	line "fainted!"
+	text_from_ram EnemyMonNick
+	text "enemi"
+	line "est K.O. !"
 	prompt
 ; 0x809be
 
 BattleText_0x809be: ; 0x809be
-	text $52, " got ¥@"
+	text $52, " recoit ¥@"
 	deciram wc686, $36
 	text ""
-	line "for winning!"
 	prompt
 ; 0x809da
 
 BattleText_0x809da: ; 0x809da
 	text $3f
-	line "was defeated!"
+	line "a été vaincu !"
 	prompt
 ; 0x809eb
 
 TiedAgainstText: ; 0x809eb
-	text "Tied against"
+	text "Tied against" ;TODO: context
 	line $3f, "!"
 	prompt
 ; 0x809fc
 
 BattleText_0x809fc: ; 0x809fc
-	text $52, " got ¥@"
+	text $52, " recoit ¥@"
 	deciram wc686, $36
 	text ""
-	line "for winning!"
-	cont "Sent some to MOM!"
+	line "Une partie a été"
+	cont "envoyée a MAMAN."
 	prompt
 ; 0x80a2a
 
 BattleText_0x80a2a: ; 0x80a2a
-	text "Sent half to MOM!"
+	text "La moitié a été envoyée"
+	line "a MAMAN."
 	prompt
 ; 0x80a3d
 
 BattleText_0x80a3d: ; 0x80a3d
-	text "Sent all to MOM!"
+	text "Tout a été envoyé"
+	line "a MAMAN."
 	prompt
 ; 0x80a4f
 
 BattleText_0x80a4f: ; 0x80a4f
-	text $53, ": Huh? I"
-	line "should've chosen"
-	cont "your #MON!"
+	text $53, ": Huh?"
+	line "J'aurai du choisir"
+	cont "ton #MON!"
 	prompt
 ; 0x80a75
 
 BattleText_0x80a75: ; 0x80a75
 	text_from_ram BattleMonNick
 	text ""
-	line "fainted!"
+	line "a été mis K.O. !"
 	prompt
 ; 0x80a83
 
 BattleText_0x80a83: ; 0x80a83
-	text "Use next #MON?"
+	text "Utiliser le #MON"
+	line "suivant ?"
 	done
 ; 0x80a93
 
 BattleText_0x80a93: ; 0x80a93
-	text $53, ": Yes!"
-	line "I guess I chose a"
-	cont "good #MON!"
+	text $53, ": Oui!"
+	line "Je pense avoir"
+	cont "choisi un"
+	cont "bon #MON!"
 	prompt
 ; 0x80ab9
 
 LostAgainstText: ; 0x80ab9
-	text "Lost against"
+	text "Perdu contre"
 	line $3f, "!"
 	prompt
 ; 0x80aca
 
 BattleText_0x80aca: ; 0x80aca
 	text $3f
-	line "is about to use"
+	line "va envoyer"
 	cont "@"
 	text_from_ram EnemyMonNick
 	text "."
 
-	para "Will ", $52
-	line "change #MON?"
+	para "Voulez-vous ", $52
+	line "changer de #MON?"
 	done
 ; 0x80af8
 
 BattleText_0x80af8: ; 0x80af8
 	text $3f
-	line "sent out"
+	line "envoit"
 	cont "@"
 	text_from_ram EnemyMonNick
 	text "!"
@@ -285,37 +288,37 @@ BattleText_0x80af8: ; 0x80af8
 ; 0x80b0b
 
 BattleText_0x80b0b: ; 0x80b0b
-	text "There's no will to"
+	text "There's no will to" ;TODO: context
 	line "battle!"
 	prompt
 ; 0x80b26
 
 BattleText_0x80b26: ; 0x80b26
-	text "An EGG can't"
-	line "battle!"
+	text "Un OEUF ne peut"
+	line "combattre !"
 	prompt
 ; 0x80b3b
 
 BattleText_0x80b3b: ; 0x80b3b
-	text "Can't escape!"
+	text "Impossibe de s'enfuir !"
 	prompt
 ; 0x80b49
 
 BattleText_0x80b49: ; 0x80b49
-	text "No! There's no"
-	line "running from a"
-	cont "trainer battle!"
+	text "Non! Impossible"
+	line "de fuir un combat"
+	cont "contre un dresseur !"
 	prompt
 ; 0x80b77
 
 BattleText_0x80b77: ; 0x80b77
-	text "Got away safely!"
+	text "prend la fuite !"
 	prompt
 ; 0x80b89
 
 BattleText_0x80b89: ; 0x80b89
 	text $5a
-	line "fled using a"
+	line "prend la fuite avec"
 	cont "@"
 	text_from_ram StringBuffer1
 	text "!"
@@ -323,19 +326,19 @@ BattleText_0x80b89: ; 0x80b89
 ; 0x80ba0
 
 BattleText_0x80ba0: ; 0x80ba0
-	text "Can't escape!"
+	text "Impossible de s'enfuir !"
 	prompt
 ; 0x80bae
 
 BattleText_0x80bae: ; 0x80bae
-	text $5a, "'s"
-	line "hurt by SPIKES!"
+	text $5a, "est"
+	line "blessé par PICTOS !"
 	prompt
 ; 0x80bc2
 
 RecoveredUsingText: ; 0x80bc2
 	text $59
-	line "recovered using a"
+	line "récupère avec "
 	cont "@"
 	text_from_ram StringBuffer1
 	text "!"
@@ -343,7 +346,7 @@ RecoveredUsingText: ; 0x80bc2
 ; 0x80bde
 
 BattleText_0x80bde: ; 0x80bde
-	text $5a, "'s"
+	text $5a, "'s" ;TODO: context
 	line "@"
 	text_from_ram StringBuffer1
 	text $55
@@ -352,52 +355,53 @@ BattleText_0x80bde: ; 0x80bde
 ; 0x80bf3
 
 BattleText_0x80bf3: ; 0x80bf3
-	text "Items can't be"
-	line "used here."
+	text "Les objets ne peuv-"
+	line "-ent etre utilisés"
+	cont "ici."
 	prompt
 ; 0x80c0d
 
 BattleText_0x80c0d: ; 0x80c0d
 	text_from_ram BattleMonNick
 	text ""
-	line "is already out."
+	line "est déjà au combat."
 	prompt
 ; 0x80c22
 
 BattleText_0x80c22: ; 0x80c22
 	text_from_ram BattleMonNick
 	text ""
-	line "can't be recalled!"
+	line "ne peut revenir !"
 	prompt
 ; 0x80c39
 
 BattleText_0x80c39: ; 0x80c39
-	text "There's no PP left"
-	line "for this move!"
+	text "Plus de PP"
+	line "pour cette attaque !"
 	prompt
 ; 0x80c5b
 
 BattleText_0x80c5b: ; 0x80c5b
-	text "The move is"
-	line "DISABLED!"
+	text "L'attaque est "
+	line "DISABLED!" ;TODO: incorrect
 	prompt
 ; 0x80c72
 
 BattleText_0x80c72: ; 0x80c72
 	text_from_ram BattleMonNick
 	text ""
-	line "has no moves left!"
+	line "n'a plus d'attaques !" ;TODO: check
 	done
 ; 0x80c8a
 
 BattleText_0x80c8a: ; 0x80c8a
-	text $59, "'s"
-	line "ENCORE ended!"
+	text "ENCORE de"
+	line $59, " prend fin."
 	prompt
 ; 0x80c9c
 
 BattleText_0x80c9c: ; 0x80c9c
-	text_from_ram StringBuffer1
+	text_from_ram StringBuffer1 ;TODO: context
 	text " grew to"
 	line "level @"
 	deciram CurPartyLevel, $13
@@ -411,90 +415,90 @@ BattleText_0x80cb9: ; 0x80cb9
 ; 0x80cba
 
 BattleText_0x80cba: ; 0x80cba
-	text "Wild @"
+	text "@"
 	text_from_ram EnemyMonNick
-	text ""
-	line "is eating!"
+	text "sauvage"
+	line "mange !"
 	prompt
 ; 0x80cd1
 
 BattleText_0x80cd1: ; 0x80cd1
-	text "Wild @"
+	text "@"
 	text_from_ram EnemyMonNick
-	text ""
-	line "is angry!"
+	text "sauvage"
+	line "se fache !"
 	prompt
 ; 0x80ce7
 
 FastAsleepText: ; 0x80ce7
 	text $5a
-	line "is fast asleep!"
+	line "dort !"
 	prompt
 ; 0x80cfa
 
 WokeUpText: ; 0x80cfa
 	text $5a
-	line "woke up!"
+	line "se réveille !"
 	prompt
 ; 0x80d06
 
 FrozenSolidText: ; 0x80d06
 	text $5a
-	line "is frozen solid!"
+	line "est congelé !"
 	prompt
 ; 0x80d1a
 
 FlinchedText: ; 0x80d1a
 	text $5a
-	line "flinched!"
+	line "flinched!" ;TODO: context
 	prompt
 ; 0x80d27
 
 MustRechargeText: ; 0x80d27
 	text $5a
-	line "must recharge!"
+	line "doit recharger !"
 	prompt
 ; 0x80d39
 
 DisabledNoMoreText: ; 0x80d39
-	text $5a, "'s"
-	line "disabled no more!"
+	text $5a, " n'est"
+	line "plus DISABLED !" ;TODO: incorrect
 	prompt
 ; 0x80d4f
 
 IsConfusedText: ; 0x80d4f
 	text $5a
-	line "is confused!"
+	line "est confus !"
 	prompt
 ; 0x80d5f
 
 HurtItselfText: ; 0x80d5f
-	text "It hurt itself in"
-	line "its confusion!"
+	text "Il se blesse dans"
+	line "sa confusion !"
 	prompt
 ; 0x80d81
 
 ConfusedNoMoreText: ; 0x80d81
-	text $5a, "'s"
-	line "confused no more!"
+	text $5a, ""
+	line "n'est plus confus!"
 	prompt
 ; 0x80d97
 
 BecameConfusedText: ; 0x80d97
 	text $59
-	line "became confused!"
+	line "devient confus !"
 	prompt
 ; 0x80dab
 FatigueConfusedText: ; 0x80d97
 	text $5a
-	line "became confused"
-	cont "due to fatigue!"
+	line "devient confus"
+	cont "a cause de la fatigue !"
 	prompt
 ; 0x80dab
 
 
 BattleText_0x80dab: ; 0x80dab
-	text "A @"
+	text "A @" ;TODO: context
 	text_from_ram StringBuffer1
 	text " rid"
 	line $59
@@ -503,14 +507,14 @@ BattleText_0x80dab: ; 0x80dab
 ; 0x80dcc
 
 AlreadyConfusedText: ; 0x80dcc
-	text $59, "'s"
-	line "already confused!"
+	text $59, " est"
+	line "déja confus !"
 	prompt
 ; 0x80de2
 
 BattleText_0x80de2: ; 0x80de2
-	text $5a, "'s"
-	line "hurt by"
+	text $5a, " est"
+	line "bléssé par"
 	cont "@"
 	text_from_ram StringBuffer1
 	text "!"
@@ -519,7 +523,7 @@ BattleText_0x80de2: ; 0x80de2
 
 BattleText_0x80df5: ; 0x80df5
 	text $5a
-	line "was released from"
+	line "est libéré de"
 	cont "@"
 	text_from_ram StringBuffer1
 	text "!"
@@ -528,33 +532,33 @@ BattleText_0x80df5: ; 0x80df5
 
 UsedBindText: ; 0x80e11
 	text $5a
-	line "used BIND on"
+	line "utilise ETREINTE sur"
 	cont $59, "!"
 	prompt
 ; 0x80e24
 
 WhirlpoolTrapText: ; 0x80e24
 	text $59
-	line "was trapped!"
+	line "est piégé !"
 	prompt
 ; 0x80e34
 
 FireSpinTrapText: ; 0x80e34
 	text $59
-	line "was trapped!"
+	line "est piégé !"
 	prompt
 ; 0x80e44
 
 WrappedByText: ; 0x80e44
 	text $59
-	line "was WRAPPED by"
+	line "est LIGOTE par"
 	cont $5a, "!"
 	prompt
 ; 0x80e59
 
 ClampedByText: ; 0x80e59
 	text $59
-	line "was CLAMPED by"
+	line "was CLAMPED by" ;TODO: incorrect
 	cont $5a, "!"
 	prompt
 ; 0x80e6e
