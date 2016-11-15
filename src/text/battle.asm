@@ -156,19 +156,19 @@ BattleText_0x8091f: ; 0x8091f
 ; 0x80938
 
 BattleText_0x80938: ; 0x80938
-	text "The sunlight is"
-	line "strong."
+	text "Le soleil brille"
+	line "fort."
 	prompt
 ; 0x80951
 
 BattleText_0x80951: ; 0x80951
-	text "The SANDSTORM"
-	line "rages."
+	text "La tempete de sable"
+	line "fait rage."
 	prompt
 ; 0x80967
 
 BattleText_0x80967: ; 0x80967
-	text "The rain stopped."
+	text "La pluie s'est arrété."
 	prompt
 ; 0x8097a
 
@@ -565,19 +565,19 @@ ClampedByText: ; 0x80e59
 
 StoringEnergyText: ; 0x80e6e
 	text $5a
-	line "is storing energy!"
+	line "accumule de l'énergie !"
 	prompt
 ; 0x80e84
 
 UnleashedEnergyText: ; 0x80e84
 	text $5a
-	line "unleashed energy!"
+	line "libère son énergie !"
 	prompt
 ; 0x80e99
 
 HungOnText: ; 0x80e99
 	text $59
-	line "hung on with"
+	line "hung on with" ;TODO: context
 	cont "@"
 	text_from_ram StringBuffer1
 	text "!"
@@ -586,26 +586,26 @@ HungOnText: ; 0x80e99
 
 EnduredText: ; 0x80eb0
 	text $59
-	line "ENDURED the hit!"
+	line "tient le coup !"
 	prompt
 ; 0x80ec4
 
 InLoveWithText: ; 0x80ec4
 	text $5a
-	line "is in love with"
+	line "est amoureux de"
 	cont $59, "!"
 	prompt
 ; 0x80eda
 
 InfatuationText: ; 0x80eda
 	text $5a, "'s"
-	line "infatuation kept"
+	line "infatuation kept" ;TODO: context
 	cont "it from attacking!"
 	prompt
 ; 0x80f02
 
 DisabledMoveText: ; 0x80f02
-	text $5a, "'s"
+	text $5a, "'s" ;TODO: context
 	line "@"
 	text_from_ram StringBuffer1
 	text " is"
@@ -615,55 +615,54 @@ DisabledMoveText: ; 0x80f02
 
 LoafingAroundText: ; 0x80f19
 	text_from_ram BattleMonNick
-	text " is"
-	line "loafing around."
+	text " flane."
 	prompt
 ; 0x80f31
 
 BeganToNapText: ; 0x80f31
 	text_from_ram BattleMonNick
-	text " began"
-	line "to nap!"
+	text " fait"
+	line "la sieste !"
 	prompt
 ; 0x80f44
 
 WontObeyText: ; 0x80f44
 	text_from_ram BattleMonNick
-	text " won't"
-	line "obey!"
+	text " n'obéit"
+	line "pas !"
 	prompt
 ; 0x80f54
 
 TurnedAwayText: ; 0x80f54
 	text_from_ram BattleMonNick
-	text " turned"
-	line "away!"
+	text " vous tourne"
+	line "le dos !"
 	prompt
 ; 0x80f66
 
 IgnoredOrdersText: ; 0x80f66
 	text_from_ram BattleMonNick
-	text " ignored"
-	line "orders!"
+	text " ignore"
+	line "les ordres !"
 	prompt
 ; 0x80f7b
 
 IgnoredSleepingText: ; 0x80f7b
 	text_from_ram BattleMonNick
-	text " ignored"
-	line "orders<...>sleeping!"
+	text " vous"
+	line "ignore<...>Il dort !"
 	prompt
 ; 0x80f99
 
 NoPPLeftText: ; 0x80f99
-	text "But no PP is left"
-	line "for the move!"
+	text "Mais plus de PP"
+	line "pour cette attaque !"
 	prompt
 ; 0x80fba
 
 HasNoPPLeftText: ; 0x80fba
 	text $5a
-	line "has no PP left for"
+	line "n'as plus de PP pour"
 	cont "@"
 	text_from_ram StringBuffer2
 	text "!"
@@ -672,86 +671,87 @@ HasNoPPLeftText: ; 0x80fba
 
 WentToSleepText: ; 0x80fd7
 	text $5a
-	line "went to sleep!"
+	line "s'endort !"
 	done
 ; 0x80fe9
 
 RestedText: ; 0x80fe9
 	text $5a
-	line "fell asleep and"
-	cont "became healthy!"
+	line "s'est endormi et"
+	cont "récupère !"
 	done
 ; 0x8100c
 
 RegainedHealthText: ; 0x8100c
 	text $5a
-	line "regained health!"
+	line "récupère !"
 	prompt
 ; 0x81020
 
 AttackMissedText: ; 0x81020
-	text $5a, "'s"
-	line "attack missed!"
+	text "L'attaque de"
+	line $5a, "a echouée !"
 	prompt
 ; 0x81033
 
 AttackMissed2Text: ; 0x81033
-	text $5a, "'s"
-	line "attack missed!"
+	text $5a, "manque"
+	line "sa cible !"
 	prompt
 ; 0x81046
 
 CrashedText: ; 0x81046
-	text $5a
+	text $5a ;TODO: context
 	line "kept going and"
 	cont "crashed!"
 	prompt
 ; 0x81061
 
 UnaffectedText: ; 0x81061
-	text $59, "'s"
-	line "unaffected!"
+	text $59, ""
+	line "n'est pas affecté !"
 	prompt
 ; 0x81071
 
 DoesntAffectText: ; 0x81071
-	text "It doesn't affect"
+	text "Ca n'affecte pas"
 	line $59, "!"
 	prompt
 ; 0x81086
 
 CriticalHitText: ; 0x81086
-	text "A critical hit!"
+	text "Coup critique !"
 	prompt
 ; 0x81097
 
 OneHitKOText: ; 0x81097
-	text "It's a one-hit KO!"
+	text "K.O. en un coup !"
 	prompt
 ; 0x810aa
 
 SuperEffectiveText: ; 0x810aa
-	text "It's super-"
-	line "effective!"
+	text "C'est super"
+	line "efficace !"
 	prompt
 ; 0x810c1
 
 NotVeryEffectiveText: ; 0x810c1
-	text "It's not very"
-	line "effective<...>"
+	text "Ce n'est pas tres"
+	line "efficace<...>"
 	prompt
 ; 0x810da
 
 TookDownWithItText: ; 0x810da
-	text $59
+	text $59 ;TODO: context
 	line "took down with it,"
 	cont $5a, "!"
 	prompt
 ; 0x810f3
 
 RageBuildingText: ; 0x810f3
-	text $5a, "'s"
-	line "RAGE is building!"
+	text "La frénésie de"
+	line $5a, ""
+	cont "augmente !"
 	prompt
 ; 0x81109
 
