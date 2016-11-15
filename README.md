@@ -1,14 +1,15 @@
 # Pokémon Crystal 251
 # TwitchPlaysPokemon Edition
 
-This is a modded disassembly of Pokémon Crystal, Created for  TwitchPlaysPokemon.
+Une dissasembly moddée de Pokémon Crystal, réalisée par la TPPDev pour Twitch Plays Pokemon. 
 
-To set up the repository, see [**INSTALL.md**](INSTALL.md).
+Pour configurer le repo, voir ici [**INSTALL.md**](INSTALL.md).
 
+L'objectif de ce fork est de traduire le formidable travail de l'équipe TPPDev en Français. 
 
-## See also
+## Voir aussi
 
-* Disassembly of [**Pokémon Red/Blue**][pokered]
+* Disassembly de [**Pokémon Red/Blue**][pokered]
 * irc: **irc.freenode.net** [**#pret**][irc]
 
 [pokered]: https://github.com/iimarckus/pokered
