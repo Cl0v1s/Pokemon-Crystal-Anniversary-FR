@@ -33,6 +33,16 @@ par "texte"
 line "zbleh"
 cont "ok"
 
+Au court de votre traduction, il se peut que vous ne sachiez pas comment traduire une phrase. Dans ce cas signalez comme suit: 
+
+;TODO: msg
+
+msg étant ici: 
+
+* incorrect :  Vous savez votre traduction hasardeuse
+* context : Le message peut ne pas collre au contexte 
+* un texte de votre production expliquant votre problématique 
+
 ### Tester sa traduction
 
 Il est possible de tester votre traduction en lancant le script run.sh. Celui-ci va compiler le projet et executer bgb.exe (un excellent émulateur GameBoy) en chargeant votre production.
