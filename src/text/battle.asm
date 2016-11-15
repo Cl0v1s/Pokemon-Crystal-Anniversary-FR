@@ -757,25 +757,25 @@ RageBuildingText: ; 0x810f3
 
 GotAnEncoreText: ; 0x81109
 	text $59
-	line "got an ENCORE!"
+	line "est sous ENCORE!" ;TODO: incorrect
 	prompt
 ; 0x8111b
 
 SharedPainText: ; 0x8111b
-	text "The battlers"
-	line "shared pain!"
+	text "Les combattants"
+	line "partage leur douleur !" ;TODO: context
 	prompt
 ; 0x81136
 
 TookAimText: ; 0x81136
 	text $5a
-	line "took aim!"
+	line "vise !"
 	prompt
 ; 0x81143
 
 SketchedText: ; 0x81143
 	text $5a
-	line "SKETCHED"
+	line "SKETCHED" ;TODO: context
 	cont "@"
 	text_from_ram StringBuffer1
 	text "!"
@@ -783,14 +783,14 @@ SketchedText: ; 0x81143
 ; 0x81156
 
 DestinyBondEffectText: ; 0x81156
-	text $5a, "'s"
+	text $5a, "'s" ;TODO: context
 	line "trying to take its"
 	cont "opponent with it!"
 	prompt
 ; 0x8117f
 
 SpiteEffectText: ; 0x8117f
-	text $59, "'s"
+	text $59, "'s" ;TODO: context
 	line "@"
 	text_from_ram StringBuffer1
 	text " was"
@@ -801,82 +801,85 @@ SpiteEffectText: ; 0x8117f
 ; 0x811a0
 
 BellChimedText: ; 0x811a0
-	text "A bell chimed!"
+	text "Une cloche sonne !"
 	line ""
 	prompt
 ; 0x811b1
 
 FellAsleepText: ; 0x811b1
 	text $59
-	line "fell asleep!"
+	line "s'endort !"
 	prompt
 ; 0x811c1
 
 AlreadyAsleepText: ; 0x811c1
-	text $59, "'s"
-	line "already asleep!"
+	text $59, " est"
+	line "déja endormi !"
 	prompt
 ; 0x811d5
 UserAlreadyAsleepText:
-	text $5a, "'s"
-	line "already asleep!"
+	text $5a, " est"
+	line "déja endormi !"
 	prompt
 
 WasPoisonedText: ; 0x811d5
 	text $59
-	line "was poisoned!"
+	line "est empoisonné !"
 	prompt
 ; 0x811e6
 
 BadlyPoisonedText: ; 0x811e6
-	text $59, "'s"
-	line "badly poisoned!"
+	text $59, " est"
+	line "gravement"
+	cont "empoisonné !"
 	prompt
 ; 0x811fa
 
 AlreadyPoisonedText: ; 0x811fa
-	text $59, "'s"
-	line "already poisoned!"
+	text $59, " est"
+	line "déja empoisonné !"
 	prompt
 ; 0x81210
 
 SuckedHealthText: ; 0x81210
-	text "Sucked health from"
-	line $59, "!"
+	text "Vie de"
+	line $59, " aspirée !"
 	prompt
 ; 0x81227
 
 DreamEatenText: ; 0x81227
-	text $59, "'s"
-	line "dream was eaten!"
+	text "Le reve de"
+	line $59, ""
+	cont "a été mangé !"
 	prompt
 ; 0x8123c
 
 WasBurnedText: ; 0x8123c
 	text $59
-	line "was burned!"
+	line "brule !"
 	prompt
 ; 0x8124b
 
 AlreadyBurnedText:
-	text $59, "'s"
-	line "already burned!"
+	text $59, " est"
+	line "déja brulé !"
 	prompt
 
 DefrostedOpponentText: ; 0x8124b
 	text $59
-	line "was defrosted!"
+	line "a été décon-"
+	cont "gelé !"
 	prompt
 ; 0x8125d
 
 WasFrozenText: ; 0x8125d
 	text $59
-	line "was frozen solid!"
+	line "a été congelé !"
 	prompt
 ; 0x81272
 
 WontRiseAnymoreText: ; 0x81272
-	text $5a, "'s"
+	text $5a, "'s" ;TODO: context
 	line "@"
 	text_from_ram StringBuffer2
 	text " won't"
@@ -885,7 +888,7 @@ WontRiseAnymoreText: ; 0x81272
 ; 0x8128f
 
 WontDropAnymoreText: ; 0x8128f
-	text $59, "'s"
+	text $59, "'s" ;TODO: context
 	line "@"
 	text_from_ram StringBuffer2
 	text " won't"
@@ -895,95 +898,100 @@ WontDropAnymoreText: ; 0x8128f
 
 FledFromBattleText:: ; 0x812ac
 	text $5a
-	line "fled from battle!"
+	line "s'est enfui"
+	cont "du combat !"
 	prompt
 ; 0x812c1
 
 FledInFearText: ; 0x812c1
 	text $59
-	line "fled in fear!"
+	line "s'est enfui"
+	cont "appeuré !"
 	prompt
 ; 0x812d2
 
 BlownAwayText: ; 0x812d2
 	text $59
-	line "was blown away!"
+	line "a été emporté !"
 	prompt
 ; 0x812e5
 
 PlayerHitTimesText: ; 0x812e5
-	text "Hit @"
+	text "Touché @"
 	deciram PlayerDamageTaken, $11
-	text " times!"
+	text " fois !"
 	prompt
 ; 0x812f8
 
 EnemyHitTimesText: ; 0x812f8
-	text "Hit @"
+	text "Touché @"
 	deciram EnemyDamageTaken, $11
-	text " times!"
+	text " fois !"
 	prompt
 ; 0x8130b
 
 MistText: ; 0x8130b
-	text $5a, "'s"
-	line "shrouded in MIST!"
+	text $5a, " est"
+	line "caché dans la"
+	cont "brume."
 	prompt
 ; 0x81321
 
 ProtectedByMistText: ; 0x81321
-	text $59, "'s"
-	line "protected by MIST."
+	text $59, " est"
+	line "protégé par la"
+	cont "brume."
 	prompt
 ; 0x81338
 
 GettingPumpedText: ; 0x81338
-	interpret_data
+	interpret_data ;TODO: context
 	text $5a, "'s"
 	line "getting pumped!"
 	prompt
 ; 0x8134d
 
 RecoilText: ; 0x8134d
-	text $5a, "'s"
-	line "hit with recoil!"
+	text $5a, " se"
+	line "blesse en frappant !"
 	prompt
 ; 0x81362
 
 MadeSubstituteText: ; 0x81362
 	text $5a
-	line "made a SUBSTITUTE!"
+	line "se clone !"
 	prompt
 ; 0x81378
 
 HasSubstituteText: ; 0x81378
 	text $5a
-	line "has a SUBSTITUTE!"
+	line "a un clone !"
 	prompt
 ; 0x8138d
 
 TooWeakSubText: ; 0x8138d
-	text "Too weak to make"
-	line "a SUBSTITUTE!"
+	text "Trop faible pour"
+	line "créer un clone !"
 	prompt
 ; 0x813ad
 
 SubTookDamageText: ; 0x813ad
-	text "The SUBSTITUTE"
-	line "took damage for"
+	text "Le clone a pris"
+	line "les dommages pour"
 	cont $59, "!"
 	prompt
 ; 0x813d0
 
 SubFadedText: ; 0x813d0
-	text $59, "'s"
-	line "SUBSTITUTE faded!"
+	text "Le clone de"
+	line $59, ""
+	cont "disparait !"
 	prompt
 ; 0x813e6
 
 LearnedMoveText: ; 0x813e6
 	text $5a
-	line "learned"
+	line "apprend"
 	cont "@"
 	text_from_ram StringBuffer1
 	text "!"
@@ -992,18 +1000,18 @@ LearnedMoveText: ; 0x813e6
 
 WasSeededText: ; 0x813f8
 	text $59
-	line "was seeded!"
+	line "was seeded!" ;TODO: context
 	prompt
 ; 0x81407
 
 EvadedText: ; 0x81407
 	text $59
-	line "evaded the attack!"
+	line "esquive l'attaque !"
 	prompt
 ; 0x8141d
 
 WasDisabledText: ; 0x8141d
-	text $59, "'s"
+	text $59, "'s" ;TODO: context
 	line "@"
 	text_from_ram StringBuffer1
 	text " was"
@@ -1012,14 +1020,14 @@ WasDisabledText: ; 0x8141d
 ; 0x81435
 
 CoinsScatteredText: ; 0x81435
-	text "Coins scattered"
-	line "everywhere!"
+	text "Des pieces de" ;TODO: incorrect
+	line "monnaie ! Partout !"
 	prompt
 ; 0x81452
 
 TransformedTypeText: ; 0x81452
 	text $5a
-	line "transformed into"
+	line "transformed into" ;TODO: context
 	cont "the @"
 	text_from_ram StringBuffer1
 	text "-type!"
@@ -1027,13 +1035,14 @@ TransformedTypeText: ; 0x81452
 ; 0x81476
 
 EliminatedStatsText: ; 0x81476
-	text "All stat changes"
-	line "were eliminated!"
+	text "Tout les changements" ;TODO: context
+	line " de status sont"
+	cont "soignés!"
 	prompt
 ; 0x81499
 
 TransformedText: ; 0x81499
-	text $5a
+	text $5a ;TODO: context
 	line "TRANSFORMED into"
 	cont "@"
 	text_from_ram StringBuffer1
@@ -1042,79 +1051,84 @@ TransformedText: ; 0x81499
 ; 0x814b4
 
 LightScreenEffectText: ; 0x814b4
-	text $5a, "'s"
-	line "SPCL.DEF rose!"
+	text "La DEF.SPE de"
+	line $5a, ""
+	cont "augmente !"
 	prompt
 ; 0x814c7
 
 ReflectEffectText: ; 0x814c7
-	text $5a, "'s"
-	line "DEFENSE rose!"
+	text "La DEFENSE de"
+	text $5a, ""
+	line "augmente !"
 	prompt
 ; 0x814d9
 
 NothingHappenedText: ; 0x814d9
-	text "But nothing"
-	line "happened."
+	text "Mais rien ne"
+	line "se passe."
 	prompt
 ; 0x814f0
 
 ButItFailedText: ; 0x814f0
-	text "But it failed!"
+	text "Mais échoue !"
 	prompt
 ; 0x81500
 
 ItFailedText: ; 0x81500
-	text "It failed!"
+	text "Ca echoue !" ;TODO: context
 	prompt
 ; 0x8150c
 
 DidntAffect1Text: ; 0x8150c
-	text "It didn't affect"
+	text "Ca n'affecte pas"
 	line $59, "!"
 	prompt
 ; 0x81520
 
 DidntAffect2Text: ; 0x81520
-	text "It didn't affect"
+	text "Ca n'affecte pas"
 	line $59, "!"
 	prompt
 ; 0x81534
 
 HPIsFullText: ; 0x81534
-	text $5a, "'s"
-	line "HP is full!"
+	text "Les PV de"
+	text $5a, ""
+	line "sont restaurés !"
 	prompt
 ; 0x81544
 
 DraggedOutText: ; 0x81544
 	text $5a
-	line "was dragged out!"
+	line "est trainé hors"
+	cont "du combat !"
 	prompt
 ; 0x81558
 
 ParalyzedText: ; 0x81558
-	text $59, "'s"
-	line "paralyzed! Maybe"
-	cont "it can't attack!"
+	text $59, " est"
+	line "paralysé ! Il"
+	cont "pourrait ne plus"
+	cont "attaquer."
 	prompt
 ; 0x8157d
 
 FullyParalyzedText: ; 0x8157d
-	text $5a, "'s"
-	line "fully paralyzed!"
+	text $5a, " est"
+	line "totalement paralysé !"
 	prompt
 ; 0x81592
 
 AlreadyParalyzedText: ; 0x81592
-	text $59, "'s"
-	line "already paralyzed!"
+	text $59, " est"
+	line "déja paralysé !"
 	prompt
 ; 0x815a9
 
 ProtectedByText: ; 0x815a9
-	text $59, "'s"
-	line "protected by"
+	text $59, " est"
+	line "protégé par"
 	cont "@"
 	text_from_ram StringBuffer1
 	text "!"
@@ -1122,44 +1136,44 @@ ProtectedByText: ; 0x815a9
 ; 0x815c1
 
 MirrorMoveFailedText: ; 0x815c1
-	text "The MIRROR MOVE", $4e, "failed!"
+	text "The MIRROR MOVE", $4e, "failed!" ;TODO: context
 	prompt
 ; 0x815da
 
 StoleText: ; 0x815da
 	text $5a
-	line "stole @"
+	line "vole @"
 	text_from_ram StringBuffer1
 	text $55
-	db "from its foe!"
+	db "a son adversaire !"
 	prompt
 ; 0x815f7
 
 CantEscapeNowText: ; 0x815f7
 	text $59
-	line "can't escape now!"
+	line "ne peut s'échapper !"
 	prompt
 ; 0x8160b
 
 StartedNightmareText: ; 0x8160b
 	text $59
-	line "started to have a"
-	cont "NIGHTMARE!"
+	line "a un "
+	cont "cauchemar !"
 	prompt
 ; 0x8162b
 
 WasDefrostedText: ; 0x8162b
 	text $5a
-	line "was defrosted!"
+	line "a été décongelé !"
 	prompt
 ; 0x8163d
 
 PutACurseText: ; 0x8163d
 	text $5a
-	line "cut its own HP and"
+	line "sacrifie ses PV"
 
-	para "put a CURSE on"
-	line $59, "!"
+	para "and maudit "
+	line $59, " !"
 	prompt
 ; 0x81665
 
@@ -1176,68 +1190,69 @@ ProtectingItselfText: ; 0x8167a
 ; 0x81691
 
 SpikesText: ; 0x81691
-	text "SPIKES scattered"
-	line "all around"
-	cont $59, "!"
+	text "Des picots recou-"
+	line "-vrent le sol"
+	cont "autour de"
+	cont $59, " !"
 	prompt
 
 ; 0x816b1
 
 IdentifiedText: ; 0x816b1
 	text $5a
-	line "identified"
-	cont $59, "!"
+	line "identifié"
+	cont $59, " !"
 	prompt
 ; 0x816c2
 
 StartPerishText: ; 0x816c2
-	text "Both #MON will"
-	line "faint in 3 turns!"
+	text "Les #MON seront"
+	line "K.O. dans 3 tours !"
 	prompt
 ; 0x816e4
 
 SandstormBrewedText: ; 0x816e4
-	text "A SANDSTORM"
-	line "brewed!"
+	text "Une tempete de sable"
+	line "se leve !"
 	prompt
 ; 0x816f9
 
 BracedItselfText: ; 0x816f9
 	text $5a
-	line "braced itself!"
+	line "se renforce !"
 	prompt
 ; 0x8170b
 
 FellInLoveText: ; 0x8170b
 	text $59
-	line "fell in love!"
+	line "tombe amoureux !"
 	prompt
 ; 0x8171c
 
 CoveredByVeilText: ; 0x8171c
-	text $5a, "'s"
-	line "covered by a veil!"
+	text $5a, " est"
+	line "recouvert par un voile !"
 	prompt
 ; 0x81733
 
 SafeguardProtectText: ; 0x81733
 	text $59
-	line "is protected by"
-	cont "SAFEGUARD!"
+	line "est protégé par"
+	cont "RUNE PROTECT !"
 	prompt
 ; 0x81751
 
 MagnitudeText: ; 0x81751
-	text "Magnitude @"
+	text "Magnétude @"
 	deciram wd265, $11
-	text "!"
+	text " !"
 	prompt
 ; 0x81764
 
 ReleasedByText: ; 0x81764
 	text $5a
-	line "was released by"
-	cont $59, "!"
+	line "a été relaché par"
+	cont $59, " !"
 	prompt
 ; 0x8177a
 
@@ -1249,73 +1264,73 @@ ShedLeechSeedText: ; 0x8177a
 
 BlewSpikesText: ; 0x8178e
 	text $5a
-	line "blew away SPIKES!"
+	line "lance des picots !"
 	prompt
 ; 0x817a3
 
 DownpourText: ; 0x817a3
-	text "A downpour"
-	line "started!"
+	text "Une averse"
+	line "commence !"
 	prompt
 ; 0x817b8
 
 SunGotBrightText: ; 0x817b8
-	text "The sunlight got"
-	line "bright!"
+	text "Le soleil brille"
+	line "fort !"
 	prompt
 ; 0x817d2
 
 BellyDrumText: ; 0x817d2
 	text $5a
-	line "cut its HP and"
-	cont "maximized ATTACK!"
+	line "sacrifie ses PV"
+	cont "et augmente son ATK !"
 	prompt
 ; 0x817f6
 
 CopiedStatsText: ; 0x817f6
 	text $5a
-	line "copied the stat"
+	line "compie les change-"
 
-	para "changes of"
-	line $59, "!"
+	para "-ments d'état de"
+	line $59, " !"
 	prompt
 ; 0x81817
 
 ForesawAttackText: ; 0x81817
 	text $5a
-	line "foresaw an attack!"
+	line "prévoit l'attaque !"
 	prompt
 ; 0x8182d
 
 BeatUpAttackText: ; 0x8182d
 	text_from_ram StringBuffer1
 	text "'s"
-	line "attack!"
+	line "attack!" ;TODO: context
 	done
 ; 0x8183b
 
 RefusedGiftText: ; 0x8183b
 	text $59
-	line "refused the gift!"
+	line "refuse le cadeau !"
 	prompt
 ; 0x81850
 
 IgnoredOrders2Text: ; 0x81850
 	text $5a
-	line "ignored orders!"
+	line "ignore les ordres !"
 	prompt
 ; 0x81863
 
 BattleText_0x81863: ; 0x81863
-	text "Link error<...>"
+	text "Erreur LINK<...>"
 
-	para "The battle has"
-	line "been canceled<...>"
+	para "Le combat a"
+	line "été annulé<...>"
 	prompt
 ; 0x8188e
 
 BattleText_0x8188e: ; 0x8188e
-	text "There is no time"
+	text "There is no time" ;TODO: context
 	line "left today!"
 	done
 ; 0x818ac
