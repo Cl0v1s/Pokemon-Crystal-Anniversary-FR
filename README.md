@@ -48,7 +48,7 @@ D'une manière générale, on constate une construction comme suit:
 
 Au court de votre traduction, il se peut que vous ne sachiez pas comment traduire une phrase. Dans ce cas signalez comme suit: 
 
-;TODO: msg
+    ;TODO: msg
 
 msg étant ici: 
 
