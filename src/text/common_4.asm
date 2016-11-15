@@ -15,16 +15,16 @@ _OakText7: ; 0x1c4026
 
 	para "Tu vas traverser"
 	line "des moments de"
-	cont " joies et devoir"
+	cont "joie et devoir"
 	cont "relever de "
 	cont "nombreux defis."
 
 	para "Un monde de "
 	line "reves et d'adve-"
-	cont "-ntures"
+	cont "-ntures avec"
 
-	para "avec les #MON"
-	line "t'attend !"
+	cont "les #MON"
+	cont "t'attend !"
 	cont "C'est parti !"
 
 	para "On se revoit plus"
@@ -60,8 +60,8 @@ _OakText9F:
 	text "C'est ta meilleure"
 	line "amie."
 
-	para "Elle est ta"
-	line "rivale depuis votre"
+	para "C'est ta rivale"
+	line "depuis votre"
 	cont "plus jeune age."
 
 	para "Tu te souviens de"
