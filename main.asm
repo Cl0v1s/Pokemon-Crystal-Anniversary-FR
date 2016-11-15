@@ -833,8 +833,8 @@ OakSpeech: ; 0x5f99
 .MenuData2: ; 0x48e04
 	db $a1 ; flags
 	db 2 ; items
-	db "Boy@"
-	db "Girl@"
+	db "Gar.@"
+	db "Fil.@"
 ; 0x48e0f
 
 .Text_BoyOrGirl: ; 0x48e0f
@@ -41750,10 +41750,10 @@ MenuData2_0x49d1c: ; 49d1c
 ; 49d20
 
 MainMenuText: ; 49d24
-	db "CONTINUE@"
-	db "NEW GAME@"
+	db "CONTINUER@"
+	db "NOUVEAU JEU@"
 	db "OPTION@"
-	db "MYSTERY GIFT@"
+	db "CADEAU MYSTERE@"
 	db "MOBILE@"
 	db "MOBILE STUDIUM@"
 Jumptable_49d60: ; 0x49d60
@@ -44906,8 +44906,8 @@ MenuDataHeader_0x4d40d: ; 0x4d40d
 MenuData2_0x4d415: ; 0x4d415
 	db $c0 ; flags
 	db 2 ; items
-	db "NO@"
-	db "YES@"
+	db "NON@"
+	db "OUI@"
 ; 0x4d41e
 
 Function4d41e: ; 4d41e
@@ -45159,8 +45159,8 @@ MenuDataHeader_0x4d585: ; 0x4d585
 MenuData2_0x4d58d: ; 0x4d58d
 	db $c0 ; flags
 	db 2 ; items
-	db "NO@"
-	db "YES@"
+	db "NON@"
+	db "OUI@"
 ; 0x4d596
 
 Tilesets::
@@ -56402,14 +56402,14 @@ ChrisNameMenuHeader: ; 882b5
 MenuData2_0x882be: ; 882be
 	db $91 ; flags
 	db 5 ; items
-	db "NEW NAME@"
+	db "CHOIX@"
 Unknown_882c9: ; 882c9
 	db "RUST@"
 	db "CARMINE@"
 	db "DUSTIN@"
 	db "EVAN@"
 	db 2 ; displacement
-	db " NAME @" ; title
+	db " NOM @" ; title
 ; 882e5
 
 KrisNameMenuHeader: ; 882e5
@@ -66974,7 +66974,7 @@ Function90867: ; 90867 (24:4867)
 ; 90874 (24:4874)
 
 UnknownText_0x90874: ; 0x90874
-	; Zzz<...> Hm? Wha<...>? You woke me up! Will you check the clock for me?
+	; Zzz<...> Hum? Quoi<...>? Tu m'as réveillé! Will you check the clock for me?
 	text_jump UnknownText_0x1bc29c
 	db "@"
 ; 0x90879
@@ -66986,7 +66986,7 @@ UnknownText_0x90879: ; 0x90879
 ; 0x9087e
 
 String_9087e:
-	db "o'clock@"
+	db "Heures@"
 ; 90886
 
 UnknownText_0x90886: ; 0x90886
@@ -67227,13 +67227,13 @@ Unknown_909f2: ; 909f2
 	dw Saturday
 	dw Sunday
 
-Sunday:    db " SUNDAY@"
-Monday:    db " MONDAY@"
-Tuesday:   db " TUESDAY@"
-Wednesday: db "WEDNESDAY@"
-Thursday:  db "THURSDAY@"
-Friday:    db " FRIDAY@"
-Saturday:  db "SATURDAY@"
+Sunday:    db "DIMANCHE@"
+Monday:    db "LUNDI@"
+Tuesday:   db "MARDI@"
+Wednesday: db "MERCREDI@"
+Thursday:  db "JEUDI@"
+Friday:    db "VENDREDI@"
+Saturday:  db "SAMEDI@"
 UnknownText_0x90a3f: ; 0x90a3f
 	; What day is it?
 	text_jump UnknownText_0x1bc369
@@ -67435,9 +67435,9 @@ Function90b58: ; 90b58 (24:4b58)
 	ret
 ; 90b71 (24:4b71)
 
-String_90b71: db "NITE@"
-String_90b76: db "MORN@"
-String_90b7b: db "DAY@"
+String_90b71: db "NUIT@"
+String_90b76: db "MATIN@"
+String_90b7b: db "JOUR@"
 ; 90b7f
 
 Function90b7f: ; 90b7f (24:4b7f)
@@ -80998,8 +80998,8 @@ Functione36f9: ; e36f9 (38:76f9)
 .NoYes_MenuData2: ; 0x4d415
 	db $c0 ; flags
 	db 2 ; items
-	db "NO@"
-	db "YES@"
+	db "NON@"
+	db "OUI@"
 
 	hlcoord 11, 7 ; XXX
 MenuDataHeader_0xe377b: ; 0xe377b

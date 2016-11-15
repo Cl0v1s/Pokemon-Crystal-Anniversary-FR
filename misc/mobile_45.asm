@@ -13288,11 +13288,11 @@ Function11a235: ; 11a235 handle yes/no box, ret a = 1 and c if continueing, ret 
 ; 11a2cf
 
 String_11a2cf: ; 11a2cf
-	db "YES@"
+	db "OUI@"
 ; 11a2d3
 
 String_11a2d3: ; 11a2d3
-	db "NO@"
+	db "NON@"
 ; 11a2d6
 
 MenuDataHeader_11a2d6: ; 11a2d6

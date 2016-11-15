@@ -176,21 +176,22 @@ UnknownText_0x1bc29c: ; 0x1bc29c
 	text $56, $56, $56, $56, $56, $56
 	line $56, $56, $56, $56, $56, $56
 
-	para "Zzz<...> Hm? Wha<...>?"
-	line "You woke me up!"
+	para "Zzz<...> Hum? Quoi <...>?"
+	line "Tu m'as réveillé !"
 
-	para "Will you check the"
-	line "clock for me?"
+	para "Tu peux regarder"
+	line "l'heure pour moi ?"
 	prompt
 ; 0x1bc2eb
 
 UnknownText_0x1bc2eb: ; 0x1bc2eb
-	text "What time is it?"
+	text "Quelle heure est-"
+	line "t'il ?"
 	done
 ; 0x1bc2fd
 
 UnknownText_0x1bc2fd: ; 0x1bc2fd
-	text "What?@"
+	text "Quoi ?@"
 	db "@"
 ; 0x1bc305
 
@@ -200,7 +201,8 @@ UnknownText_0x1bc305: ; 0x1bc305
 ; 0x1bc308
 
 UnknownText_0x1bc308: ; 0x1bc308
-	text "How many minutes?"
+	text "Combien de"
+	line "minutes ?"
 	done
 ; 0x1bc31b
 
@@ -216,31 +218,31 @@ UnknownText_0x1bc323: ; 0x1bc323
 
 UnknownText_0x1bc326: ; 0x1bc326
 	text "!"
-	line "I overslept!"
+	line "J'ai trop dormi !"
 	done
 ; 0x1bc336
 
 UnknownText_0x1bc336: ; 0x1bc336
 	text "!"
-	line "Yikes! I over-"
-	cont "slept!"
+	line "Oups ! J'ai trop"
+	cont "dormi !"
 	done
 ; 0x1bc34f
 
 UnknownText_0x1bc34f: ; 0x1bc34f
 	text "!"
-	line "No wonder it's so"
-	cont "dark!"
+	line "C'est pour ca qu'"
+	cont "il fait si noir !"
 	done
 ; 0x1bc369
 
 UnknownText_0x1bc369: ; 0x1bc369
-	text "What day is it?"
+	text "Quel jour on est ?"
 	done
 ; 0x1bc37a
 
 UnknownText_0x1bc37a: ; 0x1bc37a
-	text ", is it?"
+	text ", c'est ca ?"
 	done
 ; 0x1bc384
 
@@ -287,7 +289,7 @@ UnknownText_0x1bc42c: ; 0x1bc42c
 ; 0x1bc43f
 
 UnknownText_0x1bc43f: ; 0x1bc43f
-	text "Is this OK?"
+	text "C'est correct ?"
 	done
 ; 0x1bc44c
 

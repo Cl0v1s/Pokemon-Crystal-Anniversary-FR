@@ -1,73 +1,78 @@
 _OakText6: ; 0x1c4000
-	text "And what did you"
-	line "say your name was?"
+	text "Comment t'appelles"
+	line "-tu déja ?"
 	prompt
 ; 0x1c4026
 
 _OakText7: ; 0x1c4026
-	text "<PLAYER>, are you"
-	line "ready?"
+	text "<PLAYER>, es-tu"
+	line "pret ?"
 
-	para "Your very own"
-	line "#MON story is"
-	cont "about to unfold."
+	para "Ta propre"
+	line "aventure #MON"
+	cont "est sur le point"
+	cont "de commencer."
 
-	para "You'll face fun"
-	line "times and tough"
-	cont "challenges."
+	para "Tu vas traverser"
+	line "des moments de"
+	cont " joies et devoir"
+	cont "relever de "
+	cont "nombreux defis."
 
-	para "A world of dreams"
-	line "and adventures"
+	para "Un monde de "
+	line "reves et d'adve-"
+	cont "-ntures"
 
-	para "with #MON"
-	line "awaits! Let's go!"
+	para "avec les #MON"
+	line "t'attend !"
+	cont "C'est parti !"
 
-	para "I'll be seeing you"
-	line "later!"
+	para "On se revoit plus"
+	line "tard !"
 	done
 ; 0x1c40e6
 
 _OakText8:
-	text "Ah, so it's"
-	line "<PLAYER>."
+	text "Ah, donc tu t'ap-"
+	line "pelles <PLAYER>."
 	prompt
 
 _OakText9:
-	text "This is your best"
-	line "friend."
+	text "C'est ton meilleur"
+	line "ami."
 
-	para "He's been your"
-	line "rival since the"
-	cont "two of you were"
-	cont "babies."
+	para "C'est ton rival"
+	line "depuis votre plus"
+	cont "jeune age. "
 
-	para "You remember his"
-	line "name, don't you?"
+	para "Tu te souviens de"
+	line "son nom, n'est-ce"
+	cont "pas ?"
 	done
 
 _OakText10:
-	text "That's absolutely"
-	line "correct! His name"
-	cont "is <GREEN>!"
+	text "C'est tout a fait"
+	line "ca ! Il se nomme"
+	cont "<GREEN> !"
 	prompt
 
 _OakText9F:
-	text "This is your best"
-	line "friend."
+	text "C'est ta meilleure"
+	line "amie."
 
-	para "She's been your"
-	line "rival since the"
-	cont "two of you were"
-	cont "babies."
+	para "Elle est ta"
+	line "rivale depuis votre"
+	cont "plus jeune age."
 
-	para "You remember her"
-	line "name, don't you?"
+	para "Tu te souviens de"
+	line "son nom, n'est-ce"
+	cont "pas ?"
 	done
 
 _OakText10F:
-	text "That's absolutely"
-	line "correct! Her name"
-	cont "is <GREEN>!"
+	text "C'est tout a fait"
+	line "ca ! Elle se nomme"
+	cont "<GREEN> !"
 	prompt
 
 UnknownText_0x1c40e6: ; 0x1c40e6

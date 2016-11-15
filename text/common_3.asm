@@ -820,16 +820,19 @@ UnknownText_0x1c0c85: ; 1c0c85
 ; 1c0ca3
 
 UnknownText_0x1c0ca3: ; 1c0ca3
-	text "Now, are you a boy"
-	line "or a girl?"
+	text "Bref, tu es un "
+	line "garcon ou une"
+	cont "fille ?"
 	done
 ; 1c0cc6
 
 ConfirmBoyText:
-	text "So you're a boy?"
+	text "Donc tu es un"
+	line "garcon ?"
 	done
 ConfirmGirlText:
-	text "So you're a girl?"
+	text "Donc tu es une"
+	line "fille ?"
 	done
 
 UnknownText_0x1c0cc6: ; 1c0cc6
@@ -1840,23 +1843,23 @@ UnknownText_0x1c1cf3: ; 1c1cf3
 ; 1c1d35
 
 _OakText1: ; 1c1d35
-	text "Hello! Sorry to"
-	line "keep you waiting!"
+	text "Bonjour! Désolé de"
+	line "l'attente !"
 
-	para "Welcome to the"
-	line "world of #MON!"
+	para "Bienvenue dans"
+	line "le monde #MON!"
 
-	para "My name is OAK."
+	para "Mon nom est Chen."
 
-	para "People call me the"
-	line "#MON PROF."
+	para "Mais on me nomme"
+	line "le Prof. #MON."
 	prompt
 ; 1c1da4
 
 _OakText2: ; 1c1da4
-	text "This world is in-"
-	line "habited by crea-", $55
-	db "tures that we call", $55
+	text "Ce monde est"
+	line "habité par des", $55
+	db "créatures appelées", $55
 	db "#MON.@@"
 ; 1c1de2
 
@@ -1870,28 +1873,33 @@ UnknownText_0x1c1de4: ; 1c1de4
 ; 1c1de5
 
 _OakText4: ; 1c1de5
-	text "People and #MON"
-	line "live together by"
+	text "Humains et #MON"
+	line "vivent ensemble"
 
-	para "supporting each"
-	line "other."
+	para "en s'entraidant"
+	line "mutuellement."
 
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
+	para "Certains jouent"
+	line "avec les #MON,"
+	cont "d'autres les font"
+	cont "s'affronter."
 	prompt
 ; 1c1e51
 
 _OakText5: ; 1c1e51
-	text "But we don't know"
-	line "everything about"
-	cont "#MON yet."
+	text "Mais beaucoup de"
+	line "choses restent"
+	cont "a découvrir a"
+	cont "propos des"
+	cont "#MON."
 
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
+	para "Il reste encore"
+	line "de nombreux myst-"
+	cont "-eres a résoudre."
 
-	para "That's why I study"
-	line "#MON every day."
+	para "C'est pourquoi"
+	line "j'étudie les"
+	cont "#MON tout les"
+	cont "jours."
 	prompt
 ; 1c1ec9

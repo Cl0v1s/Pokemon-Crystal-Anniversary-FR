@@ -130,8 +130,8 @@ LancesRoomNoYesBoxMenuDataHeader:
 .MenuData2
 	db $c0 ; flags
 	db 2 ; items
-	db "NO@"
-	db "YES@"
+	db "NON@"
+	db "OUI@"
 
 LanceRematch:
 	writetext LanceBeforeRematchText
