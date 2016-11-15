@@ -38,13 +38,13 @@ Le texte peut être précédé de:
 
 D'une manière générale, on constate une construction comme suit: 
 
-text "Dialogue"
-line "salut"
-cont "blah"
+    text "Dialogue"
+    line "salut"
+    cont "blah"
 
-par "texte"
-line "zbleh"
-cont "ok"
+    par "texte"
+    line "zbleh"
+    cont "ok"
 
 Au court de votre traduction, il se peut que vous ne sachiez pas comment traduire une phrase. Dans ce cas signalez comme suit: 
 
