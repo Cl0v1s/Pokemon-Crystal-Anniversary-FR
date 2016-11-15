@@ -1,6 +1,6 @@
 # Linux
 
-	sudo apt-get install make gcc bison git python python-setuptools
+	sudo apt-get install make gcc bison git python python-setuptools wine
 
 	git clone git://github.com/bentley/rgbds.git
 	cd rgbds
