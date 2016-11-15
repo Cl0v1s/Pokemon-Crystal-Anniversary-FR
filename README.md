@@ -7,9 +7,22 @@ Pour configurer le repo, voir ici [**INSTALL.md**](INSTALL.md).
 
 L'objectif de ce fork est de traduire le formidable travail de l'équipe TPPDev en Français. 
 
+
+## WORKFLOW 
+
+Avant de commencer à traduire, regardez dans la zone ci-dessous. Vérifiez que personne n'a déjà traduit ou ne soit en train de traduire la même zone que vous.  
+Une fois votre zone de travail choisie, veuillez la transcrire ici.
+
+| Nom            | Fichier         | n° ligne début - n° ligne fin |
+|----------------|-----------------|-------------------------------|
+| Clovis Portron |text/battle.asm | début du fichier - fin fichier |
+
+
 ## Comment traduire ? 
 
 ### Editer les fichiers
+
+**Important:** Avant de vous lancer dans une session de développement, vérifiez la section WORKFLOW ci-dessus.
 
 Les fichiers ASM contiennent du code assembleur Z80, compréhensible par un GameBoy. Notre objectif ici est de changer les valeurs des chaînes de caractères présentent dans de multiples fichiers 
 afin de traduire le jeu en français. Pour ce faire, explorez l'ensemble des fichiers et traduisez TOUT (Nom des villes, personnages, objets, dialogues). Il n'est pas necessaire de 
@@ -46,6 +59,11 @@ msg étant ici:
 ### Tester sa traduction
 
 Il est possible de tester votre traduction en lancant le script run.sh. Celui-ci va compiler le projet et executer bgb.exe (un excellent émulateur GameBoy) en chargeant votre production.
+
+L'objectif est ici de faire en sorte que le texte traduit exprime bien le message de base. Mais également qu'il n'entraine pas de problèmes graphiques, aussi veillez: 
+
+* Problèmes de dépassement du cadre
+* Aucun caractère spécial autorisé sauf é
 
 ## Voir aussi
 
