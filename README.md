@@ -16,6 +16,7 @@ Une fois votre zone de travail choisie, veuillez la transcrire ici.
 | Nom            | Fichier         | n° ligne début - n° ligne fin |
 |----------------|-----------------|-------------------------------|
 | Clovis Portron |text/battle.asm | début du fichier - fin fichier |
+| Clovis Portron |text/common.asm | début - l.600 |
 
 
 ## Comment traduire ? 
@@ -35,6 +36,7 @@ Le texte peut être précédé de:
 * par "texte": on commence un nouveau paragraphe, on attent que la boite de dialogue soit vidée pour l'afficher 
 * line "texte": une ligne de texte 
 * cont "texte": Le joueur devra appuyer sur suivant pour afficher ce texte
+* text_from_ram constante: permet d'afficher du texte stocké dans la ram. Il doit impérativement être précédé d'un texte non vide (text "@" et suivit d'un autre text "suite phrase")
 
 D'une manière générale, on constate une construction comme suit: 
 

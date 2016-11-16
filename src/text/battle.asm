@@ -7,10 +7,10 @@ BattleText_0x80730: ; 0x80730
 ; 0x80746
 
 WildPokemonAppearedText: ; 0x80746
-	text ""
+	text "Un @"
 	text_from_ram EnemyMonNick
-	text " sauvage @"
-	line "apparait!"
+	text ""
+	line "sauvage apparait!"
 	prompt
 ; 0x8075c
 
@@ -24,17 +24,18 @@ HookedPokemonAttackedText: ; 0x8075c
 ; 0x80778
 
 PokemonFellFromTreeText: ; 0x80778
+	text "Un @"
 	text_from_ram EnemyMonNick
-	text " est"
-	line "tombé de l'arbre!"
+	text ""
+	line "tombe de l'arbre!"
 	prompt
 ; 0x80793
 
 WildCelebiAppearedText: ; 0x80793
-	text ""
+	text "Un @"
 	text_from_ram EnemyMonNick
-	text " sauvage"
-	line "apparait!"
+	text ""
+	line "sauvage apparait!"
 	prompt
 ; 0x807a9
 
@@ -185,10 +186,10 @@ BattleText_0x8098f: ; 0x8098f
 ; 0x809a8
 
 BattleText_0x809a8: ; 0x809a8
-	text ""
+	text "@"
 	text_from_ram EnemyMonNick
-	text "enemi"
-	line "est K.O.!"
+	text ""
+	line "ennemi est K.O.!"
 	prompt
 ; 0x809be
 
@@ -300,7 +301,7 @@ BattleText_0x80b26: ; 0x80b26
 ; 0x80b3b
 
 BattleText_0x80b3b: ; 0x80b3b
-	text "Impossibe de s'enfuir!"
+	text "Fuite impossible!"
 	prompt
 ; 0x80b49
 
@@ -312,14 +313,15 @@ BattleText_0x80b49: ; 0x80b49
 ; 0x80b77
 
 BattleText_0x80b77: ; 0x80b77
-	text "prend la fuite!"
+	text "Vous prenez"
+	line "la fuite!"
 	prompt
 ; 0x80b89
 
 BattleText_0x80b89: ; 0x80b89
 	text $5a
-	line "prend la fuite avec"
-	cont "@"
+	line "prend la fuite"
+	cont "avec @"
 	text_from_ram StringBuffer1
 	text "!"
 	prompt
@@ -690,7 +692,8 @@ RegainedHealthText: ; 0x8100c
 
 AttackMissedText: ; 0x81020
 	text "L'attaque de"
-	line $5a, "a echouée!"
+	line $5a, ""
+	cont "a echouée!"
 	prompt
 ; 0x81033
 
@@ -1110,7 +1113,7 @@ ParalyzedText: ; 0x81558
 	text $59, " est"
 	line "paralysé! Il"
 	cont "pourrait ne plus"
-	cont "attaquer."
+	cont "pouvoir attaquer."
 	prompt
 ; 0x8157d
 
