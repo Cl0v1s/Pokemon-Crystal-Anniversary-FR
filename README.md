@@ -25,6 +25,8 @@ Une fois votre zone de travail choisie, veuillez la transcrire ici.
 
 **Important:** Avant de vous lancer dans une session de développement, vérifiez la section WORKFLOW ci-dessus.
 
+Une ligne de texte fait: 19 caractères !
+
 Les fichiers ASM contiennent du code assembleur Z80, compréhensible par un GameBoy. Notre objectif ici est de changer les valeurs des chaînes de caractères présentent dans de multiples fichiers 
 afin de traduire le jeu en français. Pour ce faire, explorez l'ensemble des fichiers et traduisez TOUT (Nom des villes, personnages, objets, dialogues). Il n'est pas necessaire de 
 produire le même texte que dans les versions pokémon officielle mais de rendre un contenu de qualité permettant de conserver la crédibilité du jeu. 

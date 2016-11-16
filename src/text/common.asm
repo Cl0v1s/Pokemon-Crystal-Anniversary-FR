@@ -1,29 +1,32 @@
 UnknownText_0x1b0000:: ; 0x1b0000
-	text "Good morning!"
-	line "Welcome to our"
-	cont "#MON CENTER."
+	text "Bonjour!"
+	line "Bienvenue dans"
+	cont "notre centre"
+	cont "#MON."
 	done
 ; 0x1b002b
 
 UnknownText_0x1b002b:: ; 0x1b002b
-	text "Hello!"
-	line "Welcome to our"
-	cont "#MON CENTER."
+	text "Bonjour!"
+	line "Bienvenue dans"
+	cont "notre centre"
+	cont "#MON."
 	done
 ; 0x1b004f
 
 UnknownText_0x1b004f:: ; 0x1b004f
-	text "Good evening!"
-	line "You're out late."
+	text "Bonsoir!"
+	line "Vous sortez tard!"
 
-	para "Welcome to our"
-	line "#MON CENTER."
+	para "Bienvenue dans"
+	line "notre centre"
+	cont "#MON."
 	done
 ; 0x1b008a
 
 UnknownText_0x1b008a: ; 0x1b008a
-	text "Good morning!"
-
+	text "Good morning!" ;TODO: context
+ 
 	para "This is the #-"
 	line "MON COMMUNICATION"
 
@@ -33,7 +36,7 @@ UnknownText_0x1b008a: ; 0x1b008a
 ; 0x1b00d6
 
 UnknownText_0x1b00d6: ; 0x1b00d6
-	text "Hello!"
+	text "Hello!" ;TODO: context
 
 	para "This is the #-"
 	line "MON COMMUNICATION"
@@ -44,7 +47,7 @@ UnknownText_0x1b00d6: ; 0x1b00d6
 ; 0x1b011b
 
 UnknownText_0x1b011b: ; 0x1b011b
-	text "Good to see you"
+	text "Good to see you" ;TODO: context
 	line "working so late."
 
 	para "This is the #-"
@@ -56,226 +59,236 @@ UnknownText_0x1b011b: ; 0x1b011b
 ; 0x1b017a
 
 UnknownText_0x1b017a: ; 0x1b017a
-	text "We can heal your"
-	line "#MON to perfect"
-	cont "health."
+	text "Nous pouvons "
+	line "soigner vos"
+	cont "#MON."
 
-	para "Shall we heal your"
-	line "#MON?"
+	para "Voulez-vous les"
+	line "soigner ?"
 	done
 ; 0x1b01bd
 
 UnknownText_0x1b01bd: ; 0x1b01bd
-	text "OK, may I see your"
-	line "#MON?"
+	text "OK, puis-je voir"
+	line "vos #MON?"
 	done
 ; 0x1b01d7
 
 UnknownText_0x1b01d7:: ; 0x1b01d7
-	text "Thank you for"
-	line "waiting."
+	text "Merci de votre"
+	line "patience."
 
-	para "Your #MON are"
-	line "fully healed."
+	para "Vos #MON sont"
+	line "pleine forme."
 	done
 ; 0x1b020b
 
 UnknownText_0x1b020b:: ; 0x1b020b
-	text "We hope to see you"
-	line "again."
+	text "Nous espérons"
+	line "vous revoir"
+	cont "bientot."
 	done
 ; 0x1b0226
 
 UnknownText_0x1b0226:: ; 0x1b0226
-	text "We hope to see you"
-	line "again."
+	text "Nous espérons"
+	line "vous revoir"
+	cont "bientot."
 	done
 ; 0x1b0241
 
 UnknownText_0x1b0241:: ; 0x1b0241
-	text "Your #MON"
-	line "appear to be"
+	text "Vos #MON"
+	line "semblent etre"
 
-	para "infected by tiny"
-	line "life forms."
+	para "infectés par"
+	line "de minuscules"
+	cont "formes de vie."
 
-	para "Your #MON are"
-	line "healthy and seem"
-	cont "to be fine."
+	para "Vos #MON sont"
+	line "en parfaite santé."
 
-	para "But we can't tell"
-	line "you anything more"
+	para "Mais nous ne"
+	line "pouvons vous en"
 
-	para "at a #MON"
-	line "CENTER."
+	cont "dire plus dans un"
+	cont "centre #MON."
 	done
 ; 0x1b02d6
 
 UnknownText_0x1b02d6:: ; 0x1b02d6
-	text "Your #MON"
-	line "appear to be"
+	text "Vos #MON"
+	line "semblent etre"
 
-	para "infected by tiny"
-	line "life forms."
+	para "infectés par"
+	line "de minuscules"
+	cont "formes de vie."
 
-	para "Your #MON are"
-	line "healthy and seem"
-	cont "to be fine."
+	para "Vos #MON sont"
+	line "en parfaite santé."
 
-	para "But we can't tell"
-	line "you anything more."
+	para "Mais nous ne"
+	line "pouvons vous en"
+
+	cont "dire plus."
 	done
 ; 0x1b035a
 
 NoPokemonHealText::
-	text "I'm sorry. You"
-	line "need to have a"
+	text "Navré. vous devez"
+	line "avoir un"
 
-	para "#MON in order"
-	line "to use this ser-"
-	cont "vice."
+	para "#MON pour"
+	line "accéder a ce"
+	cont "service."
 	done
 
 TooManyPokemonHealText::
-	text "I'm sorry. I can't"
-	line "heal that many"
-	cont "#MON."
+	text "Navré. Je ne"
+	line "peux soigner autant"
+	cont "de #MON."
 	done
 
 UnknownText_0x1b035a: ; 0x1b035a
-	text "It's full of"
-	line "difficult books."
+	text "C'est plein de"
+	line "livres compliqués."
 	done
 ; 0x1b0378
 
 UnknownText_0x1b0378: ; 0x1b0378
-	text "A whole collection"
-	line "of #MON picture"
-	cont "books!"
+	text "Toute une collec-"
+	line "-tion d'images"
+	cont "#MON!"
 	done
 ; 0x1b03a3
 
 UnknownText_0x1b03a3: ; 0x1b03a3
-	text "#MON magazines<...>"
-	line "#MON PAL,"
+	text "Magasines #MON<...>"
+	line "Images #MON,"
 
-	para "#MON HANDBOOK,"
-	line "#MON GRAPH<...>"
+	para "Carnets #MON,"
+	line "Dessins #MON<...>"
 	done
 ; 0x1b03d9
 
 UnknownText_0x1b03d9: ; 0x1b03d9
-	text "TEAM ROCKET OATH"
+	text "Le serment"
+	line "TEAM ROCKET"
 
-	para "Steal #MON for"
-	line "profit!"
+	para "Volons des #MON"
+	line "pour le profit!"
 
-	para "Exploit #MON"
-	line "for profit!"
+	para "exploitons de #MON"
+	line "pour le profit!"
 
-	para "All #MON exist"
-	line "for the glory of"
+	para "Tout les #MON"
+	line "existent pour la"
+	cont "gloire de la"
 	cont "TEAM ROCKET!"
 	done
 ; 0x1b0448
 
 UnknownText_0x1b0448: ; 0x1b0448
-	text "What is this?"
+	text "C'est quoi ce truc?"
 
-	para "Oh, it's an"
-	line "incense burner!"
+	para "Oh, c'est"
+	line "bruleur d'encens!"
 	done
 ; 0x1b0472
 
 UnknownText_0x1b0472: ; 0x1b0472
-	text "Lots of #MON"
-	line "merchandise!"
+	text "Plein de marchan-"
+	line "dises #MON!"
 	done
 ; 0x1b048d
 
 UnknownText_0x1b048d: ; 0x1b048d
-	text "It's the TOWN MAP."
+	text "C'est le plan de"
+	line "la ville."
 	done
 ; 0x1b04a0
 
 UnknownText_0x1b04a0: ; 0x1b04a0
-	text "My reflection!"
-	line "Lookin' good!"
+	text "Mon reflet!"
+	line "J'suis pas mal!"
 	done
 ; 0x1b04be
 
 UnknownText_0x1b04be: ; 0x1b04be
-	text "It's a TV."
+	text "C'est une TV."
+	line "Y'a jamais grand"
+	cont "chose de bien"
+	cont "intéressant."
 	done
 ; 0x1b04c9
 
 UnknownText_0x1b04c9: ; 0x1b04c9
-	text "#MON JOURNAL"
-	line "HOME PAGE<...>"
+	text "JOURNAL #MON"
+	line "Premiere page<...>"
 
-	para "It hasn't been"
-	line "updated<...>"
+	para "Ca n'a pas été"
+	line "mis a jour<...>"
 	done
 ; 0x1b04f9
 
 UnknownText_0x1b04f9: ; 0x1b04f9
-	text "#MON RADIO!"
+	text "RADIO #MON!"
 
-	para "Call in with your"
-	line "requests now!"
+	para "Appelez-nous avec"
+	line "vos requetes!"
 	done
 ; 0x1b0526
 
 UnknownText_0x1b0526: ; 0x1b0526
-	text "There's nothing in"
-	line "here<...>"
+	text "Il n'y a rien"
+	line "la-dedans<...>"
 	done
 ; 0x1b053f
 
 UnknownText_0x1b053f: ; 0x1b053f
-	text "A #MON may be"
-	line "able to move this."
+	text "Un #MON doit"
+	line "pouvoir bouger ca."
 	done
 ; 0x1b0561
 
 UnknownText_0x1b0561: ; 0x1b0561
-	text "Maybe a #MON"
-	line "can break this."
+	text "Un #MON doit"
+	line "pouvoir casser ca."
 	done
 ; 0x1b057f
 
 UnknownText_0x1b057f: ; 0x1b057f
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "Soignez vos"
+	line "#MON!"
+	para "CENTRE #MON"
 	done
 ; 0x1b059c
 
 UnknownText_0x1b059c: ; 0x1b059c
-	text "For All Your"
-	line "#MON Needs"
+	text "Pour tout vos"
+	line "besoins #MON"
 
-	para "#MON MART"
+	para "BOUTIQUE #MON"
 	done
 ; 0x1b05bf
 
 UnknownText_0x1b05bf: ; 0x1b05bf
-	text "We will now judge"
-	line "the #MON you've"
-	cont "caught."
+	text "Nous allons évaluer"
+	line "les #MON que vous"
+	cont "avez attrapé."
 
 	para $56
 	line $56
 
-	para "We have chosen the"
-	line "winners!"
+	para "Nous avons choisi"
+	line "les gagnants!"
 
-	para "Are you ready for"
-	line "this?"
+	para "Vous etes pret ?"
 	done
 ; 0x1b0621
 
 UnknownText_0x1b0621: ; 0x1b0621
-	text $52, ", the No.@"
+	text $52, ", the No.@" ;TODO: context
 	text_from_ram StringBuffer3
 	db $0
 	line "finisher, wins"
@@ -286,7 +299,7 @@ UnknownText_0x1b0621: ; 0x1b0621
 ; 0x1b0648
 
 UnknownText_0x1b0648: ; 0x1b0648
-	text $52, " received"
+	text $52, " recoit"
 	line "@"
 	text_from_ram StringBuffer4
 	text "."
@@ -294,287 +307,301 @@ UnknownText_0x1b0648: ; 0x1b0648
 ; 0x1b065b
 
 UnknownText_0x1b065b: ; 0x1b065b
-	text "Please join us for"
-	line "the next Contest!"
+	text "Soyez la pour le"
+	line "prochain concours!"
 	done
 ; 0x1b0681
 
 UnknownText_0x1b0681: ; 0x1b0681
-	text "Everyone else who"
-	line "caught a #MON"
-	cont "gets ", $f0, "1000 as a"
-	cont "consolation prize!"
+	text "Tout les autres qui"
+	line "ont attrapé des"
+	cont "#MON recoivent"
+	cont "", $f0, "1000 comme"
+	cont "lots de consolation!"
 	done
 
 NoPrizeForLazyPeople:
-	text "Only those who"
-	line "catch a #MON"
-	cont "receive prizes."
+	text "Seuls ceux qui"
+	line "ont attrapé des #MON"
+	cont "recoivent des prix."
 	done
 ; 0x1b06b7
 
 UnknownText_0x1b06b7: ; 0x1b06b7
-	text "We hope you do"
-	line "better next time."
+	text "Nous espérons que"
+	line "vous ferez mieux"
+	cont "la prochaine fois."
 	done
 ; 0x1b06d9
 
 UnknownText_0x1b06d9: ; 0x1b06d9
-	text "We'll return the"
-	line "#MON we kept"
-	cont "for you."
+	text "Voici les"
+	line "#MON que nous"
+	cont "gardions pour vous."
 	done
 
 DoYouWantToKeepTheBug:
-	text "Do you want to"
-	line "keep the caught"
-	cont "#MON?"
+	text "Voulez-vous garder" ;TODO: context
+	line "le #MON attrapé?"
 	done
 
 YouWantTheBugButPCIsFull:
-	text "You have no room"
-	line "in your party or"
+	text "Plus de place"
+	line "dans votre équipe"
 
-	para "PC box to receive"
-	line "this #MON."
+	para "et BOITE PC pour"
+	line "ce #MON."
 
-	para "We have to release"
-	line "it back into the"
-	cont "PARK."
+	para "Nous devons le"
+	line "relacher dans le"
+	cont "PARC."
 	done
 
 ; 0x1b070d
 
 UnknownText_0x1b070d: ; 0x1b070d
-	text "Your party's full,"
-	line "so the #MON was"
+	text "Votre équipe est pleine,"
+	line "le #MON a été"
 
-	para "sent to your BOX"
-	line "in BILL's PC."
+	para "envoyé dans votre"
+	line "BOITE PC."
 	done
 ; 0x1b074e
 
 UnknownText_0x1b074e: ; 0x1b074e
 	text_from_ram StringBuffer3
 	text ""
-	line "#MON GYM"
+	line "ARENE #MON"
 	done
 ; 0x1b075c
 
 UnknownText_0x1b075c: ; 0x1b075c
-	text "LEADER: @"
+	text "CHAMPION: @"
 	text_from_ram StringBuffer4
 	text ""
-	para "WINNING TRAINERS:"
+	para "DRESSEURS VAINQUEURS:"
 	line "<PLAYER>"
 	done
 ; 0x1b077f
 
 EGKGymStatueTextBefore: ; 0x1b075c
-	text "LEADER: @"
+	text "CHAMPION: @"
 	text_from_ram StringBuffer4
 	text ""
-	para "WINNING TRAINERS:"
+	para "CHAMPION:"
 	line "<GREEN>"
 	done
 ; 0x1b077f
 
 
 EGKGymStatueTextAfter: ; 0x1b075c
-	text "LEADER: @"
+	text "CHAMPION: @"
 	text_from_ram StringBuffer4
 	text ""
-	para "WINNING TRAINERS:"
+	para "CHAMPION:"
 	line "<GREEN>, <PLAYER>"
 	done
 ; 0x1b077f
 
 UnknownText_0x1b077f: ; 0x1b077f
-	text "Welcome to the"
+	text "Welcome to the" ;TODO: context
 	line "GAME CORNER."
 	done
 ; 0x1b079c
 
 UnknownText_0x1b079c: ; 0x1b079c
-	text "Do you need game"
-	line "coins?"
+	text "Vous avez besoin"
+	line "de jetons?"
 
-	para "Oh, you don't have"
-	line "a COIN CASE for"
-	cont "your coins."
+	para "Oh, vous n'avez"
+	line "pas de BOITE JETON"
+	cont "pour les ranger."
 	done
 ; 0x1b07e3
 
 UnknownText_0x1b07e3: ; 0x1b07e3
-	text "Do you need some"
-	line "game coins?"
+	text "Vous avez besoin"
+	line "de jetons?"
 
-	para "It costs ¥1000 for"
-	line "50 coins. Do you"
-	cont "want some?"
+	para "C'est ¥1000 pour"
+	line "50 jetons. Vous"
+	cont "en voulez?"
 	done
 ; 0x1b0830
 
 UnknownText_0x1b0830: ; 0x1b0830
-	text "Thank you!"
-	line "Here are 50 coins."
+	text "Merci!"
+	line "Voila 50 jetons."
 	done
 ; 0x1b084f
 
 UnknownText_0x1b084f: ; 0x1b084f
-	text "Thank you! Here"
-	line "are 500 coins."
+	text "Merci! Voila"
+	line "500 jetons."
 	done
 ; 0x1b086f
 
 UnknownText_0x1b086f: ; 0x1b086f
-	text "You don't have"
-	line "enough money."
+	text "Vous n'avez pas"
+	line "assez d'argent."
 	done
 ; 0x1b088c
 
 UnknownText_0x1b088c: ; 0x1b088c
-	text "You can't carry"
-	line "any more."
+	text "Vous ne pouvez" ;TODO: context
+	line "en porter plus."
 	done
 ; 0x1b08ad
 
 UnknownText_0x1b08ad: ; 0x1b08ad
-	text "No coins for you?"
+	text "No coins for you?" ;TODO: context
 	line "Come again!"
 	done
 ; 0x1b08cc
 
 UnknownText_0x1b08cc: ; 0x1b08cc
-	text "Oh? Your PACK is"
-	line "full."
+	text "Oh? Votre SAC est"
+	line "plein."
 
-	para "We'll keep this"
-	line "for you, but"
+	para "Nous gardons ca"
+	line "pour vous, mais"
 
-	para "we can only hold"
-	line "one of each prize."
+	para "vous ne pouvez avoir"
+	line "qu'un exemplaire de"
+	cont "chaque prix."
 
-	para "Come back when you"
-	line "make room for it."
+	para "Revenez quand vous"
+	line "aurez de la place."
 	done
 ; 0x1b092a
 
 UnknownText_0x1b092a: ; 0x1b092a
-	text "Wow! You and your"
-	line "#MON are really"
-	cont "close!"
+	text "Wow! Toi et ton"
+	line "#MON etes tres"
+	cont "proches!"
 	done
 ; 0x1b0954
 
 UnknownText_0x1b0954: ; 0x1b0954
-	text "#MON get more"
-	line "friendly if you"
+	text "Les #MON "
+	line "deviennent plus amicaux"
 
-	para "spend time with"
-	line "them."
+	para "si tu passes du temps"
+	line "avec eux."
 	done
 ; 0x1b0989
 
 UnknownText_0x1b0989: ; 0x1b0989
-	text "You haven't tamed"
-	line "your #MON."
+	text "Tu n'as pas appri-"
+	line "-voisé ton #MON."
 
-	para "If you aren't"
-	line "nice, it'll pout."
+	para "Si tu n'es pas"
+	line "gentil, il fera"
+	cont "la moue."
 	done
 ; 0x1b09c4
 
 UnknownText_0x1b09c4: ; 0x1b09c4
-	text $52, " registered"
-	line "@"
+	text $52, " enregistre"
+	line "le numéro de"
 	text_from_ram StringBuffer3
-	text "'s number."
+	text "."
 	done
 ; 0x1b09e1
 
 UnknownText_0x1b09e1: ; 0x1b09e1
-	text $52, " registered"
-	line "@"
+	text $52, " enregistre"
+	line "le numéro de"
 	text_from_ram StringBuffer3
-	text "'s number."
+	text "."
 	done
 ; 0x1b09fe
 
 UnknownText_0x1b09fe: ; 0x1b09fe
-	text "Your knowledge is"
-	line "impressive!"
+	text "Tes connais-"
+	line "sances sont"
+	cont "impressionnantes!"
 
-	para "I like that!"
+	para "C'est super!"
 
-	para "Want to trade"
-	line "battle tips?"
+	para "Tu veux qu'on"
+	line "se file des"
+	cont "astuces?"
 
-	para "I'll phone if I"
-	line "get good info."
+	para "Je t'appelle si"
+	line "j'apprends des"
+	cont "trucs intéressants."
 
-	para "Would you tell me"
-	line "your number?"
+	para "Tu me donnes ton"
+	line "numéro?"
 	done
 ; 0x1b0a82
 
 UnknownText_0x1b0a82: ; 0x1b0a82
-	text "Want to trade"
-	line "battle tips?"
+	para "Tu veux qu'on"
+	line "se file des"
+	cont "astuces?"
 
-	para "I'll phone if I"
-	line "get good info."
+	para "Je t'appelle si"
+	line "j'apprends des"
+	cont "trucs intéressants."
 
-	para "Would you tell me"
-	line "your number?"
+	para "Tu me donnes ton"
+	line "numéro?"
 	done
 ; 0x1b0adb
 
 UnknownText_0x1b0adb: ; 0x1b0adb
-	text "I'll call you if I"
-	line "hear anything!"
+	para "Je t'appelle si"
+	line "j'apprends des"
+	cont "trucs!"
 	done
 ; 0x1b0afd
 
 UnknownText_0x1b0afd: ; 0x1b0afd
-	text "Oh, OK. Too bad<...>"
+	text "Oh, OK. Pas cool<...>"
 
-	para "Well, if you ever"
-	line "want my number,"
-	cont "come see me, OK?"
+	para "Si jamais"
+	line "tu changes d'avis,"
+	cont "reviens me voir,"
+	cont "OK?"
 	done
 ; 0x1b0b42
 
 UnknownText_0x1b0b42: ; 0x1b0b42
 	text "Oh?"
-	line "Your phone's full."
+	line "Ton téléphone"
+	cont "est plein."
 
-	para "It can't register"
-	line "my number."
+	para "Il ne peut pas"
+	line "enregistrer mon"
+	cont "numéro."
 	done
 ; 0x1b0b75
 
 UnknownText_0x1b0b75: ; 0x1b0b75
-	text "Hi, I was waiting"
-	line "for you to show!"
+	text "Salut, je t'attendais"
+	line "pour te montrer!"
 
-	para "Let's get started"
-	line "right away!"
+	para "Commencons tout"
+	line "de suite!"
 	done
 ; 0x1b0bb6
 
 UnknownText_0x1b0bb6: ; 0x1b0bb6
-	text "Your MARILL is so"
-	line "cute and adorable!"
+	text "Ton MARILL est"
+	line "tellement mignon!"
 
-	para "You love #MON"
-	line "just like I do!"
+	para "Tu aimes le"
+	line "#MON comme moi!"
 
-	para "Want to trade"
-	line "phone numbers?"
+	para "Tu veux qu'on"
+	line "échange nos"
+	cont "numéros de télé-"
+	cont "-phone?"
 
-	para "Let's chat! It'll"
-	line "be so much fun!"
+	para "Discutons! Ca"
+	line "va etre super drole!"
 	done
 ; 0x1b0c37
 
