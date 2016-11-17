@@ -16,7 +16,7 @@ Une fois votre zone de travail choisie, veuillez la transcrire ici.
 | Nom            | Fichier         | n° ligne début - n° ligne fin |
 |----------------|-----------------|-------------------------------|
 | Clovis Portron |text/battle.asm | début du fichier - fin fichier |
-| Clovis Portron |text/common.asm | début - l.600 |
+| Clovis Portron |text/common.asm | début - fin fichier |
 
 
 ## Comment traduire ? 

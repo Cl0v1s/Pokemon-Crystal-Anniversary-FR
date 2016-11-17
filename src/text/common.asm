@@ -601,70 +601,79 @@ UnknownText_0x1b0bb6: ; 0x1b0bb6
 	cont "-phone?"
 
 	para "Discutons! Ca"
-	line "va etre super drole!"
+	line "va etre"
+	cont "super drole!"
 	done
 ; 0x1b0c37
 
 UnknownText_0x1b0c37: ; 0x1b0c37
-	text "Your MARILL is so"
-	line "cute and adorable!"
+	text "Ton MARILL est"
+	line "tellement mignon!"
 
-	para "We should chat, it"
-	line "will be fun."
+	para "Discutons! Ca"
+	line "va etre"
+	cont "super drole!"
 
-	para "Can I have your"
-	line "phone number?"
+	para "Je peux avoir ton"
+	line "numéro de télé-"
+	cont "-phone?"
 	done
 ; 0x1b0c9b
 
 UnknownText_0x1b0c9b: ; 0x1b0c9b
-	text "To be honest, I"
-	line "want a MARILL."
+	text "Pour etre honnete,"
+	line "je veux un MARILL."
 
-	para "But I make do with"
-	line "my cute SNUBBULL."
+	para "Mais je me contente"
+	line "de mon SNUBBULL"
+	line "tout mignon."
 	done
 ; 0x1b0ce0
 
 UnknownText_0x1b0ce0: ; 0x1b0ce0
-	text "Oh<...> That's"
-	line "disappointing<...>"
+	text "Oh<...> C'est"
+	line "décevant<...>"
 
-	para "Goodbye, MARILL<...>"
+	para "Au revoir, MARILL<...>"
 	done
 ; 0x1b0d0b
 
 UnknownText_0x1b0d0b: ; 0x1b0d0b
-	text "Oh? Your phone's"
-	line "memory is full."
+	text "Oh? La mémoire de"
+	line "ton téléphone est"
+	cont "pleine."
 	done
 ; 0x1b0d2c
 
 UnknownText_0x1b0d2c: ; 0x1b0d2c
 	text "Oh? ", $52, "? "
-	line "I waited here for"
+	line "Je t'attendais."
 
-	para "you. I brought you"
-	line "a little gift."
+	para "Je t'ai ramené"
+	line "un petit cadeau."
 	done
 ; 0x1b0d69
 
 UnknownText_0x1b0d69: ; 0x1b0d69
 	text "Oh?"
-	line "You have no room."
+	line "Tu as les poches"
+	cont "pleines."
 
-	para "Please come back"
-	line "for it later."
+	para "Reviens le"
+	line "chercher plus"
+	cont "tard."
 	done
 ; 0x1b0d9f
 
 UnknownText_0x1b0d9f: ; 0x1b0d9f
-	text "Cool! That's the"
-	line "first time I've"
-	cont "lost in a while!"
+	text "Cool! C'est la"
+	line "premiere fois que"
+	cont "je preds depuis"
+	cont "longtemps."
 
-	para "Hey, give me your"
-	line "phone number."
+	para "Hey, donne moi"
+	line "ton numéro de"
+	cont "téléphone."
 
 	para "You'd be fun to"
 	line "battle, so I'll"
