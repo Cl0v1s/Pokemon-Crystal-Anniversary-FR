@@ -675,54 +675,54 @@ UnknownText_0x1b0d9f: ; 0x1b0d9f
 	line "ton numéro de"
 	cont "téléphone."
 
-	para "You'd be fun to"
-	line "battle, so I'll"
+	para "T'es cool a"
+	line "affronter, je"
 
-	para "call you when I"
-	line "get stronger!"
+	para "t'appelerai quand"
+	line "je serai plus fort!"
 	done
 ; 0x1b0e2c
 
 UnknownText_0x1b0e2c: ; 0x1b0e2c
-	text "Hey, give me your"
-	line "phone number."
+	para "Hey, donne moi"
+	line "ton numéro de"
+	cont "téléphone."
 
-	para "You'd be fun to"
-	line "battle, so I'll"
+	para "T'es cool a"
+	line "affronter, je"
 
-	para "call you when I"
-	line "get stronger!"
+	para "t'appelerai quand"
+	line "je serai plus fort!"
 	done
 ; 0x1b0e89
 
 UnknownText_0x1b0e89: ; 0x1b0e89
-	text "Hey, let's battle"
-	line "again!"
+	text "Hey, battons-nous"
+	line "a nouveau!"
 	done
 ; 0x1b0ea2
 
 UnknownText_0x1b0ea2: ; 0x1b0ea2
-	text "Looks like you're"
-	line "a wimp<...>"
+	text "Mauviette<...>" 
 	done
 ; 0x1b0ebc
 
 UnknownText_0x1b0ebc: ; 0x1b0ebc
-	text "Hey! Your phone's"
-	line "already full!"
+	text "Ho! Ton télé-"
+	line "-phone est plein!"
 	done
 ; 0x1b0edc
 
 UnknownText_0x1b0edc: ; 0x1b0edc
-	text "Hey! I'm tired of"
-	line "waiting for you!"
+	text "Hey! J'en ai marre"
+	line "de t'attendre!"
 	done
 ; 0x1b0eff
 
 UnknownText_0x1b0eff: ; 0x1b0eff
-	text "Oh<...> Your PACK's"
-	line "full. I'll give it"
-	cont "to you later."
+	text "Oh<...> Ton SAC est"
+	line "plein. Je te donnerai"
+	cont "ca plus tard."
 	done
 ; 0x1b0f2f
 
