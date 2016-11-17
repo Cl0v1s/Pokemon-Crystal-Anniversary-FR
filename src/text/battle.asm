@@ -170,7 +170,8 @@ BattleText_0x80951: ; 0x80951
 ; 0x80967
 
 BattleText_0x80967: ; 0x80967
-	text "La pluie s'est arrété."
+	text "La pluie s'est"
+	line "arrétée."
 	prompt
 ; 0x8097a
 
@@ -198,7 +199,7 @@ BattleText_0x809be: ; 0x809be
 	text $52, " recoit"
 	line "¥@"
 	deciram wc686, $36
-	text ""
+	text "."
 	prompt
 ; 0x809da
 
@@ -276,7 +277,7 @@ BattleText_0x80aca: ; 0x80aca
 	text_from_ram EnemyMonNick
 	text "."
 
-	para "Voulez-vous changer", $52
+	para "Voulez-vous changer"
 	line "de #MON?"
 	done
 ; 0x80af8
@@ -342,7 +343,7 @@ BattleText_0x80bae: ; 0x80bae
 
 RecoveredUsingText: ; 0x80bc2
 	text $59
-	line "récupère avec "
+	line "récupere avec "
 	cont "@"
 	text_from_ram StringBuffer1
 	text "!"
@@ -1115,8 +1116,8 @@ DraggedOutText: ; 0x81544
 
 ParalyzedText: ; 0x81558
 	text $59, " est"
-	line "paralysé!"
-	cont "Il pourrait ne plus"
+	line "paralysé! Il"
+	cont "pourrait ne plus"
 	cont "pouvoir attaquer."
 	prompt
 ; 0x8157d
@@ -1306,7 +1307,8 @@ CopiedStatsText: ; 0x817f6
 
 ForesawAttackText: ; 0x81817
 	text $5a
-	line "prévoit l'attaque!"
+	line "prévoit une"
+	cont "attaque!"
 	prompt
 ; 0x8182d
 
