@@ -727,226 +727,242 @@ UnknownText_0x1b0eff: ; 0x1b0eff
 ; 0x1b0f2f
 
 UnknownText_0x1b0f2f: ; 0x1b0f2f
-	text "Man! You're as"
-	line "tough as ever!"
+	text "Mon pote! T'es"
+	line "toujours aussi"
+	cont "fort!"
 
-	para "I've battled you"
-	line "over and over, but"
+	para "Je te combat"
+	line "encore et encore"
+	cont "mais"
 
-	para $52, ", I haven't"
-	line "won once."
+	para $52, ", j'ai"
+	line "pas gagné une seule"
+	cont "fois."
 
-	para "I bought tons of"
-	line "items to toughen"
+	para "J'ai acheté plein"
+	line "d'objets pour rendre"
 
-	para "up my #MON, but"
-	line "to no avail<...>"
+	para "mes #MON"
+	line "plus forts, mais"
+	cont "rien a faire<...>"
 
-	para "Items alone aren't"
-	line "the answer."
+	para "Les objets seuls"
+	line "ne sont pas suf-"
+	cont "-fisant."
 
-	para "That must be what"
-	line "it is<...>"
+	para "Ca doit etre ca"
+	line "le probleme<...>"
 
-	para "Here, take this,"
+	para "Tiens, prends ca,"
 	line $52, "."
 
-	para "I won't be needing"
-	line "it anymore<...>"
+	para "J'en ai plus"
+	line "besoin<...>"
 	done
 ; 0x1b102e
 
 UnknownText_0x1b102e: ; 0x1b102e
-	text "Wow, you're tough."
-	line "I haven't battled"
+	text "Wow, t'es fort."
+	line "J'ai pas combattu"
 
-	para "that seriously in"
-	line "a long time."
+	para "aussi sérieusement"
+	line "depuis longtemps."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Je peux avoir ton"
+	line "numéro?"
 
-	para "I'd like to battle"
-	line "again when I heal"
+	para "j'aimerai te"
+	line "combattre plus tard"
+	cont "quand j'aurai"
+	cont "soigné"
 
 	para "@"
 	text_from_ram StringBuffer4
-	text " and the"
-	line "rest of my team."
+	text " et"
+	line "le reste de mon"
+	cont "équipe."
 	done
 ; 0x1b10d3
 
 UnknownText_0x1b10d3: ; 0x1b10d3
-	text "Could I get your"
-	line "phone number?"
+	para "Je peux avoir ton"
+	line "numéro?"
 
-	para "I'd like to battle"
-	line "again when I heal"
+	para "j'aimerai te"
+	line "combattre plus tard"
+	cont "quand j'aurai"
+	cont "soigné"
 
 	para "@"
 	text_from_ram StringBuffer4
-	text " and the"
-	line "rest of my team."
+	text " et"
+	line "le reste de mon"
+	cont "équipe."
 	done
 ; 0x1b1136
 
 UnknownText_0x1b1136: ; 0x1b1136
-	text "How should I beat"
-	line "you? I'm tormented"
+	text "Comment te battre?"
+	line "Cette pensée me"
 
-	para "by those thoughts"
-	line "all the time<...>"
+	para "tourmente en perm-"
+	line "-anence<...>"
 	done
 ; 0x1b117b
 
 UnknownText_0x1b117b: ; 0x1b117b
-	text "OK<...> I understand<...>"
-	line "But if you change"
+	text "OK<...> Je comprends"
+	line "<...> Mais si tu"
 
-	para "your mind, give me"
-	line "a shout anytime."
+	para "change d'avis, viens"
+	line "me le dire."
 	done
 ; 0x1b11c4
 
 UnknownText_0x1b11c4: ; 0x1b11c4
-	text "Your phone's"
-	line "memory is full."
+	text "La mémoire de"
+	line "ton téléphone est"
+	cont "pleine."
 
-	para "You can't register"
-	line "my number."
+	para "Tu peux pas enre-"
+	line "-gistrer mon numéro."
 	done
 ; 0x1b11fe
 
 UnknownText_0x1b11fe: ; 0x1b11fe
-	text "Hi! I've been"
-	line "waiting for you!"
+	text "Hi! Je t'attendais!"
 
-	para "This time, I'm"
-	line "going to win!"
+	para "Cette fois, je"
+	line "vais gagner!"
 	done
 ; 0x1b1239
 
 UnknownText_0x1b1239: ; 0x1b1239
-	text "It's been a while"
-	line "since I lost<...>"
+	text "Ca faisait un moment"
+	line "que j'avais pas"
+	cont "perdu<...>"
 
-	para "You're very good"
-	line "at battling."
+	para "T'es plutot bon."
 
-	para "We should battle"
-	line "again sometime."
+	para "On devrait se battre"
+	line "encore un de ces"
+	cont "jours."
 
-	para "By challenging a"
-	line "tough trainer like"
+	para "En affrontant"
+	line "un dresseur costaud comme"
 
-	para "you, I think I can"
-	line "get better too."
+	para "toi, je pense devenir"
+	line "plus fort aussi."
 
-	para "So how about it?"
+	para "T'en penses quoi?"
 
-	para "Would you give me"
-	line "your phone number?"
+	para "Tu me donnes ton"
+	line "numéro?"
 	done
 ; 0x1b1314
 
 UnknownText_0x1b1314: ; 0x1b1314
-	text "By challenging a"
-	line "tough trainer like"
+	para "En affrontant"
+	line "un dresseur costaud comme"
 
-	para "you, I think I can"
-	line "get better too."
+	para "toi, je pense devenir"
+	line "plus fort aussi."
 
-	para "So how about it?"
+	para "T'en penses quoi?"
 
-	para "Would you give me"
-	line "your phone number?"
+	para "Tu me donnes ton"
+	line "numéro?"
 	done
 ; 0x1b1392
 
 UnknownText_0x1b1392: ; 0x1b1392
-	text "Let's battle again"
-	line "sometime!"
+	para "Battons-nous"
+	line "encore un de ces"
+	cont "jours."
 	done
 ; 0x1b13af
 
 UnknownText_0x1b13af: ; 0x1b13af
-	text "That's too bad<...>"
+	text "C'est trop triste<...>"
 
-	para "Let me know if you"
-	line "change your mind."
+	para "Fait le moi savoir"
+	line "si tu changes d'avis."
 	done
 ; 0x1b13e4
 
 UnknownText_0x1b13e4: ; 0x1b13e4
-	text "Oh no. Your phone"
-	line "is out of memory."
+	text "Oh non. Ton téléphone"
+	line "n'a plus de mémoire."
 	done
 ; 0x1b1409
 
 UnknownText_0x1b1409: ; 0x1b1409
-	text "You sure kept me"
-	line "waiting! Let's go!"
+	text "Tu m'as fait at-"
+	line "-tendre! C'est parti!"
 	done
 ; 0x1b142d
 
 UnknownText_0x1b142d: ; 0x1b142d
-	text "If my @"
+	text "Si mon @"
 	text_from_ram StringBuffer4
 	db $0
-	line "sees anything"
+	line "voit un truc"
 
-	para "pretty, it goes"
-	line "and gets it."
+	para "joli, il le"
+	line "ramasse."
 
-	para "Do you like pretty"
-	line "things?"
+	para "T'aimes les trucs"
+	line "jolis?"
 
-	para "I could share if"
-	line "it gets some more."
+	para "Je peux t'en donner"
+	line "si il en ramasse"
+	cont "d'autres."
 
-	para "What's your phone"
-	line "number? I'll call."
+	para "C'est quoi ton"
+	line "numéro? Je t'ap-"
+	cont "-pellerai."
 
-	para "Don't expect a"
-	line "whole lot, OK?"
+	para "N'en attends pas"
+	line "trop, OK?"
 	done
 ; 0x1b14e4
 
 UnknownText_0x1b14e4: ; 0x1b14e4
-	text "Do you like pretty"
-	line "things?"
+	para "T'aimes les trucs"
+	line "jolis?"
 
-	para "I could share if"
-	line "FARFETCH'D goes"
-	cont "and gets more."
+	para "Je peux t'en donner"
+	line "si CANARTICHO en"
+	cont "ramasse d'autres."
 
-	para "What's your phone"
-	line "number? I'll call."
+	para "C'est quoi ton"
+	line "numéro? Je t'ap-"
+	cont "-pellerai."
 	done
 ; 0x1b1553
 
 UnknownText_0x1b1553: ; 0x1b1553
-	text "I'll call you as"
-	line "soon as I get"
-	cont "something pretty."
+	text "Je t'appelle"
+	line "des que j'ai"
+	cont "quelque chose."
 	done
 ; 0x1b1584
 
 UnknownText_0x1b1584: ; 0x1b1584
-	text "You sure? Well,"
-	line "tell me if you"
-	cont "change your mind."
+	text "T'es sure? Bien,"
+	line "dis-le moi si tu"
+	cont "changes d'avis."
 	done
 ; 0x1b15b6
 
 UnknownText_0x1b15b6: ; 0x1b15b6
-	text "Huh? Your phone"
-	line "list is full."
+	text "Huh? Ton annuaire"
+	line "est plein."
 	done
 ; 0x1b15d5
 
 UnknownText_0x1b15d5: ; 0x1b15d5
-	text "Tweet! Tweeeet!"
+	text "Tweet! Tweeeet!" ;TODO: context
 
 	para "Kept me waiting!"
 	line "Go, FARFETCH'D!"
@@ -954,25 +970,27 @@ UnknownText_0x1b15d5: ; 0x1b15d5
 ; 0x1b1607
 
 UnknownText_0x1b1607: ; 0x1b1607
-	text "Kept me waiting!"
-	line "Look, this is it!"
+	text "J'étais impatient!"
+	line "Regarde, c'est ca!"
 
-	para "See? Isn't it some"
-	line "kind of pretty?"
+	para "Tu vois? C'est pas"
+	line "un peu joli quand"
+	cont "meme ?"
 	done
 ; 0x1b164d
 
 UnknownText_0x1b164d: ; 0x1b164d
-	text "Huh? You don't"
-	line "have anywhere to"
+	text "Huh? T'as nulle"
+	line "part ou mettre ca"
 
-	para "put this. Better"
-	line "come back for it."
+	para "Tu ferais mieux de"
+	line "venir le chercher"
+	cont "plus tard."
 	done
 ; 0x1b1690
 
 UnknownText_0x1b1690: ; 0x1b1690
-	text "Not bad<...>"
+	text "Pas mal<...>"
 	line "It's something to"
 
 	para "beat me, even by"
