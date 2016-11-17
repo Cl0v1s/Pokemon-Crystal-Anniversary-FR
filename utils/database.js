@@ -68,3 +68,46 @@ var fs = require('fs');
 
         });
     }
+
+    exports.loadITEMS = function(callback)
+    {
+        var all = {};
+        var file = fs.readFile("./items.html", 'utf8', function(err, data)
+        {
+            jsdom.env(
+            data,
+            null,
+            function (err, window) {
+                var items = window.document.querySelectorAll('#mw-content-text tr');
+                for(var item in items)
+                {
+                    item = items[item];
+                    var names =  item.querySelectorAll("td");
+                    var en = null;
+                    var fr = null;
+                    if(names.length == 10)
+                    {
+                        en = names[1].querySelector("a span").innerHTML.trim().replace(" ", "").toUpperCase();
+                        fr = names[4].querySelector("span").innerHTML.trim().toLowerCase();
+                        if(names[4].querySelector("span span") != null)
+                        {
+                            fr = fr.split("<span")[0];                            
+                            fr = fr + names[4].querySelector("span span").innerHTML.trim().toLowerCase();
+                        }
+                    }
+
+                    if(en != null && fr != null)
+                    {
+                        all[en] = fr;                    
+                        console.log("Load: "+en+" -> "+fr);
+                    }
+
+                }
+                // Ajout special
+                all["?????"] = "?????";
+                callback(all);
+            }
+            );
+
+        });
+    }
