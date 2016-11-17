@@ -46,7 +46,7 @@ WantsToBattleText:: ; 0x807a9
 ; 0x807bd
 
 BattleText_0x807bd: ; 0x807bd
-	text ""
+	text "@"
 	text_from_ram EnemyMonNick
 	text " sauvage"
 	line "s'est enfui!"
@@ -54,7 +54,7 @@ BattleText_0x807bd: ; 0x807bd
 ; 0x807cf
 
 BattleText_0x807cf: ; 0x807cf
-	text ""
+	text "@"
 	text_from_ram EnemyMonNick
 	text " ennemi@"
 	line "s'est enfui!"
@@ -63,7 +63,8 @@ BattleText_0x807cf: ; 0x807cf
 
 HurtByPoisonText: ; 0x807e2
 	text $5a
-	line "est blessé par le poison!"
+	line "est blessé par"
+	cont "le poison!"
 	prompt
 ; 0x807f8
 
@@ -194,7 +195,8 @@ BattleText_0x809a8: ; 0x809a8
 ; 0x809be
 
 BattleText_0x809be: ; 0x809be
-	text $52, " recoit ¥@"
+	text $52, " recoit"
+	line "¥@"
 	deciram wc686, $36
 	text ""
 	prompt
@@ -274,14 +276,14 @@ BattleText_0x80aca: ; 0x80aca
 	text_from_ram EnemyMonNick
 	text "."
 
-	para "Voulez-vous ", $52
-	line "changer de #MON?"
+	para "Voulez-vous changer", $52
+	line "de #MON?"
 	done
 ; 0x80af8
 
 BattleText_0x80af8: ; 0x80af8
 	text $3f
-	line "envoit"
+	line "envoie"
 	cont "@"
 	text_from_ram EnemyMonNick
 	text "!"
@@ -452,7 +454,7 @@ FrozenSolidText: ; 0x80d06
 
 FlinchedText: ; 0x80d1a
 	text $5a
-	line "flinched!" ;TODO: context
+	line "a la trouille!"
 	prompt
 ; 0x80d27
 
@@ -846,7 +848,8 @@ AlreadyPoisonedText: ; 0x811fa
 
 SuckedHealthText: ; 0x81210
 	text "Vie de"
-	line $59, " aspirée!"
+	line $59, ""
+	cont "aspirée!"
 	prompt
 ; 0x81227
 
@@ -956,7 +959,8 @@ GettingPumpedText: ; 0x81338
 
 RecoilText: ; 0x8134d
 	text $5a, " se"
-	line "blesse en frappant!"
+	line "blesse en"
+	cont "frappant!"
 	prompt
 ; 0x81362
 
@@ -1111,15 +1115,16 @@ DraggedOutText: ; 0x81544
 
 ParalyzedText: ; 0x81558
 	text $59, " est"
-	line "paralysé! Il"
-	cont "pourrait ne plus"
+	line "paralysé!"
+	cont "Il pourrait ne plus"
 	cont "pouvoir attaquer."
 	prompt
 ; 0x8157d
 
 FullyParalyzedText: ; 0x8157d
 	text $5a, " est"
-	line "totalement paralysé!"
+	line "totalement"
+	cont "paralysé!"
 	prompt
 ; 0x81592
 
