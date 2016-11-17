@@ -1094,7 +1094,7 @@ UnknownText_0x1b1954: ; 0x1b1954
 	text "Je t'ai pas mal"
 	line "attendu !"
 
-	par "Battons-nous" 
+	para "Battons-nous" 
 	line "maintenant!"
 	done
 ; 0x1b1978
