@@ -991,364 +991,385 @@ UnknownText_0x1b164d: ; 0x1b164d
 
 UnknownText_0x1b1690: ; 0x1b1690
 	text "Pas mal<...>"
-	line "It's something to"
+	line "C'est pas évident de"
 
-	para "beat me, even by"
-	line "an unlikely fluke<...>"
+	para "me battre, meme"
+	line "dans une mauvaise"
+	cont "passe<...>"
 
-	para "I like you! Give"
-	line "me your number!"
+	para "J't'aime bien! Donne"
+	line "moi ton numéro!"
 
-	para "You can be my"
-	line "practice partner!"
+	para "Tu peux etre mon"
+	line "partenaire d'entrai-"
+	cont "-nement!"
 	done
 ; 0x1b1710
 
 UnknownText_0x1b1710: ; 0x1b1710
-	text "Give me your phone"
-	line "number!"
+	text "Donne moi ton numéro!"
 
-	para "You are going to"
-	line "be my practice"
-	cont "partner!"
+	para "Tu seras mon"
+	line "partenaire d'entrai-"
+	cont "-nement!"
 	done
 ; 0x1b1755
 
 UnknownText_0x1b1755: ; 0x1b1755
-	text "Don't be too proud"
-	line "about beating me!"
+	text "Ne soit pas trop"
+	line "fier!"
 
-	para "It was a fluke!"
+	para "J'ai pas eu de bol!"
 	done
 ; 0x1b178a
 
 UnknownText_0x1b178a: ; 0x1b178a
-	text "I don't believe"
-	line "it! You're going"
-	cont "to regret this!"
+	text "J'y crois pas!"
+	line "Tu vas le regret-"
+	cont "-ter!!"
 	done
 ; 0x1b17ba
 
 UnknownText_0x1b17ba: ; 0x1b17ba
-	text "What? Your phone"
-	line "list has no room!"
+	text "Quoi? T'as plus de"
+	line "place dans ton an-"
+	cont "-nuaire."
 	done
 ; 0x1b17de
 
 UnknownText_0x1b17de: ; 0x1b17de
-	text "What took you?"
+	text "What took you?" ;TODO: context
 	line "Start right away!"
 	done
 ; 0x1b1800
 
 UnknownText_0x1b1800: ; 0x1b1800
-	text "Listen, can I get"
-	line "your phone number?"
+	text "Ecoute, je peux avoir"
+	line "ton numéro?"
 
-	para "I'll ring you for"
-	line "some battles."
+	para "Je t'applerai pour"
+	line "qu'on se batte."
 
-	para "I'm a rookie too, "
-	line "so I think it'd be"
-	cont "a good motivator."
+	para "Je suis une recrue, "
+	line "je pense que ca"
+	cont "pourrait me motiver."
 	done
 ; 0x1b187b
 
 UnknownText_0x1b187b: ; 0x1b187b
-	text "Can I get your"
-	line "phone number?"
+	text "Je peux avoir ton"
+	line "numéro?"
 
-	para "I don't want to"
-	line "lose against you!"
+	para "Je ne perdrai"
+	line "plus contre toi!"
 
-	para "We have to battle"
-	line "again, OK?"
+	para "On doit se battre"
+	line "encore, OK?"
 	done
 ; 0x1b18d7
 
 UnknownText_0x1b18d7: ; 0x1b18d7
-	text "I'll ring you"
-	line "whenever I get the"
-	cont "urge to battle!"
+	text "Je t'appelle"
+	line "si jamais j'ai besoin"
+	cont "de combattre!"
 	done
 ; 0x1b1908
 
 UnknownText_0x1b1908: ; 0x1b1908
-	text "Oh, all right<...>"
+	text "Oh, d'accord<...>"
 
-	para "But I won't lose"
-	line "to you again!"
+	para "Je ne perdrai"
+	line "plus contre toi"
+	cont "comme ca!"
 	done
 ; 0x1b1936
 
 UnknownText_0x1b1936: ; 0x1b1936
-	text "Huh, what? Your"
-	line "phone's full."
+	text "Huh, quoi? Ton"
+	line "téléphone est plein."
 	done
 ; 0x1b1954
 
 UnknownText_0x1b1954: ; 0x1b1954
-	text "I've been waiting!"
-	line "Let's battle now!"
+	text "Je t'ai pas mal"
+	line "attendu !"
+
+	par "Battons-nous" 
+	line "maintenant!"
 	done
 ; 0x1b1978
 
 UnknownText_0x1b1978: ; 0x1b1978
-	text "Hey, wait! Your"
-	line "PACK is stuffed!"
+	text "Hey, attends! Ton"
+	line "SAC est plein!"
 
-	para "Well, we'll leave"
+	para "Well, we'll leave" ;TODO: context
 	line "it till next time."
 	done
 ; 0x1b19be
 
 UnknownText_0x1b19be: ; 0x1b19be
-	text "And yet another"
-	line "loss<...>"
+	text "Encore une"
+	line "défaite<...>"
 
-	para "No doubt about"
-	line "it--you're tough."
+	para "Plus de doute"
+	line ", t'es fort."
 
-	para "Being beaten this"
-	line "often actually"
-	cont "feels good now!"
+	para "Je me sens bien"
+	line "au final, d'etre"
+	cont "battu si souvent!"
 
-	para "Here, take this. "
-	line "Use it to get even"
+	para "Tiens, prends ca. "
+	line "Utilise le pour"
 
-	para "tougher. That will"
-	line "toughen me up too!"
+	para "devenir encore plus "
+	cont "fort. Ca me rendra"
+	line "plus fort aussi!"
 	done
 ; 0x1b1a71
 
 UnknownText_0x1b1a71: ; 0x1b1a71
-	text "You're awesome!"
-	line "I like you!"
+	text "T'es formidable!"
+	line "J't'aime bien!"
 
-	para "I look for #MON"
-	line "here every day."
+	para "Je cherche un"
+	line "#MON ici"
+	cont "tout les jours."
 
-	para "When I'm in the"
-	line "grass, I find all"
-	cont "kinds of BERRIES."
+	para "Quand je suis dans"
+	line "l'herbe, je trouve"
+	cont "toutes sortes"
+	cont "de BAIES."
 
-	para "If you'd like,"
-	line "I'll share some."
+	para "Si tu veux,"
+	line "on peut partager."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Je peux avoir ton"
+	line "numéro?"
 	done
 ; 0x1b1b1d
 
 UnknownText_0x1b1b1d: ; 0x1b1b1d
-	text "When I'm in the"
-	line "grass, I find all"
-	cont "kinds of BERRIES."
+	para "Quand je suis dans"
+	line "l'herbe, je trouve"
+	cont "toutes sortes"
+	cont "de BAIES."
 
-	para "If you'd like,"
-	line "I'll share some."
+	para "Si tu veux,"
+	line "on peut partager."
 
-	para "Could I get your"
-	line "phone number?"
+	para "Je peux avoir ton"
+	line "numéro?"
 	done
 ; 0x1b1b8e
 
 UnknownText_0x1b1b8e: ; 0x1b1b8e
-	text "You'll hear from"
-	line "me as soon as I"
+	text "Tu auras des"
+	line "nouvelles de moi des"
 
-	para "find anything that"
-	line "you might like."
+	para "que je trouve quelque"
+	line "chose qui pourrait"
+	cont "t'intéresser."
 	done
 ; 0x1b1bd2
 
 UnknownText_0x1b1bd2: ; 0x1b1bd2
-	text "Oh well. Don't be"
-	line "shy if you want to"
-	cont "get my number."
+	text "Oh OK. Soit pas"
+	line "titmide si tu veux"
+	cont "mon numéro."
 	done
 ; 0x1b1c06
 
 UnknownText_0x1b1c06: ; 0x1b1c06
-	text "Your phone list"
-	line "has no room for my"
-	cont "number."
+	text "Ton annuaire n'a"
+	line "pas de place pour"
+	cont "mon numéro."
 	done
 ; 0x1b1c32
 
 UnknownText_0x1b1c32: ; 0x1b1c32
-	text "I was waiting for"
-	line "you. Let's battle!"
+	text "Je t'attendais."
+	line "Battons-nous!"
 	done
 ; 0x1b1c57
 
 UnknownText_0x1b1c57: ; 0x1b1c57
-	text "Good to see you!"
-	line "See? This is what"
+	text "C'est bon de te voir!"
+	line "Tu vois? C'est ce que"
 
-	para "I found."
-	line "It's for you!"
+	para "j'ai trouvé."
+	line "C'est pour toi!"
 	done
 ; 0x1b1c91
 
 UnknownText_0x1b1c91: ; 0x1b1c91
-	text "Oops, your PACK's"
-	line "full. Too bad."
+	text "Oups, ton SAC est"
+	line "plein. Pas cool."
 
-	para "You should come"
-	line "back for it later."
+	para "Tu devrais revenir"
+	line "chercher ca plus"
+	cont "tard."
 	done
 ; 0x1b1cd5
 
 UnknownText_0x1b1cd5: ; 0x1b1cd5
-	text "Don't young people"
-	line "fish anymore?"
+	text "Les jeunes ne pechent"
+	line "plus aujourd'hui?"
 
-	para "I've seen rare"
-	line "#MON while"
-	cont "fishing<...>"
+	para "J'ai vu des"
+	line "#MON rares"
+	cont "en péchant<...>"
 
-	para "You young people"
-	line "like that, right?"
+	para "Vous les jeunes"
+	line "vous aimez ca, non?"
 
-	para "Want to trade"
-	line "phone numbers?"
+	para "Ca te dit qu'on"
+	line "échange nos"
+	cont "numéros?"
 
-	para "I'll let you know"
-	line "if I see anything."
+	para "Je t'appelle si"
+	line "je vois quelque chose."
 	done
 ; 0x1b1d85
 
 UnknownText_0x1b1d85: ; 0x1b1d85
-	text "Hm? So you do want"
-	line "me to phone if I"
-	cont "see rare #MON?"
+	text "Hm? Donc tu veux"
+	line "mon numéro, pour"
+	cont "que je t'appelle"
+	cont "si je vois des"
+	cont "#MON rares?"
 	done
 ; 0x1b1db9
 
 UnknownText_0x1b1db9: ; 0x1b1db9
-	text "Yep, phone if I"
-	line "see rare #MON."
+	text "Yep, je te fais"
+	line "sonner si je vois"
+	cont "des #MON rares."
 
-	para "Don't worry, I"
-	line "won't forget!"
+	para "T'inquete pas,"
+	line "je ne vais pas"
+	cont "t'oublier!"
 	done
 ; 0x1b1df4
 
 UnknownText_0x1b1df4: ; 0x1b1df4
 	text "Oh<...>"
-	line "My own kids won't"
+	line "Mes propres enfants"
 
-	para "even give me their"
-	line "phone numbers<...>"
+	para "ne me donnent pas"
+	line "leur numéro<...>"
 
-	para "Is that how young"
-	line "people are today?"
+	para "C'est comme ca que"
+	line "sont les jeunes"
+	cont "aujourd'hui?"
 	done
 ; 0x1b1e50
 
 UnknownText_0x1b1e50: ; 0x1b1e50
-	text "Your phone's"
-	line "memory is full."
+	text "La mémoire de ton"
+	line "téléphone est"
+	cont "pleine."
 
-	para "It seems that"
-	line "young people all"
-	cont "have #GEAR."
+	para "Apparemment"
+	line "tout les jeunes ont"
+	cont "un #GEAR."
 	done
 ; 0x1b1e98
 
 UnknownText_0x1b1e98: ; 0x1b1e98
-	text "Hey, kid!"
+	text "Hey, gamin!"
 
-	para "No losing for me"
-	line "this day!"
+	para "Je ne perdrai pas"
+	line "aujourd'hui!"
 	done
 ; 0x1b1ebe
 
 UnknownText_0x1b1ebe: ; 0x1b1ebe
-	text "Oh? You're on a"
-	line "big journey to see"
-	cont "the sights? Neat!"
+	text "Oh? Tu fais un" ;TODO: context
+	line "grand voyage pour"
+	cont "découvrir des trucs?"
+	cont "Stylé!"
 
-	para "Let's be friends!"
-	line "Can I have your"
-	cont "phone number?"
+	para "Soyons amis!"
+	line "Je peux avoir ton"
+	cont "numéro?"
 
-	para "I want to hear"
-	line "about everything"
-	cont "you've seen!"
+	para "Je veux savoir"
+	line "tout ce que tu"
+	cont "découvres!"
 	done
 ; 0x1b1f4e
 
 UnknownText_0x1b1f4e: ; 0x1b1f4e
-	text "Let's be friends!"
-	line "Can I have your"
-	cont "phone number?"
+	para "Soyons amis!"
+	line "Je peux avoir ton"
+	cont "numéro?"
 
-	para "I want to hear"
-	line "about everything"
-	cont "you've seen!"
+	para "Je veux savoir"
+	line "tout ce que tu"
+	cont "découvres!"
 	done
 ; 0x1b1faa
 
 UnknownText_0x1b1faa: ; 0x1b1faa
-	text "I'll telephone you"
-	line "if I hear anything"
-	cont "interesting."
+	text "Je te contacte si"
+	line "si j'entends des"
+	cont "choses intéres-"
+	cont "-santes."
 	done
 ; 0x1b1fdd
 
 UnknownText_0x1b1fdd: ; 0x1b1fdd
-	text "Aww<...> You won't be"
-	line "my friend?"
+	text "Aww<...> Tu veux"
+	line "pas etre mon ami?"
 	done
 ; 0x1b1ffa
 
 UnknownText_0x1b1ffa: ; 0x1b1ffa
-	text "Wait! Your phone"
-	line "list is filled up!"
+	text "Attends! Ton"
+	line "annuaire est plein!"
 	done
 ; 0x1b201f
 
 UnknownText_0x1b201f: ; 0x1b201f
-	text "You're late! Let's"
-	line "get started now!"
+	text "T'es en retard! Allons"
+	line "y maintenant!"
 	done
 ; 0x1b2042
 
 _IndigoPlateauStatuesText1: ; 89557 (22:5557)
-	text "INDIGO PLATEAU"
-	para "The ultimate goal"
-	line "of trainers!"
-	cont "#MON LEAGUE HQ"
+	text "PLATEAU INDIGO" ;TODO: incorrect
+	para "Le but ultime de"
+	line "tout dresseur!"
+	cont "QG LIGUE #MON"
 	done
 
 _IndigoPlateauStatuesText2: ; 89596 (22:5596)
-	text "INDIGO PLATEAU"
-	para "The highest"
-	line "#MON authority"
-	cont "#MON LEAGUE HQ"
+	text "PLATEAU INDIGO"
+	para "La plus grande"
+	line "autorité #MON"
+	cont "QG LIGUE #MON"
 	done
 
 OldLinkCenterReceptionistText:
-	text "Welcome to the"
-	line "Cable Club!"
+	text "Bienvenue au"
+	line "Club LINK!"
 	
-	para "We recently moved"
-	line "all of our systems"
-	cont "upstairs."
+	para "On a récemment"
+	line "déplacé nos systèmes"
+	cont "à l'étage."
 	
-	para "Please visit the"
-	line "2nd floor for all"
-	cont "of your needs!"
+	para "S'il vous plait"
+	line "rendez-vous au"
+	cont "deuxieme étage!"
 	done
 	
 LinkCenterReceptionistEGKText:
-	text "Welcome to the"
-	line "Cable Club!"
+	text "Bienvenue au"
+	line "Club LINK!"
 	
-	para "I'm sorry--our"
-	line "systems are still"
-	cont "being adjusted."
+	para "Navré, nos"
+	line "systemes sont en"
+	cont "maintenance."
 	done
 	
