@@ -87,19 +87,21 @@ var fs = require('fs');
                     var fr = null;
                     if(names.length == 10)
                     {
-                        en = names[1].querySelector("a span").innerHTML.trim().replace(" ", "").toUpperCase();
+                        en = names[1].querySelector("a span").innerHTML.trim().toUpperCase();
                         fr = names[4].querySelector("span").innerHTML.trim().toLowerCase();
                         if(names[4].querySelector("span span") != null)
                         {
                             fr = fr.split("<span")[0];                            
                             fr = fr + names[4].querySelector("span span").innerHTML.trim().toLowerCase();
                         }
+                        en = en.replace(" ", "");
+                        fr = fr.replace("*", "");
                     }
 
                     if(en != null && fr != null)
                     {
                         all[en] = fr;                    
-                        console.log("Load: "+en+" -> "+fr);
+                        //console.log("Load: "+en+" -> "+fr);
                     }
 
                 }
