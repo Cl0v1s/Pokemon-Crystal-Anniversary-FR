@@ -567,8 +567,8 @@ SSTicketDesc:
 	next "l'AQUARIA.@"
 
 MysteryEggDesc:
-	db   "An EGG obtained"
-	next "from MR.PKMN.@"
+	db   "Un OEUF donné"
+	next "par M.PKMN.@"
 
 ClearBellDesc:
 	db   "Sonne doucement"
@@ -579,74 +579,74 @@ SilverWingDesc:
 	next "argentée.@"
 
 MoomooMilkDesc:
-	db   "Restores PKMN"
-	next "HP by 100.@"
+	db   "Restaure 100 PV"
+	next "a un PKMN.@"
 
 QuickClawDesc:
-	db   "Raises 1st strike"
-	next "ratio. (HOLD)@"
+	db   "Permet de frapper"
+	next "en premier. (TENU)@"
 
 PsnCureBerryDesc:
-	db   "A self-cure for"
-	next "poison. (HOLD)@"
+	db   "Un antidote"
+	next "automatique. (TENU)@"
 
 GoldLeafDesc:
-	db   "A strange, gold-"
-	next "colored leaf.@"
+	db   "Une étrange plume"
+	next "dorée.@"
 
 SoftSandDesc:
-	db   "Powers up ground-"
-	next "type moves. (HOLD)@"
+	db   "Augmente capacités"
+	next "de type sol. (TENU)@"
 
 SharpBeakDesc:
-	db   "Powers up flying-"
-	next "type moves. (HOLD)@"
+	db   "Augmente capacités"
+	next "de type vol. (TENU)@"
 
 PrzCureBerryDesc:
-	db   "A self-cure for"
-	next "paralysis. (HOLD)@"
+	db   "Un anti-paralysie"
+	next "automatique. (TENU)@"
 
 BurntBerryDesc:
-	db   "A self-cure for"
-	next "freezing. (HOLD)@"
+	db   "Un antigel"
+	next "automatique. (TENU)@"
 
 IceBerryDesc:
-	db   "A self-heal for a"
-	next "burn. (HOLD)@"
+	db   "Un anti-brulure"
+	next "automatique. (TENU)@"
 
 PoisonBarbDesc:
-	db   "Powers up poison-"
-	next "type moves. (HOLD)@"
+	db   "Augmente capacité"
+	next "de type poison. (TENU)@"
 
 KingsRockDesc:
-	db   "May make the foe"
-	next "flinch. (HOLD)@"
+	db   "Peut appeurer"
+	next "l'ennemi. (TENU)@"
 
 BitterBerryDesc:
-	db   "A self-cure for"
-	next "confusion. (HOLD)@"
+	db   "Un anti-confusion"
+	next "automatique. (TENU)@"
 
 MintBerryDesc:
-	db   "A self-awakening"
-	next "for sleep. (HOLD)@"
+	db   "Réveil pour PKMN"
+	next "endormis. (TENU)@"
 
 RedApricornDesc:
-	db   "A red APRICORN.@"
+	db   "Un NOIGRUME rouge.@"
 
 TinyMushroomDesc:
-	db   "An ordinary mush-"
-	next "room. Sell low.@"
+	db   "Un champignon ordi-"
+	next "naire. Prix faible.@"
 
 BigMushroomDesc:
-	db   "A rare mushroom."
-	next "Sell high.@"
+	db   "Un champignon rare."
+	next "Se vend cher.@"
 
 SilverPowderDesc:
-	db   "Powers up bug-type"
-	next "moves. (HOLD)@"
+	db   "Augmente capacités"
+	next "insecte. (TENU)@"
 
 BluApricornDesc:
-	db   "A blue APRICORN.@"
+	db   "Un NOIGRUME bleu.@"
 
 TeruSama6Desc:
 	db   "?@"
@@ -656,88 +656,88 @@ AmuletCoinDesc:
 	next "d'argent. (TENU)@"
 
 YlwApricornDesc:
-	db   "A yellow APRICORN.@"
+	db   "Un NOIGRUME jaune.@"
 
 GrnApricornDesc:
-	db   "A green APRICORN.@"
+	db   "Un NOIGRUME jaune.@"
 
 CleanseTagDesc:
-	db   "Helps repel wild"
-	next "PKMN. (HOLD)@"
+	db   "Repousse les PKMN"
+	next "sauvages. (TENU)@"
 
 MysticWaterDesc:
-	db   "Powers up water-"
-	next "type moves. (HOLD)@"
+	db   "Augmente capacités"
+	next "de type eau. (TENU)@"
 
 TwistedSpoonDesc:
-	db   "Powers up psychic-"
-	next "type moves. (HOLD)@"
+	db   "Augmente capacités"
+	next "de type psy. (TENU)@"
 
 WhtApricornDesc:
-	db   "A white APRICORN.@"
+	db   "Un NOIGRUME blanc.@"
 
 BlackbeltDesc:
-	db   "Boosts fighting-"
-	next "type moves. (HOLD)@"
+	db   "Boost capacités de"
+	next "type combat. (TENU)@"
 
 BlkApricornDesc:
-	db   "A black APRICORN."
+	db   "Un NOIGRUME noir."
 	next "@"
 
 TeruSama7Desc:
 	db   "?@"
 
 PnkApricornDesc:
-	db   "A pink APRICORN."
+	db   "Un NOIGRUME rose."
 	next "@"
 
 BlackGlassesDesc:
-	db   "Powers up dark-"
-	next "type moves. (HOLD)@"
+	db   "Boost capacités"
+	next "ténebres. (TENU)@"
 
 SlowpokeTailDesc:
 	db   "Tres bon. Se vend"
 	next "cher.@"
 
 PinkBowDesc:
-	db   "Powers up fairy-"
-	next "type moves. (HOLD)@"
+	db   "Boost capacité de"
+	next "type normal. (TENU)@";TODO: context (fairy)
 
 StickDesc:
-	db   "An ordinary stick."
-	next "Sell low.@"
+	db   "Un baton ordinaire."
+	next "Se vend peu cher.@"
 
 SmokeBallDesc:
-	db   "Escape from wild"
-	next "PKMN. (HOLD)@"
+	db   "S'enfuir des PKMN"
+	next "sauvages. (TENU)@"
 
 NeverMeltIceDesc:
-	db   "Powers up ice-type"
-	next "moves. (HOLD)@"
+	db   "Boost capacités"
+	next "glace. (TENU)@"
 
 MagnetDesc:
-	db   "Boosts electric-"
-	next "type moves. (HOLD)@"
+	db   "Boost capacité"
+	next "éléctrique. (TENU)@"
 
 MiracleBerryDesc:
-	db   "Cures all status"
-	next "problems. (HOLD)@"
+	db   "Soigne les problemes"
+	next "de statut. (TENU)@"
 
 PearlDesc:
-	db   "A beautiful pearl."
-	next "Sell low.@"
+	db   "Une belle perle."
+	next "Se vend peu cher.@"
 
 BigPearlDesc:
-	db   "A big, beautiful"
-	next "pearl. Sell high.@"
+	db   "Une grande et belle"
+	next "perle. Prix élevé.@"
 
 EverStoneDesc:
-	db   "Stops evolution."
-	next "(HOLD)@"
+	db   "Empeche un PKMN d'"
+	next "évoluer. (TENU)@"
 
 SpellTagDesc:
-	db   "Powers up ghost-"
-	next "type moves. (HOLD)@"
+	db   "Boost capacités"
+	next "spectre. (TENU)@"
 
 RageCandyBarDesc:
 	db   "Restaure 20 PV"
@@ -752,16 +752,16 @@ BlueCardDesc:
 	next "des points.@"
 
 MiracleSeedDesc:
-	db   "Powers up grass-"
-	next "type moves. (HOLD)@"
+	db   "Augmente capacités"
+	next "plante. (TENU)@"
 
 ThickClubDesc:
-	db   "A bone of some"
-	next "sort. Sell low.@"
+	db   "Une sorte d'os."
+	next "Se vend peu cher.@"
 
 FocusBandDesc:
-	db   "May prevent faint-"
-	next "ing. (HOLD)@"
+	db   "Peut empecher le"
+	next "KO. (TENU)@"
 
 TeruSama8Desc:
 	db   "?@"
