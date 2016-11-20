@@ -1,11 +1,11 @@
 _FruitBearingTreeText: ; 0x1bc000
-	text "It's a fruit-"
-	line "bearing tree."
+	text "C'est un arbre a"
+	line "baies."
 	done
 ; 0x1bc01c
 
 _HeyItsFruitText: ; 0x1bc01c
-	text "Hey! It's"
+	text "Hé! C'est"
 	line "@"
 	text_from_ram StringBuffer3
 	text "!"
@@ -13,7 +13,7 @@ _HeyItsFruitText: ; 0x1bc01c
 ; 0x1bc02d
 
 _ObtainedFruitText: ; 0x1bc02d
-	text "Obtained"
+	text "Obtenu"
 	line "@"
 	text_from_ram StringBuffer3
 	text "!"
@@ -21,91 +21,94 @@ _ObtainedFruitText: ; 0x1bc02d
 ; 0x1bc03e
 
 _FruitPackIsFullText: ; 0x1bc03e
-	text "But the PACK is"
-	line "full<...>"
+	text "Mais le SAC est"
+	line "plein<...>"
 	done
 ; 0x1bc055
 
 _NothingHereText: ; 0x1bc055
-	text "There's nothing"
-	line "here<...>"
+	text "Il n'y a rien"
+	line "ici<...>"
 	done
 ; 0x1bc06b
 
 UnknownText_0x1bc06b: ; 0x1bc06b
-	text "Which APRICORN"
-	line "should I use?"
+	text "Quel NOIGRUME"
+	line "utiliser?"
 	done
 ; 0x1bc089
 
 UnknownText_0x1bc089: ; 0x1bc089
-	text "How many should I"
-	line "make?"
+	text "Combien je dois"
+	line "en faire?"
 	done
 ; 0x1bc0a2
 
 UnknownText_0x1bc0a2: ; 0x1bc0a2
 	text_from_ram StringBuffer1
 	text ""
-	line "recovered @"
+	line "récupere @"
 	deciram wd1f3, $23
-	text "HP!"
+	text "PV!"
 	done
 ; 0x1bc0bb
 
 UnknownText_0x1bc0bb: ; 0x1bc0bb
 	text_from_ram StringBuffer1
-	text "'s"
-	line "cured of poison."
+	text "n'est"
+	line "plus empoisonné."
 	done
 ; 0x1bc0d2
 
 UnknownText_0x1bc0d2: ; 0x1bc0d2
 	text_from_ram StringBuffer1
-	text "'s"
-	line "rid of paralysis."
+	text "n'est"
+	line "plus paralysé."
 	done
 ; 0x1bc0ea
 
 UnknownText_0x1bc0ea: ; 0x1bc0ea
+	text "La brulure de"
+	line "@"
 	text_from_ram StringBuffer1
-	text "'s"
-	line "burn was healed."
+	text "est soignée."
 	done
 ; 0x1bc101
 
 UnknownText_0x1bc101: ; 0x1bc101
 	text_from_ram StringBuffer1
-	text ""
-	line "was defrosted."
+	text "est"
+	line "dégelé."
 	done
 ; 0x1bc115
 
 UnknownText_0x1bc115: ; 0x1bc115
 	text_from_ram StringBuffer1
-	text ""
-	line "woke up."
+	text "se"
+	line "réveille."
 	done
 ; 0x1bc123
 
 UnknownText_0x1bc123: ; 0x1bc123
+	text "La vie de"
+	line "@"
 	text_from_ram StringBuffer1
-	text "'s"
-	line "health returned."
+	text ""
+	line "est restaurée."
 	done
 ; 0x1bc13a
 
 UnknownText_0x1bc13a: ; 0x1bc13a
 	text_from_ram StringBuffer1
 	text ""
-	line "is revitalized."
+	line "est revitalisé."
 	done
 ; 0x1bc14f
 
 UnknownText_0x1bc14f: ; 0x1bc14f
 	text_from_ram StringBuffer1
-	text " grew to"
-	line "level @"
+	text " passe au "
+	line "niveau @"
 	deciram CurPartyLevel, $13
 	text "!@"
 	sound0
@@ -119,56 +122,58 @@ UnknownText_0x1bc16d: ; 0x1bc16d
 
 UnknownText_0x1bc16e: ; 0x1bc16e
 	text_from_ram StringBuffer1
-	text " came"
-	line "to its senses."
+	text " reprend"
+	line "ses esprits."
 	done
 ; 0x1bc187
 
 UnknownText_0x1bc187: ; 0x1bc187
-	text "Please enter any"
-	line "four-digit number."
+	text "Entrez n'importe"
+	line "quelle combinaison"
+	cont "a quatre chiffres."
 	done
 ; 0x1bc1ac
 
 UnknownText_0x1bc1ac: ; 0x1bc1ac
-	text "Enter the same"
-	line "number to confirm."
+	text "Entre le meme"
+	line "nombre pour con-"
+	cont "firmer."
 	done
 ; 0x1bc1cf
 
 UnknownText_0x1bc1cf: ; 0x1bc1cf
-	text "That's not the"
-	line "same number."
+	text "Ce n'est pas le"
+	line "meme numéro."
 	done
 ; 0x1bc1eb
 
 UnknownText_0x1bc1eb: ; 0x1bc1eb
-	text "Your PASSCODE has"
-	line "been set.", $51
-	db "Enter this number"
-	line "next time to open", $55
-	db "the CARD FOLDER.", $51
+	text "Votre PASSCODE a" ;TODO: context
+	line "été sauvé.", $51
+	db "Entrez ce nombre"
+	line "prochaine fois pour", $55
+	db "ouvrir CARD FOLDER.", $51 ;TODO: context
 	db $57
 ; 0x1bc23e
 
 UnknownText_0x1bc23e: ; 0x1bc23e
-	text "0000 is invalid!", $51
+	text "0000 n'est pas valide!", $51
 	db $57
 ; 0x1bc251
 
 UnknownText_0x1bc251: ; 0x1bc251
-	text "Enter the CARD", $4e, "FOLDER PASSCODE."
+	text "Entrez le", $4e, "PASSCODE." ;TODO: context
 	done
 ; 0x1bc272
 
 UnknownText_0x1bc272: ; 0x1bc272
-	text "Incorrect"
-	line "PASSCODE!", $51
+	text "PASSCODE"
+	line "incorrect!", $51
 	db $57
 ; 0x1bc288
 
 UnknownText_0x1bc288: ; 0x1bc288
-	text "CARD FOLDER open.@"
+	text "C'est ouvert!@"
 	db "@"
 ; 0x1bc29c
 
@@ -247,44 +252,44 @@ UnknownText_0x1bc37a: ; 0x1bc37a
 ; 0x1bc384
 
 UnknownText_0x1bc384: ; 0x1bc384
-	text "There is nothing"
-	line "connected."
+	text "Il n'y a rien de"
+	line "connecté."
 	done
 ; 0x1bc3a1
 
 UnknownText_0x1bc3a1: ; 0x1bc3a1
-	text "Check cell phone"
-	line "adapter."
+	text "Vérifiez l'adaptateur"
+	line "téléphonique."
 	done
 ; 0x1bc3bc
 
 UnknownText_0x1bc3bc: ; 0x1bc3bc
-	text "Check CDMA"
-	line "adapter."
+	text "Vérifiez le"
+	line "CDMA."
 	done
 ; 0x1bc3d1
 
 UnknownText_0x1bc3d1: ; 0x1bc3d1
-	text "Check DOCOMO PHS"
-	line "adapter."
+	text "Vérifiez le"
+	line "DOCOMO PHS."
 	done
 ; 0x1bc3ec
 
 UnknownText_0x1bc3ec: ; 0x1bc3ec
-	text "Check DDI PHS"
-	line "adapter."
+	text "Vérifiez le"
+	line " DDI PHS."
 	done
 ; 0x1bc404
 
 UnknownText_0x1bc404: ; 0x1bc404
-	text "Check unlimited"
+	text "Vérifiez le"
 	line "battle mobile"
 	cont "adapter."
 	done
 ; 0x1bc42c
 
 UnknownText_0x1bc42c: ; 0x1bc42c
-	text "The password is:"
+	text "Le mot de passe est:"
 	line $57
 ; 0x1bc43f
 
@@ -294,37 +299,37 @@ UnknownText_0x1bc43f: ; 0x1bc43f
 ; 0x1bc44c
 
 UnknownText_0x1bc44c: ; 0x1bc44c
-	text "Enter the"
-	line "ID no."
+	text "Entrez le"
+	line "no. ID"
 	done
 ; 0x1bc45e
 
 UnknownText_0x1bc45e: ; 0x1bc45e
-	text "Enter the"
-	line "amount."
+	text "Entrez la"
+	line "quantité."
 	done
 ; 0x1bc471
 
 UnknownText_0x1bc471: ; 0x1bc471
-	text "There's nothing to"
-	line "choose."
+	text "Il n'y a rien"
+	line "a choisir."
 	prompt
 ; 0x1bc48c
 
 UnknownText_0x1bc48c: ; 0x1bc48c
-	text "Which side do you"
-	line "want to put it on?"
+	text "De quel coté voulez"
+	line "vous le mettre?"
 	done
 ; 0x1bc4b2
 
 UnknownText_0x1bc4b2: ; 0x1bc4b2
-	text "Which side do you"
+	text "Which side do you" ;TODO: context
 	line "want to put away?"
 	done
 ; 0x1bc4d7
 
 UnknownText_0x1bc4d7: ; 0x1bc4d7
-	text "Put away the"
+	text "Put away the" ;TODO : context
 	line "@"
 	text_from_ram StringBuffer3
 	text "."
@@ -332,13 +337,13 @@ UnknownText_0x1bc4d7: ; 0x1bc4d7
 ; 0x1bc4ec
 
 UnknownText_0x1bc4ec: ; 0x1bc4ec
-	text "There's nothing to"
-	line "put away."
+	text "Il n'y a rien"
+	line "a ranger."
 	prompt
 ; 0x1bc509
 
 UnknownText_0x1bc509: ; 0x1bc509
-	text "Set up the"
+	text "Set up the" ;TODO: context
 	line "@"
 	text_from_ram StringBuffer3
 	text "."
@@ -346,7 +351,7 @@ UnknownText_0x1bc509: ; 0x1bc509
 ; 0x1bc51c
 
 UnknownText_0x1bc51c: ; 0x1bc51c
-	text "Put away the"
+	text "Put away the" ;TODO: context
 	line "@"
 	text_from_ram StringBuffer3
 	text $51
@@ -358,36 +363,38 @@ UnknownText_0x1bc51c: ; 0x1bc51c
 ; 0x1bc546
 
 UnknownText_0x1bc546: ; 0x1bc546
-	text "That's already set"
+	text "That's already set" ;TODO: context
 	line "up."
 	prompt
 ; 0x1bc55d
 
 UnknownText_0x1bc55d: ; 0x1bc55d
-	text "It's the TOWN MAP."
+	text "C'est la CARTE."
 	done
 ; 0x1bc570
 
 UnknownText_0x1bc570: ; 0x1bc570
-	text "It's a poster of a"
-	line "cute PIKACHU."
+	text "C'est un poster"
+	line "d'un PIKACHU"
+	cont "tout mignon."
 	done
 ; 0x1bc591
 
 UnknownText_0x1bc591: ; 0x1bc591
-	text "It's a poster of a"
-	line "cute CLEFAIRY."
+	text "C'est un poster d'un"
+	line "MELOFEE tout mignon."
 	done
 ; 0x1bc5b3
 
 UnknownText_0x1bc5b3: ; 0x1bc5b3
-	text "It's a poster of a"
-	line "cute JIGGLYPUFF."
+	text "C'est un poster d'un"
+	line "RONDOUDOU tout"
+	cont "mignon."
 	done
 ; 0x1bc5d7
 
 UnknownText_0x1bc5d7: ; 0x1bc5d7
-	text "It's an adorable"
+	text "C'est un adorable"
 	line "@"
 	text_from_ram StringBuffer3
 	text "."
@@ -395,52 +402,57 @@ UnknownText_0x1bc5d7: ; 0x1bc5d7
 ; 0x1bc5ef
 
 UnknownText_0x1bc5ef: ; 0x1bc5ef
-	text "A giant doll! It's"
-	line "fluffy and cuddly."
+	text "Une poupée géante!"
+	line "Tout doux et"
+	cont "moelleux."
 	done
 ; 0x1bc615
 
 UnknownText_0x1bc615: ; 0x1bc615
-	text "Hi, ", $52, "!"
-	line "How are you?"
+	text "Salut, ", $52, "!"
+	line "Comment ca va?"
 	prompt
 ; 0x1bc62a
 
 UnknownText_0x1bc62a: ; 0x1bc62a
-	text "I found a useful"
-	line "item shopping, so"
+	text "J'ai trouvé un"
+	line "item pratique"
+	cont "en faisant du"
+	cont "shopping,"
 	prompt
 ; 0x1bc64e
 
 UnknownText_0x1bc64e: ; 0x1bc64e
-	text "I bought it with"
-	line "your money. Sorry!"
+	text "Je l'ai acheté"
+	line "avec tes sous."
+	cont "Désolé!"
 	prompt
 ; 0x1bc673
 
 UnknownText_0x1bc673: ; 0x1bc673
-	text "It's in your PC."
-	line "You'll like it!"
+	text "C'est dans ton PC."
+	line "Tu vas adorer!"
 	done
 ; 0x1bc693
 
 UnknownText_0x1bc693: ; 0x1bc693
-	text "While shopping"
-	line "today, I saw this"
-	cont "adorable doll, so"
+	text "En faisant les"
+	line "courses, j'ai vu"
+	cont "cette adorable"
+	cont "poupée, donc"
 	prompt
 ; 0x1bc6c7
 
 UnknownText_0x1bc6c7: ; 0x1bc6c7
-	text "It's in your room."
-	line "You'll love it!"
+	text "C'est dans ta chambre!"
+	line "Tu vas adorer!"
 	done
 ; 0x1bc6e9
 
 UnknownText_0x1bc6e9: ; 0x1bc6e9
 	text_from_ram wc6d1
-	text " was"
-	line "sent to @"
+	text " a été"
+	line "envoyé au @" ;TODO: context
 	text_from_ram wc719
 	text "."
 	done
@@ -453,8 +465,8 @@ UnknownText_0x1bc701: ; 0x1bc701
 
 UnknownText_0x1bc703: ; 0x1bc703
 	text_from_ram wc719
-	text " bids"
-	line "farewell to"
+	text " dit"
+	line "adieu a"
 	done
 ; 0x1bc719
 
@@ -465,15 +477,15 @@ UnknownText_0x1bc719: ; 0x1bc719
 ; 0x1bc71f
 
 UnknownText_0x1bc71f: ; 0x1bc71f
-	text "Take good care of"
-	line "@"
+	text "Prends bien soin"
+	line "de @"
 	text_from_ram wc703
 	text "."
 	done
 ; 0x1bc739
 
 UnknownText_0x1bc739: ; 0x1bc739
-	text "For @"
+	text "For @" ;TODO: context
 	text_from_ram wc6e7
 	text "'s"
 	line "@"
@@ -484,7 +496,7 @@ UnknownText_0x1bc739: ; 0x1bc739
 
 UnknownText_0x1bc74c: ; 0x1bc74c
 	text_from_ram wc719
-	text " sends"
+	text " envoie"
 	line "@"
 	text_from_ram wc703
 	text "."
@@ -493,8 +505,8 @@ UnknownText_0x1bc74c: ; 0x1bc74c
 
 UnknownText_0x1bc75e: ; 0x1bc75e
 	text_from_ram wc719
-	text " will"
-	line "trade @"
+	text " va"
+	line "échanger @"
 	text_from_ram wc703
 	db "@"
 ; 0x1bc773
@@ -504,7 +516,7 @@ UnknownText_0x1bc773: ; 0x1bc773
 ; 0x1bc774
 
 UnknownText_0x1bc774: ; 0x1bc774
-	text "for @"
+	text "for @" ;TODO: context
 	text_from_ram wc6e7
 	text "'s"
 	line "@"
