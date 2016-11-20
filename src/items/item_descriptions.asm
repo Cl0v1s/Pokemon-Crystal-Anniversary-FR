@@ -515,8 +515,8 @@ ItemfinderDesc:
 
 
 PokeFluteDesc:
-	db   "Wakes up all"
-	next "sleeping PKMN.@"
+	db   "Réveille les PKMN"
+	next "endormis.@"
 
 ExpShareDesc:
 	db   "Partage les pts"

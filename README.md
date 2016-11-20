@@ -19,6 +19,7 @@ Une fois votre zone de travail choisie, veuillez la transcrire ici.
 | Clovis Portron |item/item_names.asm | début - fin fichier |
 | Clovis Portron |item/item_descriptions.asm | début - fin fichier |
 | Clovis Portron |data/pokemon_names.asm | début - fin fichier |
+| Clovis Portron |text/common_2.asm | début - 500 |
 
 
 ## Comment traduire ? 
