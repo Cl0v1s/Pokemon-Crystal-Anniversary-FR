@@ -520,7 +520,7 @@ PokeFluteDesc:
 
 ExpShareDesc:
 	db   "Partage les pts"
-	next "d'EXP. (TENU)@"
+	next "d'EXP.(TENU)@"
 
 OldRodDesc:
 	db   "Pour pecher les"
@@ -584,11 +584,11 @@ MoomooMilkDesc:
 
 QuickClawDesc:
 	db   "Permet de frapper"
-	next "en premier. (TENU)@"
+	next "en premier.(TENU)@"
 
 PsnCureBerryDesc:
 	db   "Un antidote"
-	next "automatique. (TENU)@"
+	next "automatique.(TENU)@"
 
 GoldLeafDesc:
 	db   "Une étrange plume"
@@ -596,39 +596,39 @@ GoldLeafDesc:
 
 SoftSandDesc:
 	db   "Augmente capacités"
-	next "de type sol. (TENU)@"
+	next "de type sol.(TENU)@"
 
 SharpBeakDesc:
 	db   "Augmente capacités"
-	next "de type vol. (TENU)@"
+	next "de type vol.(TENU)@"
 
 PrzCureBerryDesc:
 	db   "Un anti-paralysie"
-	next "automatique. (TENU)@"
+	next "automatique.(TENU)@"
 
 BurntBerryDesc:
 	db   "Un antigel"
-	next "automatique. (TENU)@"
+	next "automatique.(TENU)@"
 
 IceBerryDesc:
 	db   "Un anti-brulure"
-	next "automatique. (TENU)@"
+	next "automatique.(TENU)@"
 
 PoisonBarbDesc:
 	db   "Augmente capacité"
-	next "de type poison. (TENU)@"
+	next "de type poison.(TENU)@"
 
 KingsRockDesc:
 	db   "Peut appeurer"
-	next "l'ennemi. (TENU)@"
+	next "l'ennemi.(TENU)@"
 
 BitterBerryDesc:
 	db   "Un anti-confusion"
-	next "automatique. (TENU)@"
+	next "automatique.(TENU)@"
 
 MintBerryDesc:
 	db   "Réveil pour PKMN"
-	next "endormis. (TENU)@"
+	next "endormis.(TENU)@"
 
 RedApricornDesc:
 	db   "Un NOIGRUME rouge.@"
@@ -643,7 +643,7 @@ BigMushroomDesc:
 
 SilverPowderDesc:
 	db   "Augmente capacités"
-	next "insecte. (TENU)@"
+	next "insecte.(TENU)@"
 
 BluApricornDesc:
 	db   "Un NOIGRUME bleu.@"
@@ -653,7 +653,7 @@ TeruSama6Desc:
 
 AmuletCoinDesc:
 	db   "Double les gains"
-	next "d'argent. (TENU)@"
+	next "d'argent.(TENU)@"
 
 YlwApricornDesc:
 	db   "Un NOIGRUME jaune.@"
@@ -663,22 +663,22 @@ GrnApricornDesc:
 
 CleanseTagDesc:
 	db   "Repousse les PKMN"
-	next "sauvages. (TENU)@"
+	next "sauvages.(TENU)@"
 
 MysticWaterDesc:
 	db   "Augmente capacités"
-	next "de type eau. (TENU)@"
+	next "de type eau.(TENU)@"
 
 TwistedSpoonDesc:
 	db   "Augmente capacités"
-	next "de type psy. (TENU)@"
+	next "de type psy.(TENU)@"
 
 WhtApricornDesc:
 	db   "Un NOIGRUME blanc.@"
 
 BlackbeltDesc:
 	db   "Boost capacités de"
-	next "type combat. (TENU)@"
+	next "type combat.(TENU)@"
 
 BlkApricornDesc:
 	db   "Un NOIGRUME noir."
@@ -693,7 +693,7 @@ PnkApricornDesc:
 
 BlackGlassesDesc:
 	db   "Boost capacités"
-	next "ténebres. (TENU)@"
+	next "ténebres.(TENU)@"
 
 SlowpokeTailDesc:
 	db   "Tres bon. Se vend"
@@ -701,7 +701,7 @@ SlowpokeTailDesc:
 
 PinkBowDesc:
 	db   "Boost capacité de"
-	next "type normal. (TENU)@";TODO: context (fairy)
+	next "type normal.(TENU)@";TODO: context (fairy)
 
 StickDesc:
 	db   "Un baton ordinaire."
@@ -709,19 +709,19 @@ StickDesc:
 
 SmokeBallDesc:
 	db   "S'enfuir des PKMN"
-	next "sauvages. (TENU)@"
+	next "sauvages.(TENU)@"
 
 NeverMeltIceDesc:
 	db   "Boost capacités"
-	next "glace. (TENU)@"
+	next "glace.(TENU)@"
 
 MagnetDesc:
 	db   "Boost capacité"
-	next "éléctrique. (TENU)@"
+	next "éléctrique.(TENU)@"
 
 MiracleBerryDesc:
 	db   "Soigne les problemes"
-	next "de statut. (TENU)@"
+	next "de statut.(TENU)@"
 
 PearlDesc:
 	db   "Une belle perle."
@@ -733,11 +733,11 @@ BigPearlDesc:
 
 EverStoneDesc:
 	db   "Empeche un PKMN d'"
-	next "évoluer. (TENU)@"
+	next "évoluer.(TENU)@"
 
 SpellTagDesc:
 	db   "Boost capacités"
-	next "spectre. (TENU)@"
+	next "spectre.(TENU)@"
 
 RageCandyBarDesc:
 	db   "Restaure 20 PV"
@@ -753,7 +753,7 @@ BlueCardDesc:
 
 MiracleSeedDesc:
 	db   "Augmente capacités"
-	next "plante. (TENU)@"
+	next "plante.(TENU)@"
 
 ThickClubDesc:
 	db   "Une sorte d'os."
@@ -761,7 +761,7 @@ ThickClubDesc:
 
 FocusBandDesc:
 	db   "Peut empecher le"
-	next "KO. (TENU)@"
+	next "KO.(TENU)@"
 
 TeruSama8Desc:
 	db   "?@"
@@ -784,11 +784,11 @@ RevivalHerbDesc:
 
 HardStoneDesc:
 	db   "Boost capacités"
-	next "roche. (TENU)@"
+	next "roche.(TENU)@"
 
 LuckyEggDesc:
 	db   "Plus de points"
-	next "EXP. (TENU)@"
+	next "EXP.(TENU)@"
 
 CardKeyDesc:
 	db   "Ouvre les volets"
@@ -832,7 +832,7 @@ TeruSama11Desc:
 
 CharcoalDesc:
 	db   "Renforce capacités"
-	next "FEU. (TENU)@"
+	next "FEU.(TENU)@"
 
 BerryJuiceDesc:
 	db   "Restaure 20 PV a"
@@ -840,7 +840,7 @@ BerryJuiceDesc:
 
 ScopeLensDesc:
 	db   "Plus de chances de"
-	next "critique. (TENU)@"
+	next "critique.(TENU)@"
 
 OaksParcelDesc:
 	db   "Un paquet pour le"
@@ -848,15 +848,15 @@ OaksParcelDesc:
 
 PowerHerbDesc:
 	db   "Attaque sans" ;TODO: incorrect : Speed up 2-turns moves
- 	next "charger. (TENU)@"
+ 	next "charger.(TENU)@"
 
 MetalCoatDesc:
 	db   "Boost capacités"
-	next "acier. (TENU)@"
+	next "acier.(TENU)@"
 
 DragonFangDesc:
 	db   "Boost capacités"
-	next "dragon. (TENU)@"
+	next "dragon.(TENU)@"
 
 FriendCharmDesc:
 	db   "Augmente le taux de"
@@ -864,7 +864,7 @@ FriendCharmDesc:
 
 LeftoversDesc:
 	db   "Restaure PV en"
-	next "combat. (TENU)@"
+	next "combat.(TENU)@"
 
 ResearchNotesDesc:
 	db   "Description of a"
@@ -878,7 +878,7 @@ TeruSama17Desc:
 
 MysteryBerryDesc:
 	db   "Soigne PP auto-"
-	next "matique. (TENU)@"
+	next "matique.(TENU)@"
 
 DragonScaleDesc:
 	db   "Un objet rare trou-" ;TODO: incorrect : a rare item dragon-type.
@@ -927,7 +927,7 @@ TeruSama21Desc:
 
 LightBallDesc:
 	db   "Une étrange orbe"
-	next "éléctrique. (TENU)@"
+	next "éléctrique.(TENU)@"
 
 FriendBallDesc:
 	db   "BALL pour rendre"
@@ -955,7 +955,7 @@ SunStoneDesc:
 
 PolkadotBowDesc:
 	db   "Boost capacités"
-	next "normal. (TENU)@"
+	next "normal.(TENU)@"
 
 TeruSama22Desc:
 	db   "?@"
@@ -1008,7 +1008,7 @@ PortraitMailDesc:
 
 LovelyMailDesc:
 	db   "LETTRE motif"
-	next "coeur. (TENU)@"
+	next "coeur.(TENU)@"
 
 EonMailDesc:
 	db   "LETTRE EVOLI."
@@ -1020,7 +1020,7 @@ MorphMailDesc:
 
 BlueSkyMailDesc:
 	db   "LETTRE imprimée"
-	next "ciel. (TENU)@"
+	next "ciel.(TENU)@"
 
 MusicMailDesc:
 	db   "LETTRE NATU."
