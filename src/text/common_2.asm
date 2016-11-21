@@ -527,8 +527,8 @@ UnknownText_0x1bc774: ; 0x1bc774
 
 UnknownText_0x1bc787: ; 0x1bc787
 	text_from_ram wc6e7
-	text " will"
-	line "trade @"
+	text " veut"
+	line "échanger @"
 	text_from_ram wc6d1
 	db "@"
 ; 0x1bc79c
@@ -538,7 +538,7 @@ UnknownText_0x1bc79c: ; 0x1bc79c
 ; 0x1bc79d
 
 UnknownText_0x1bc79d: ; 0x1bc79d
-	text "for @"
+	text "for @" ;TODO: context
 	text_from_ram wc719
 	text "'s"
 	line "@"
@@ -548,7 +548,7 @@ UnknownText_0x1bc79d: ; 0x1bc79d
 ; 0x1bc7b0
 
 UnknownText_0x1bc7b0: ; 0x1bc7b0
-	text_from_ram wc6e7
+	text_from_ram wc6e7 ;TODO: context
 	text "'s"
 	line "@"
 	text_from_ram wc6d1
@@ -557,7 +557,7 @@ UnknownText_0x1bc7b0: ; 0x1bc7b0
 ; 0x1bc7c3
 
 UnknownText_0x1bc7c3: ; 0x1bc7c3
-	text "Take good care of"
+	text "Prends soin de"
 	line "@"
 	text_from_ram wc703
 	text "."
@@ -565,7 +565,7 @@ UnknownText_0x1bc7c3: ; 0x1bc7c3
 ; 0x1bc7dd
 
 UnknownText_0x1bc7dd: ; 0x1bc7dd
-	text_from_ram wc6e7
+	text_from_ram wc6e7 ;TODO: context
 	text "'s"
 	line "@"
 	text_from_ram wc6d1
@@ -574,7 +574,7 @@ UnknownText_0x1bc7dd: ; 0x1bc7dd
 ; 0x1bc7f0
 
 UnknownText_0x1bc7f0: ; 0x1bc7f0
-	text "Take good care of"
+	text "Prends soin de"
 	line "@"
 	text_from_ram wc703
 	text "."
@@ -583,32 +583,32 @@ UnknownText_0x1bc7f0: ; 0x1bc7f0
 
 UnknownText_0x1bc80a: ; 0x1bc80a
 	text_from_ram wc703
-	text " came"
-	line "back!"
+	text " est"
+	line "de retour!"
 	done
 ; 0x1bc81a
 
 UnknownText_0x1bc81a: ; 0x1bc81a
 	text ""
-	line "MARY: PROF.OAK'S"
+	line "LULA: CHRONIQUE"
 	done
 ; 0x1bc82d
 
 UnknownText_0x1bc82d: ; 0x1bc82d
 	text ""
-	line "#MON TALK!"
+	line "du PROF. CHEN!"
 	done
 ; 0x1bc83a
 
 UnknownText_0x1bc83a: ; 0x1bc83a
 	text ""
-	line "With me, MARY!"
+	line "avec moi, LULA!"
 	done
 ; 0x1bc84b
 
 UnknownText_0x1bc84b: ; 0x1bc84b
 	text ""
-	line "OAK: @"
+	line "CHEN: @"
 	text_from_ram wd050
 	db "@"
 ; 0x1bc857
@@ -619,7 +619,7 @@ UnknownText_0x1bc857: ; 0x1bc857
 
 UnknownText_0x1bc858: ; 0x1bc858
 	text ""
-	line "may be seen around"
+	line "est pres de:"
 	done
 ; 0x1bc86d
 
@@ -633,201 +633,201 @@ UnknownText_0x1bc86d: ; 0x1bc86d
 
 UnknownText_0x1bc876: ; 0x1bc876
 	text ""
-	line "MARY: @"
+	line "LULA: @"
 	text_from_ram StringBuffer1
-	text "'s"
+	text "est"
 	done
 ; 0x1bc885
 
 UnknownText_0x1bc885: ; 0x1bc885
 	text ""
-	line "sweet and adorably"
+	line "doux et adorablement"
 	done
 ; 0x1bc89a
 
 UnknownText_0x1bc89a: ; 0x1bc89a
 	text ""
-	line "wiggly and slickly"
+	line "sinueux."
 	done
 ; 0x1bc8af
 
 UnknownText_0x1bc8af: ; 0x1bc8af
 	text ""
-	line "aptly named and"
+	line "nommé avec justesse"
 	done
 ; 0x1bc8c1
 
 UnknownText_0x1bc8c1: ; 0x1bc8c1
 	text ""
-	line "undeniably kind of"
+	line "indéniablement" ;TODO: incorrect
 	done
 ; 0x1bc8d6
 
 UnknownText_0x1bc8d6: ; 0x1bc8d6
 	text ""
-	line "so, so unbearably"
+	line "si insuportablement";TODO: incorrect
 	done
 ; 0x1bc8ea
 
 UnknownText_0x1bc8ea: ; 0x1bc8ea
 	text ""
-	line "wow, impressively"
+	line "wow, impressionant"
 	done
 ; 0x1bc8fe
 
 UnknownText_0x1bc8fe: ; 0x1bc8fe
 	text ""
-	line "almost poisonously"
+	line "presque toxique"
 	done
 ; 0x1bc913
 
 UnknownText_0x1bc913: ; 0x1bc913
 	text ""
-	line "ooh, so sensually"
+	line "ooh, si sensuellement" ;TODO: incorect
 	done
 ; 0x1bc927
 
 UnknownText_0x1bc927: ; 0x1bc927
 	text ""
-	line "so mischievously"
+	line "si malicieusement"
 	done
 ; 0x1bc93a
 
 UnknownText_0x1bc93a: ; 0x1bc93a
 	text ""
-	line "so very topically"
+	line "so very topically" ;TODO:context
 	done
 ; 0x1bc94e
 
 UnknownText_0x1bc94e: ; 0x1bc94e
 	text ""
-	line "sure addictively"
+	line "sure addictively" ;TODO: context
 	done
 ; 0x1bc961
 
 UnknownText_0x1bc961: ; 0x1bc961
 	text ""
-	line "looks in water is"
+	line "dans l'eau est" 
 	done
 ; 0x1bc975
 
 UnknownText_0x1bc975: ; 0x1bc975
 	text ""
-	line "evolution must be"
+	line "évolution doit etre"
 	done
 ; 0x1bc989
 
 UnknownText_0x1bc989: ; 0x1bc989
 	text ""
-	line "provocatively"
+	line "provocatively" ;TODO: context
 	done
 ; 0x1bc999
 
 UnknownText_0x1bc999: ; 0x1bc999
 	text ""
-	line "so flipped out and"
+	line "effrayé et" ;TODO: incorrect
 	done
 ; 0x1bc9ae
 
 UnknownText_0x1bc9ae: ; 0x1bc9ae
 	text ""
-	line "heart-meltingly"
+	line "touchant"
 	done
 ; 0x1bc9c0
 
 UnknownText_0x1bc9c0: ; 0x1bc9c0
 	text ""
-	line "cute."
+	line "mignon."
 	done
 ; 0x1bc9c8
 
 UnknownText_0x1bc9c8: ; 0x1bc9c8
 	text ""
-	line "weird."
+	line "bizarre."
 	done
 ; 0x1bc9d1
 
 UnknownText_0x1bc9d1: ; 0x1bc9d1
 	text ""
-	line "pleasant."
+	line "plaisant."
 	done
 ; 0x1bc9dd
 
 UnknownText_0x1bc9dd: ; 0x1bc9dd
 	text ""
-	line "bold, sort of."
+	line "genre, grossier."
 	done
 ; 0x1bc9ee
 
 UnknownText_0x1bc9ee: ; 0x1bc9ee
 	text ""
-	line "frightening."
+	line "effrayant."
 	done
 ; 0x1bc9fd
 
 UnknownText_0x1bc9fd: ; 0x1bc9fd
 	text ""
-	line "suave & debonair!"
+	line "suave & débonnaire!"
 	done
 ; 0x1bca11
 
 UnknownText_0x1bca11: ; 0x1bca11
 	text ""
-	line "powerful."
+	line "puissant."
 	done
 ; 0x1bca1d
 
 UnknownText_0x1bca1d: ; 0x1bca1d
 	text ""
-	line "exciting."
+	line "excitant."
 	done
 ; 0x1bca29
 
 UnknownText_0x1bca29: ; 0x1bca29
 	text ""
-	line "groovy!"
+	line "sensationnel!"
 	done
 ; 0x1bca33
 
 UnknownText_0x1bca33: ; 0x1bca33
 	text ""
-	line "inspiring."
+	line "inspirant."
 	done
 ; 0x1bca40
 
 UnknownText_0x1bca40: ; 0x1bca40
 	text ""
-	line "friendly."
+	line "amical."
 	done
 ; 0x1bca4c
 
 UnknownText_0x1bca4c: ; 0x1bca4c
 	text ""
-	line "hot, hot, hot!"
+	line "chaud, chaud, chaud!"
 	done
 ; 0x1bca5d
 
 UnknownText_0x1bca5d: ; 0x1bca5d
 	text ""
-	line "stimulating."
+	line "stimulant."
 	done
 ; 0x1bca6c
 
 UnknownText_0x1bca6c: ; 0x1bca6c
 	text ""
-	line "guarded."
+	line "prudent." ;TODO: incorrect
 	done
 ; 0x1bca77
 
 UnknownText_0x1bca77: ; 0x1bca77
 	text ""
-	line "lovely."
+	line "charmant."
 	done
 ; 0x1bca81
 
 UnknownText_0x1bca81: ; 0x1bca81
 	text ""
-	line "speedy."
+	line "rapide."
 	done
 ; 0x1bca8b
 
@@ -849,37 +849,37 @@ UnknownText_0x1bca98: ; 0x1bca98
 
 UnknownText_0x1bca99: ; 0x1bca99
 	text ""
-	line "BEN: #MON MUSIC"
+	line "BEN: ANTENNE"
 	done
 ; 0x1bcaab
 
 UnknownText_0x1bcaab: ; 0x1bcaab
 	text ""
-	line "CHANNEL!"
+	line "MUSIQUE PKMN!"
 	done
 ; 0x1bcab6
 
 UnknownText_0x1bcab6: ; 0x1bcab6
 	text ""
-	line "It's me, DJ BEN!"
+	line "C'est moi, DJ BEN!"
 	done
 ; 0x1bcac8
 
 UnknownText_0x1bcac8: ; 0x1bcac8
 	text ""
-	line "FERN: #MUSIC!"
+	line "SEB: #MUSIQUE!"
 	done
 ; 0x1bcad8
 
 UnknownText_0x1bcad8: ; 0x1bcad8
 	text ""
-	line "With DJ FERN!"
+	line "avec DJ FERN!"
 	done
 ; 0x1bcae8
 
 UnknownText_0x1bcae8: ; 0x1bcae8
 	text ""
-	line "Today's @"
+	line "Ce @"
 	current_day
 	text ","
 	done
@@ -887,73 +887,73 @@ UnknownText_0x1bcae8: ; 0x1bcae8
 
 UnknownText_0x1bcaf6: ; 0x1bcaf6
 	text ""
-	line "so let us jam to"
+	line "on s'écoute"
 	done
 ; 0x1bcb09
 
 UnknownText_0x1bcb09: ; 0x1bcb09
 	text ""
-	line "so chill out to"
+	line "on se détend sur"
 	done
 ; 0x1bcb1b
 
 UnknownText_0x1bcb1b: ; 0x1bcb1b
 	text ""
-	line "#MON March!"
+	line "la fanfare PKMN!"
 	done
 ; 0x1bcb29
 
 UnknownText_0x1bcb29: ; 0x1bcb29
 	text ""
-	line "#MON Lullaby!"
+	line "berceuse PKMN!"
 	done
 ; 0x1bcb39
 
 UnknownText_0x1bcb39: ; 0x1bcb39
 	text ""
-	line "REED: Yeehaw! How"
+	line "SAM: Yeah! Comment"
 	done
 ; 0x1bcb4d
 
 UnknownText_0x1bcb4d: ; 0x1bcb4d
 	text ""
-	line "y'all doin' now?"
+	line "ca gaze les gars?"
 	done
 ; 0x1bcb60
 
 UnknownText_0x1bcb60: ; 0x1bcb60
 	text ""
-	line "Whether you're up"
+	line "Si t'as la peche"
 	done
 ; 0x1bcb73
 
 UnknownText_0x1bcb73: ; 0x1bcb73
 	text ""
-	line "or way down low,"
+	line "ou pas le moral,"
 	done
 ; 0x1bcb86
 
 UnknownText_0x1bcb86: ; 0x1bcb86
 	text ""
-	line "don't you miss the"
+	line "ne rate jamais le"
 	done
 ; 0x1bcb9a
 
 UnknownText_0x1bcb9a: ; 0x1bcb9a
 	text ""
-	line "LUCKY NUMBER SHOW!"
+	line "BON NUMERO!"
 	done
 ; 0x1bcbaf
 
 UnknownText_0x1bcbaf: ; 0x1bcbaf
 	text ""
-	line "This week's Lucky"
+	line "Cette semaine le"
 	done
 ; 0x1bcbc2
 
 UnknownText_0x1bcbc2: ; 0x1bcbc2
 	text ""
-	line "Number is @"
+	line "No. est @"
 	interpret_data
 	text_from_ram StringBuffer1
 	text "!"
@@ -962,49 +962,49 @@ UnknownText_0x1bcbc2: ; 0x1bcbc2
 
 UnknownText_0x1bcbd6: ; 0x1bcbd6
 	text ""
-	line "I'll repeat that!"
+	line "Je répete..."
 	done
 ; 0x1bcbe9
 
 UnknownText_0x1bcbe9: ; 0x1bcbe9
 	text ""
-	line "Match it and go to"
+	line "Gagne et va vite a"
 	done
 ; 0x1bcbfe
 
 UnknownText_0x1bcbfe: ; 0x1bcbfe
 	text ""
-	line "the RADIO TOWER!"
+	line "la TOUR RADIO!"
 	done
 ; 0x1bcc11
 
 UnknownText_0x1bcc11: ; 0x1bcc11
 	text ""
-	line "<...>Repeating myself"
+	line "<...>Je répete"
 	done
 ; 0x1bcc25
 
 UnknownText_0x1bcc25: ; 0x1bcc25
 	text ""
-	line "gets to be a drag<...>"
+	line "gets to be a drag<...>" ;TODO: context
 	done
 ; 0x1bcc3a
 
 UnknownText_0x1bcc3a: ; 0x1bcc3a
 	text ""
-	line "PLACES AND PEOPLE!"
+	line "SOCIO FM!"
 	done
 ; 0x1bcc4f
 
 UnknownText_0x1bcc4f: ; 0x1bcc4f
 	text ""
-	line "Brought to you by"
+	line "Présenté par"
 	done
 ; 0x1bcc63
 
 UnknownText_0x1bcc63: ; 0x1bcc63
 	text ""
-	line "me, DJ LILY!"
+	line "moi, DJ PETRA!"
 	done
 ; 0x1bcc72
 
@@ -1023,97 +1023,97 @@ UnknownText_0x1bcc7f: ; 0x1bcc7f
 
 UnknownText_0x1bcc80: ; 0x1bcc80
 	text ""
-	line "is cute."
+	line "est mignon."
 	done
 ; 0x1bcc8b
 
 UnknownText_0x1bcc8b: ; 0x1bcc8b
 	text ""
-	line "is sort of lazy."
+	line "est genre, paresseux."
 	done
 ; 0x1bcc9e
 
 UnknownText_0x1bcc9e: ; 0x1bcc9e
 	text ""
-	line "is always happy."
+	line "est toujours heureux."
 	done
 ; 0x1bccb1
 
 UnknownText_0x1bccb1: ; 0x1bccb1
 	text ""
-	line "is quite noisy."
+	line "est bruyant."
 	done
 ; 0x1bccc3
 
 UnknownText_0x1bccc3: ; 0x1bccc3
 	text ""
-	line "is precocious."
+	line "est précoce."
 	done
 ; 0x1bccd4
 
 UnknownText_0x1bccd4: ; 0x1bccd4
 	text ""
-	line "is somewhat bold."
+	line "est audacieux."
 	done
 ; 0x1bcce8
 
 UnknownText_0x1bcce8: ; 0x1bcce8
 	text ""
-	line "is too picky!"
+	line "est pointilleux!"
 	done
 ; 0x1bccf8
 
 UnknownText_0x1bccf8: ; 0x1bccf8
 	text ""
-	line "is sort of OK."
+	line "est OK."
 	done
 ; 0x1bcd09
 
 UnknownText_0x1bcd09: ; 0x1bcd09
 	text ""
-	line "is just so-so."
+	line "est tellement..."
 	done
 ; 0x1bcd1a
 
 UnknownText_0x1bcd1a: ; 0x1bcd1a
 	text ""
-	line "is actually great."
+	line "est cool."
 	done
 ; 0x1bcd2f
 
 UnknownText_0x1bcd2f: ; 0x1bcd2f
 	text ""
-	line "is just my type."
+	line "est mon type."
 	done
 ; 0x1bcd42
 
 UnknownText_0x1bcd42: ; 0x1bcd42
 	text ""
-	line "is so cool, no?"
+	line "est trop cool, non?"
 	done
 ; 0x1bcd54
 
 UnknownText_0x1bcd54: ; 0x1bcd54
 	text ""
-	line "is inspiring!"
+	line "est inspirant!"
 	done
 ; 0x1bcd64
 
 UnknownText_0x1bcd64: ; 0x1bcd64
 	text ""
-	line "is kind of weird."
+	line "est un peu bizarre."
 	done
 ; 0x1bcd78
 
 UnknownText_0x1bcd78: ; 0x1bcd78
 	text ""
-	line "is right for me?"
+	line "est bon pour moi?"
 	done
 ; 0x1bcd8b
 
 UnknownText_0x1bcd8b: ; 0x1bcd8b
 	text ""
-	line "is definitely odd!"
+	line "est vraiment étrange!"
 	done
 ; 0x1bcda0
 
@@ -1130,37 +1130,37 @@ UnknownText_0x1bcda7: ; 0x1bcda7
 
 UnknownText_0x1bcda8: ; 0x1bcda8
 	text ""
-	line "<...> <...>Ahem, we are"
+	line "<...>Hum, nous sommes"
 	done
 ; 0x1bcdba
 
 UnknownText_0x1bcdba: ; 0x1bcdba
 	text ""
-	line "TEAM ROCKET!"
+	line "la TEAM ROCKET!"
 	done
 ; 0x1bcdc9
 
 UnknownText_0x1bcdc9: ; 0x1bcdc9
 	text ""
-	line "After three months"
+	line "Apres trois mois"
 	done
 ; 0x1bcddd
 
 UnknownText_0x1bcddd: ; 0x1bcddd
 	text ""
-	line "of preparation, we"
+	line "de préparation, nous"
 	done
 ; 0x1bcdf2
 
 UnknownText_0x1bcdf2: ; 0x1bcdf2
 	text ""
-	line "have risen again"
+	line "avons ressuscité"
 	done
 ; 0x1bce05
 
 UnknownText_0x1bce05: ; 0x1bce05
 	text ""
-	line "from the ashes!"
+	line "de nos cendres!"
 	done
 ; 0x1bce17
 
@@ -1168,15 +1168,15 @@ UnknownText_0x1bce17: ; 0x1bce17
 	text ""
 	line "GIOVANNI! @"
 	interpret_data
-	text "Can you"
+	text "Nous entends"
 	done
 ; 0x1bce2e
 
 UnknownText_0x1bce2e: ; 0x1bce2e
 	text ""
-	line "hear?@"
+	line "tu?@"
 	interpret_data
-	text " We did it!"
+	text " Nous l'avons fait!"
 	done
 ; 0x1bce44
 
@@ -1184,7 +1184,7 @@ UnknownText_0x1bce44: ; 0x1bce44
 	text ""
 	line "@"
 	interpret_data
-	text "Where is our boss?"
+	text "Ou est notre boss?"
 	done
 ; 0x1bce5c
 
@@ -1192,13 +1192,13 @@ UnknownText_0x1bce5c: ; 0x1bce5c
 	text ""
 	line "@"
 	interpret_data
-	text "Is he listening?"
+	text "Il nous écoute?"
 	done
 ; 0x1bce72
 
 UnknownText_0x1bce72: ; 0x1bce72
 	text ""
-	line "BUENA: BUENA here!"
+	line "BUENA: ici BUENA!"
 	done
 ; 0x1bce87
 
@@ -1230,66 +1230,66 @@ UnknownText_0x1bceb7: ; 0x1bceb7
 
 UnknownText_0x1bcec9: ; 0x1bcec9
 	text ""
-	line "I'm in GOLDENROD's"
+	line "Je suis a la TOUR"
 	done
 ; 0x1bcedc
 
 UnknownText_0x1bcedc: ; 0x1bcedc
 	text ""
-	line "RADIO TOWER!"
+	line "RADIO!"
 	done
 ; 0x1bceeb
 
 UnknownText_0x1bceeb: ; 0x1bceeb
 	text ""
-	line "BUENA: Oh my<...>"
+	line "BUENA: Oh mon<...>"
 	done
 ; 0x1bcefb
 
 UnknownText_0x1bcefb: ; 0x1bcefb
 	text ""
-	line "It's midnight! I"
+	line "Il est minuit! Je"
 	done
 ; 0x1bcf0d
 
 UnknownText_0x1bcf0d: ; 0x1bcf0d
 	text ""
-	line "have to shut down!"
+	line "doit rendre l'antenne!"
 	done
 ; 0x1bcf22
 
 UnknownText_0x1bcf22: ; 0x1bcf22
 	text ""
-	line "Thanks for tuning"
+	line "Merci d'avoir écouté"
 	done
 ; 0x1bcf36
 
 UnknownText_0x1bcf36: ; 0x1bcf36
 	text ""
-	line "in to the end! But"
+	line "jusqu'au bout! Mais"
 	done
 ; 0x1bcf4b
 
 UnknownText_0x1bcf4b: ; 0x1bcf4b
 	text ""
-	line "don't stay up too"
+	line "ne vous couchez pas"
 	done
 ; 0x1bcf5e
 
 UnknownText_0x1bcf5e: ; 0x1bcf5e
 	text ""
-	line "late! Presented to"
+	line "trop tard! Présenté par"
 	done
 ; 0x1bcf73
 
 UnknownText_0x1bcf73: ; 0x1bcf73
 	text ""
-	line "you by DJ BUENA!"
+	line "DJ BUENA!"
 	done
 ; 0x1bcf86
 
 UnknownText_0x1bcf86: ; 0x1bcf86
-	text "I'm outta here!"
+	text "Je vous laisse!"
 	done
 ; 0x1bcf96
 
