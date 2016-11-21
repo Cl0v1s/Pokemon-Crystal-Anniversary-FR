@@ -1306,32 +1306,32 @@ UnknownText_0x1bcf99: ; 0x1bcf99
 
 _WhosThatPkmnText1:
 	text ""
-	line "It's time for"
+	line "C'est l'heure du"
 	done
 
 _WhosThatPkmnText2:
 	text ""
-	line "#MON Quiz!"
+	line "Quiz #MON!"
 	done
 
 _WhosThatPkmnText3:
 	text ""
-	line "With me, MARY!"
+	line "Avec moi, LULA!"
 	done
 
 _WhosThatPkmnText4:
 	text ""
-	line "Can you guess"
+	line "Peux-tu deviner"
 	done
 
 _WhosThatPkmnText5:
 	text ""
-	line "what #MON this"
+	line "quel #MON"
 	done
 
 _WhosThatPkmnText6:
 	text ""
-	line "is?"
+	line "c'est?"
 	done
 
 _WhosThatPkmnText7:
@@ -1341,19 +1341,19 @@ _WhosThatPkmnText7:
 
 _WhosThatPkmnText8:
 	text ""
-	line "Did you guess it?"
+	line "Tu l'as deviné?"
 	done
 
 _WhosThatPkmnText9:
 	text ""
-	line "It's @"
+	line "C'est @"
 	TX_RAM StringBuffer1
 	text "!"
 	done
 
 UnknownText_0x1bcf9c: ; 0x1bcf9c
 	text $3f
-	line "withdrew"
+	line "retire"
 	cont "@"
 	text_from_ram EnemyMonNick
 	text "!"
@@ -1362,7 +1362,7 @@ UnknownText_0x1bcf9c: ; 0x1bcf9c
 
 UnknownText_0x1bcfaf: ; 0x1bcfaf
 	text $3f
-	line "used @"
+	line "utilise @"
 	text_from_ram wd050
 	text $55
 	db "on @"
@@ -1372,50 +1372,50 @@ UnknownText_0x1bcfaf: ; 0x1bcfaf
 ; 0x1bcfc7
 
 UnknownText_0x1bcfc7: ; 0x1bcfc7
-	text "That can't be used"
-	line "right now."
+	text "Impossible d'utiliser"
+	line "ca maintenant."
 	prompt
 ; 0x1bcfe5
 
 UnknownText_0x1bcfe5: ; 0x1bcfe5
-	text "That item can't be"
-	line "put in the PACK."
+	text "Cet objet ne rentre"
+	line "pas dans le sac."
 	done
 ; 0x1bd009
 
 UnknownText_0x1bd009: ; 0x1bd009
-	text "The @"
+	text "Le @"
 	text_from_ram StringBuffer1
 	text ""
-	line "was put in the"
-	cont "PACK."
+	line "a été rangé"
+	cont "dans le SAC."
 	done
 ; 0x1bd029
 
 UnknownText_0x1bd029: ; 0x1bd029
-	text "Remaining Time"
+	text "Temps restant"
 	done
 ; 0x1bd039
 
 UnknownText_0x1bd039: ; 0x1bd039
-	text "Your #MON's HP"
-	line "was healed."
+	text "Tes #MON"
+	line "ont été soignés."
 	prompt
 ; 0x1bd054
 
 UnknownText_0x1bd054: ; 0x1bd054
-	text "Warping<...>"
+	text "Warping<...>" ;TODO : context
 	done
 ; 0x1bd05e
 
 UnknownText_0x1bd05e: ; 0x1bd05e
-	text "Which number"
-	line "should be changed?"
+	text "Quel No. doit"
+	line "etre changé?"
 	done
 ; 0x1bd07f
 
 UnknownText_0x1bd07f: ; 0x1bd07f
-	text "Will you play with"
+	text "Vas-tu jouer avec"
 	line "@"
 	text_from_ram StringBuffer2
 	text "?"
@@ -1423,39 +1423,40 @@ UnknownText_0x1bd07f: ; 0x1bd07f
 ; 0x1bd09a
 
 UnknownText_0x1bd09a: ; 0x1bd09a
-	text "You need two #-"
-	line "MON for breeding."
+	text "La reproduction"
+	line "nécessite 2 PKMN."
 	prompt
 ; 0x1bd0bd
 
 UnknownText_0x1bd0bd: ; 0x1bd0bd
-	text "Breeding is not"
-	line "possible."
+	text "Reproduction"
+	line "impossible."
 	prompt
 ; 0x1bd0d8
 
 UnknownText_0x1bd0d8: ; 0x1bd0d8
-	text "The compatibility"
-	line "is @"
+	text "La compatibilité"
+	line "est @"
 	deciram wd265, $13
 	text "."
-	cont "Should they breed?"
+	cont "Doivent-ils se"
+	cont "reproduire?"
 	done
 ; 0x1bd109
 
 UnknownText_0x1bd109: ; 0x1bd109
-	text "There is no EGG."
+	text "Il n'y a pas d'OEUF."
 	line $58
 ; 0x1bd11c
 
 UnknownText_0x1bd11c: ; 0x1bd11c
-	text "It's going to"
-	line "hatch!"
+	text "L'OEUF va"
+	line "éclore!"
 	prompt
 ; 0x1bd131
 
 UnknownText_0x1bd131: ; 0x1bd131
-	text "Test event"
+	text "Test event" ;TODO: context
 	line "@"
 	deciram StringBuffer2, $12
 	text "?"
@@ -1463,141 +1464,145 @@ UnknownText_0x1bd131: ; 0x1bd131
 ; 0x1bd145
 
 UnknownText_0x1bd145: ; 0x1bd145
-	text "Start!"
+	text "Start!" ;TODO: context
 	done
 ; 0x1bd14d
 
 UnknownText_0x1bd14d: ; 0x1bd14d
-	text "End!"
+	text "End!" ;TODO: context
 	done
 ; 0x1bd153
 
 UnknownText_0x1bd153: ; 0x1bd153
-	text "For a boy!"
+	text "For a boy!" ;TODO: context
 	done
 ; 0x1bd15f
 
 UnknownText_0x1bd15f: ; 0x1bd15f
-	text "For a girl!"
+	text "For a girl!" ;TODO: context
 	done
 ; 0x1bd16c
 
 UnknownText_0x1bd16c: ; 0x1bd16c
-	text "This doesn't"
-	line "concern a boy!"
+	text "Ca ne concerne pas"
+	line "un garcon!"
 	done
 ; 0x1bd188
 
 UnknownText_0x1bd188: ; 0x1bd188
-	text "The BOX is full!"
+	text "La BOITE est pleine!"
 	done
 ; 0x1bd19a
 
 UnknownText_0x1bd19a: ; 0x1bd19a
-	text "A new CARD arrived"
-	line "from @"
+	text "Nouvelle CARTE recue"
+	line "de @"
 	text_from_ram StringBuffer2
 	text "."
 	done
 ; 0x1bd1ba
 
 UnknownText_0x1bd1ba: ; 0x1bd1ba
-	text "Put this CARD in"
-	line "the CARD FOLDER?"
+	text "Mettre cette CARTE"
+	line "dans le CARD FOLDER?"
 	done
 ; 0x1bd1dd
 
 UnknownText_0x1bd1dd: ; 0x1bd1dd
+	text "La carte de"
+	text "@"
 	text_from_ram StringBuffer2
-	text "'s CARD was"
-	line "listed as no.@"
+	text "a été"
+	line "enregistrée. No.@"
 	deciram StringBuffer1, $12
 	text "."
 	prompt
 ; 0x1bd201
 
 UnknownText_0x1bd201: ; 0x1bd201
-	text "Starting link."
+	text "Starting link." ;TODO: context
 	done
 ; 0x1bd211
 
 UnknownText_0x1bd211: ; 0x1bd211
-	text "Link terminated."
+	text "Link terminated." ;TODO: context
 	done
 ; 0x1bd223
 
 UnknownText_0x1bd223: ; 0x1bd223
-	text "Closing link."
+	text "Closing link." ;TODO: contect
 	done
 ; 0x1bd232
 
 UnknownText_0x1bd232: ; 0x1bd232
-	text "Clear the time"
-	line "limit?"
+	text "Effacer la limite"
+	line "de temps?"
 	done
 ; 0x1bd249
 
 UnknownText_0x1bd249: ; 0x1bd249
-	text "The time limit was"
-	line "cleared."
+	text "La limite de temps"
+	line "a été effacée."
 	done
 ; 0x1bd266
 
 UnknownText_0x1bd266: ; 0x1bd266
-	text "Pick which packet"
+	text "Pick which packet" ;TODO: context
 	line "as an error?"
 	done
 ; 0x1bd286
 
 UnknownText_0x1bd286: ; 0x1bd286
-	text "Trading @"
+	text "Echange de"
+	text "@"
 	text_from_ram StringBuffer2
 	text ""
-	line "for @"
+	line "contre" @"
 	text_from_ram StringBuffer1
 	text "<...>"
 	done
 ; 0x1bd2a0
 
 UnknownText_0x1bd2a0: ; 0x1bd2a0
-	text "Obtained the"
+	text "Obtained the" ;N'est pas utilisé
 	line "VOLTORBBADGE!"
 	done
 ; 0x1bd2bc
 
 UnknownText_0x1bd2bc: ; 0x1bd2bc
-	text "Which floor?"
+	text "Quel étage?"
 	done
 ; 0x1bd2ca
 
 UnknownText_0x1bd2ca: ; 0x1bd2ca
-	text "ANNOUNCER: BEEEP!"
+	text "SPEAKER: BEEEP!"
 
-	para "Time's up!"
+	para "Temps écoulé!"
 	done
 ; 0x1bd2e7
 
 UnknownText_0x1bd2e7: ; 0x1bd2e7
-	text "ANNOUNCER: The"
-	line "Contest is over!"
+	text "SPEAKER: Le con-"
+	line "cours est terminé!"
 	done
 ; 0x1bd308
 
 UnknownText_0x1bd308: ; 0x1bd308
-	text "REPEL's effect"
-	line "wore off."
+	text "L'effet du REPOUSSE"
+	line "se dissipe."
 	done
 ; 0x1bd321
 
 _UseAnotherRepelText:
-	text "REPEL's effect"
-	line "wore off."
+	text "L'effet du REPOUSSE"
+	line "se dissipe."
 
-	para "Use another?"
+	para "En utiliser"
+	line "un autre?"
 	done
 
 UnknownText_0x1bd321: ; 0x1bd321
-	text $52, " found"
+	text $52, " trouve"
 	line "@"
 	text_from_ram StringBuffer3
 	text "!"
@@ -1605,35 +1610,35 @@ UnknownText_0x1bd321: ; 0x1bd321
 ; 0x1bd331
 
 UnknownText_0x1bd331: ; 0x1bd331
-	text "But ", $52, " has"
-	line "no space left<...>"
+	text "Mais ", $52, " n'a"
+	line "plus de place<...>"
 	done
 ; 0x1bd34b
 
 UnknownText_0x1bd34b: ; 0x1bd34b
-	text "I just saw some"
-	line "rare @"
+	text "Je viens de voir"
+	line "un rare @"
 	text_from_ram StringBuffer1
-	text " in"
+	text " dans"
 	cont "@"
 	text_from_ram StringBuffer2
 	text "."
 
-	para "I'll call you if I"
-	line "see another rare"
-	cont "#MON, OK?"
+	para "Je t'appelle si je"
+	line "vois d'autres PKMN"
+	cont "#rares, OK?"
 	prompt
 ; 0x1bd39e
 
 UnknownText_0x1bd39e: ; 0x1bd39e
-	text "SAVING RECORD<...>"
-	line "DON'T TURN OFF!"
+	text "SAUVEGARDE<...>"
+	line "NE PAS ETEINDRE!"
 	done
 ; 0x1bd3be
 
 UnknownText_0x1bd3be: ; 0x1bd3be
 	text_from_ram PlayerName
-	text " received"
+	text " recoit"
 	line "@"
 	text_from_ram StringBuffer1
 	text "!@"
@@ -1647,27 +1652,28 @@ UnknownText_0x1bd3d6: ; 0x1bd3d6
 ; 0x1bd3d7
 
 UnknownText_0x1bd3d7: ; 0x1bd3d7
-	text "You have no coins."
+	text "Vous n'avez pas"
+	line "de jetons."
 	prompt
 ; 0x1bd3eb
 
 UnknownText_0x1bd3eb: ; 0x1bd3eb
-	text "You don't have a"
-	line "COIN CASE."
+	text "Vous n'avez pas"
+	line "de BOITE JETON."
 	prompt
 ; 0x1bd407
 
 UnknownText_0x1bd407: ; 0x1bd407
-	text "OK, connect the"
-	line "Game Link Cable."
+	text "OK, branchez le"
+	line "Cable LINK."
 	prompt
 ; 0x1bd429
 
 UnknownText_0x1bd429: ; 0x1bd429
-	text $52, " traded"
+	text $52, " a échangé"
 	line "@"
 	text_from_ram wd050
-	text " for", $55
+	text " contre", $55
 	db "@"
 	text_from_ram StringBuffer2
 	text ".@"
@@ -1685,36 +1691,36 @@ UnknownText_0x1bd448: ; 0x1bd448
 ; 0x1bd449
 
 UnknownText_0x1bd449: ; 0x1bd449
-	text "I collect #MON."
-	line "Do you have"
+	text "Je collectionne les"
+	line "PKMN. Tu as"
 	cont "@"
 	text_from_ram StringBuffer1
 	text "?"
 
-	para "Want to trade it"
-	line "for my @"
+	para "Tu veux l'échanger"
+	line "contre mon @"
 	text_from_ram StringBuffer2
 	text "?"
 	done
 ; 0x1bd48c
 
 UnknownText_0x1bd48c: ; 0x1bd48c
-	text "You don't want to"
-	line "trade? Aww<...>"
+	text "Pas d'échange ?"
+	line "Oooh<...>"
 	done
 ; 0x1bd4aa
 
 UnknownText_0x1bd4aa: ; 0x1bd4aa
-	text "Huh? That's not"
+	text "Huh? C'est pas"
 	line "@"
 	text_from_ram StringBuffer1
 	text ". "
-	cont "What a letdown<...>"
+	cont "Quelle déception<...>"
 	done
 ; 0x1bd4d2
 
 UnknownText_0x1bd4d2: ; 0x1bd4d2
-	text "Yay! I got myself"
+	text "Yay! I got myself" ;TODO: context
 	line "@"
 	text_from_ram StringBuffer1
 	text "!"
@@ -1723,51 +1729,51 @@ UnknownText_0x1bd4d2: ; 0x1bd4d2
 ; 0x1bd4f4
 
 UnknownText_0x1bd4f4: ; 0x1bd4f4
-	text "Hi, how's my old"
+	text "Salut, comment va mon"
 	line "@"
 	text_from_ram StringBuffer2
-	text " doing?"
+	text "?"
 	done
 ; 0x1bd512
 
 UnknownText_0x1bd512: ; 0x1bd512
-	text "Hi, I'm looking"
-	line "for this #MON."
+	text "Salut, je cherche"
+	line "ce #MON."
 
-	para "If you have"
+	para "Si tu as"
 	line "@"
 	text_from_ram StringBuffer1
-	text ", would"
+	text ", Tu"
 
-	para "you trade it for"
-	line "my @"
+	para "voudrais l'échanger"
+	line "contre @"
 	text_from_ram StringBuffer2
 	text "?"
 	done
 ; 0x1bd565
 
 UnknownText_0x1bd565: ; 0x1bd565
-	text "You don't have"
-	line "one either?"
+	text "Tu ne l'as pas"
+	line "non plus?"
 
-	para "Gee, that's really"
-	line "disappointing<...>"
+	para "Gee, c'est"
+	line "décevant<...>"
 	done
 ; 0x1bd5a1
 
 UnknownText_0x1bd5a1: ; 0x1bd5a1
-	text "You don't have"
+	text "Tu n'as pas"
 	line "@"
 	text_from_ram StringBuffer1
-	text "? That's"
-	cont "too bad, then."
+	text "? Trop"
+	cont "triste<...>"
 	done
 ; 0x1bd5cc
 
 UnknownText_0x1bd5cc: ; 0x1bd5cc
-	text "Great! Thank you!"
+	text "Super! Merci!"
 
-	para "I finally got"
+	para "Finalement j'ai"
 	line "@"
 	text_from_ram StringBuffer1
 	text "."
@@ -1775,51 +1781,53 @@ UnknownText_0x1bd5cc: ; 0x1bd5cc
 ; 0x1bd5f4
 
 UnknownText_0x1bd5f4: ; 0x1bd5f4
-	text "Hi! The @"
+	text "Salut! Le @"
 	text_from_ram wd050
 	text ""
-	line "you traded me is"
-	cont "doing great!"
+	line "que tu m'as"
+	cont "échangé va bien!"
 	done
 ; 0x1bd621
 
 UnknownText_0x1bd621: ; 0x1bd621
 	text_from_ram wd050
-	text "'s cute,"
-	line "but I don't have"
+	text "est"
+	line "mignon mais je ne"
+	cont "l'ai pas."
 
-	para "it. Do you have"
+	para "Tu as un"
 	line "@"
 	text_from_ram StringBuffer1
 	text "?"
 
-	para "Want to trade it"
-	line "for my @"
+	para "Tu me l'échange"
+	line "contre @"
 	text_from_ram StringBuffer2
 	text "?"
 	done
 ; 0x1bd673
 
 UnknownText_0x1bd673: ; 0x1bd673
-	text "You don't want to"
-	line "trade? Oh, darn<...>"
+	text "Pas d'échange ?"
+	line "Oh, zut<...>"
 	done
 ; 0x1bd696
 
 UnknownText_0x1bd696: ; 0x1bd696
-	text "That's not"
+	text "C'est pas"
 	line "@"
 	text_from_ram StringBuffer1
 	text "."
 
-	para "Please trade with"
-	line "me if you get one."
+	para "Si t'en trouves"
+	line "un, échange le moi"
+	cont "<...>S'il te plait."
 	done
 ; 0x1bd6cd
 
 UnknownText_0x1bd6cd: ; 0x1bd6cd
-	text "Wow! Thank you!"
-	line "I always wanted"
+	text "Wow! Merci!"
+	line "J'ai toujours voulu"
 	cont "@"
 	text_from_ram wd050
 	text "!"
@@ -1827,29 +1835,31 @@ UnknownText_0x1bd6cd: ; 0x1bd6cd
 ; 0x1bd6f5
 
 UnknownText_0x1bd6f5: ; 0x1bd6f5
-	text "How is that"
+	text "Comment le"
 	line "@"
 	text_from_ram StringBuffer2
-	text " I"
-	cont "traded you doing?"
+	text " que"
+	cont "je t'ai échangé va?"
 
-	para "Your @"
+	para "Ton @"
 	text_from_ram wd050
-	text "'s"
-	line "so cute!"
+	text "est"
+	line "trop mignon!"
 	done
 ; 0x1bd731
 
 UnknownText_0x1bd731: ; 0x1bd731
-	text "Uh? What happened?"
+	text "Uh? Qu'est ce qu'il"
+	line "passé ?"
 	done
 ; 0x1bd745
 
 UnknownText_0x1bd745: ; 0x1bd745
-	text "Trading is so odd<...>"
+	text "L'échange est"
+	line "bizarre<...>"
 
-	para "I still have a lot"
-	line "to learn about it."
+	para "J'en ai encore beau-"
+	line "coup a apprendre."
 	done
 ; 0x1bd77f
 
