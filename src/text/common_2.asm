@@ -1720,11 +1720,11 @@ UnknownText_0x1bd4aa: ; 0x1bd4aa
 ; 0x1bd4d2
 
 UnknownText_0x1bd4d2: ; 0x1bd4d2
-	text "Yay! I got myself" ;TODO: context
+	text "Ouais! J'ai mon propre"
 	line "@"
 	text_from_ram StringBuffer1
 	text "!"
-	cont "Thanks!"
+	cont "Merci!"
 	done
 ; 0x1bd4f4
 
@@ -1866,35 +1866,36 @@ UnknownText_0x1bd745: ; 0x1bd745
 UnknownText_0x1bd77f: ; 0x1bd77f
 	text "<...>"
 
-	para "So, you're leaving"
-	line "on an adventure<...>"
+	para "Donc, tu pars"
+	line "a l'aventure<...>"
 
 	para "OK!"
-	line "I'll help too."
+	line "Je vais t'aider."
 
-	para "But what can I do"
-	line "for you?"
+	para "Mais qu'est-ce que"
+	line "je peux faire?"
 
-	para "I know! I'll save"
-	line "money for you."
+	para "Je sais! Je vais éco-"
+	line "nomiser pour toi."
 
-	para "On a long journey,"
-	line "money's important."
+	para "Durant un long voy-"
+	line "age, l'argent c'est"
+	cont "important.";
 
-	para "Do you want me to"
-	line "save your money?"
+	para "Tu veux que j'éco-"
+	line "nomise pour toi?"
 	done
 ; 0x1bd868
 
 UnknownText_0x1bd868: ; 0x1bd868
-	text "OK, I'll take care"
-	line "of your money."
+	text "OK, Je vais m'oc-"
+	line "cuper de ton argent."
 	para $56, $56, $56
 	prompt
 ; 0x1bd88e
 
 UnknownText_0x1bd88e: ; 0x1bd88e
-	text "Be careful."
+	text "Sois prudent."
 
 	para "#MON are your"
 	line "friends. You need"
