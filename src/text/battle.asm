@@ -251,7 +251,7 @@ BattleText_0x80a75: ; 0x80a75
 ; 0x80a83
 
 BattleText_0x80a83: ; 0x80a83
-	text "Utiliser le #MON"
+	text "Utiliser le PKMN"
 	line "suivant ?"
 	done
 ; 0x80a93
@@ -1115,7 +1115,7 @@ DraggedOutText: ; 0x81544
 ; 0x81558
 
 ParalyzedText: ; 0x81558
-	text $59, "@"
+	text $59
 	line "est paralysé! Il"
 	cont "pourrait ne plus"
 	cont "pouvoir attaquer."
@@ -1123,14 +1123,14 @@ ParalyzedText: ; 0x81558
 ; 0x8157d
 
 FullyParalyzedText: ; 0x8157d
-	text $5a, "@"
+	text $5a
 	line "est totalement"
 	cont "paralysé!"
 	prompt
 ; 0x81592
 
 AlreadyParalyzedText: ; 0x81592
-	text $59, "@"
+	text $59
 	line "est déja paralysé!"
 	prompt
 ; 0x815a9

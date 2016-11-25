@@ -1363,9 +1363,10 @@ UnknownText_0x1bcf9c: ; 0x1bcf9c
 UnknownText_0x1bcfaf: ; 0x1bcfaf
 	text $3f
 	line "utilise @"
+	cont "@"
 	text_from_ram wd050
 	text $55
-	db "on @"
+	db "sur @"
 	text_from_ram EnemyMonNick
 	text "!"
 	prompt
@@ -1745,8 +1746,9 @@ UnknownText_0x1bd512: ; 0x1bd512
 	text_from_ram StringBuffer1
 	text ", Tu"
 
-	para "voudrais l'échanger"
-	line "contre @"
+	para "voudrais l'échan-"
+	line "ger contre"
+	cont "@"
 	text_from_ram StringBuffer2
 	text "?"
 	done
