@@ -277,8 +277,8 @@ BattleText_0x80aca: ; 0x80aca
 	text_from_ram EnemyMonNick
 	text "."
 
-	para "Voulez-vous changer"
-	line "de #MON?"
+	para "Voulez-vous"
+	line "changer de PKMN?"
 	done
 ; 0x80af8
 
@@ -369,7 +369,7 @@ BattleText_0x80bf3: ; 0x80bf3
 BattleText_0x80c0d: ; 0x80c0d
 	text_from_ram BattleMonNick
 	text ""
-	line "est déjà au combat."
+	line "est déja au combat."
 	prompt
 ; 0x80c22
 
@@ -1115,23 +1115,23 @@ DraggedOutText: ; 0x81544
 ; 0x81558
 
 ParalyzedText: ; 0x81558
-	text $59, " est"
-	line "paralysé! Il"
+	text $59, "@"
+	line "est paralysé! Il"
 	cont "pourrait ne plus"
 	cont "pouvoir attaquer."
 	prompt
 ; 0x8157d
 
 FullyParalyzedText: ; 0x8157d
-	text $5a, " est"
-	line "totalement"
+	text $5a, "@"
+	line "est totalement"
 	cont "paralysé!"
 	prompt
 ; 0x81592
 
 AlreadyParalyzedText: ; 0x81592
-	text $59, " est"
-	line "déja paralysé!"
+	text $59, "@"
+	line "est déja paralysé!"
 	prompt
 ; 0x815a9
 

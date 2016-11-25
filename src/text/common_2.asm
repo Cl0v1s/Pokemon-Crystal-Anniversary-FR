@@ -1557,7 +1557,7 @@ UnknownText_0x1bd286: ; 0x1bd286
 	text "@"
 	text_from_ram StringBuffer2
 	text ""
-	line "contre" @"
+	line "contre @"
 	text_from_ram StringBuffer1
 	text "<...>"
 	done
@@ -1791,7 +1791,7 @@ UnknownText_0x1bd5f4: ; 0x1bd5f4
 
 UnknownText_0x1bd621: ; 0x1bd621
 	text_from_ram wd050
-	text "est"
+	text " est"
 	line "mignon mais je ne"
 	cont "l'ai pas."
 
