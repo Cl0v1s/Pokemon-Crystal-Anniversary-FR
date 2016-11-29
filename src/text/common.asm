@@ -144,8 +144,8 @@ NoPokemonHealText::
 	done
 
 TooManyPokemonHealText::
-	text "Navré. Je ne"
-	line "peux soigner autant"
+	text "Navré. Je ne peux"
+	line "soigner autant"
 	cont "de #MON."
 	done
 
@@ -163,7 +163,7 @@ UnknownText_0x1b0378: ; 0x1b0378
 ; 0x1b03a3
 
 UnknownText_0x1b03a3: ; 0x1b03a3
-	text "Magasines #MON<...>"
+	text "Magasines PKMN<...>"
 	line "Images #MON,"
 
 	para "Carnets #MON,"
@@ -189,7 +189,7 @@ UnknownText_0x1b03d9: ; 0x1b03d9
 ; 0x1b0448
 
 UnknownText_0x1b0448: ; 0x1b0448
-	text "C'est quoi ce truc?"
+	text "C'est quoi c'truc?"
 
 	para "Oh, c'est"
 	line "bruleur d'encens!"
@@ -273,9 +273,9 @@ UnknownText_0x1b059c: ; 0x1b059c
 ; 0x1b05bf
 
 UnknownText_0x1b05bf: ; 0x1b05bf
-	text "Nous allons évaluer"
-	line "les #MON que vous"
-	cont "avez attrapé."
+	text "Nous allons éval-"
+	line "uer les PKMN que"
+	cont "vous avez attrapé."
 
 	para $56
 	line $56
@@ -313,17 +313,17 @@ UnknownText_0x1b065b: ; 0x1b065b
 ; 0x1b0681
 
 UnknownText_0x1b0681: ; 0x1b0681
-	text "Tout les autres qui"
+	text "Tout ceux qui"
 	line "ont attrapé des"
-	cont "#MON recoivent"
-	cont "", $f0, "1000 comme"
-	cont "lots de consolation!"
+	cont "PKMN recoivent"
+	cont "", $f0, "comme lots"
+	cont "de consolation!"
 	done
 
 NoPrizeForLazyPeople:
-	text "Seuls ceux qui"
-	line "ont attrapé des #MON"
-	cont "recoivent des prix."
+	text "Seuls ceux qui ont"
+	line "attrapé des PKMN"
+	cont "gagnent des prix."
 	done
 ; 0x1b06b7
 
@@ -335,14 +335,14 @@ UnknownText_0x1b06b7: ; 0x1b06b7
 ; 0x1b06d9
 
 UnknownText_0x1b06d9: ; 0x1b06d9
-	text "Voici les"
-	line "#MON que nous"
-	cont "gardions pour vous."
+	text "Voici les PKMN"
+	line "que nous guardions"
+	cont "pour vous."
 	done
 
 DoYouWantToKeepTheBug:
 	text "Voulez-vous garder" ;TODO: context
-	line "le #MON attrapé?"
+	line "le PKMN attrapé?"
 	done
 
 YouWantTheBugButPCIsFull:
@@ -360,8 +360,8 @@ YouWantTheBugButPCIsFull:
 ; 0x1b070d
 
 UnknownText_0x1b070d: ; 0x1b070d
-	text "Votre équipe est pleine,"
-	line "le #MON a été"
+	text "Equipe pleine,"
+	line "le PKMN a été"
 
 	para "envoyé dans votre"
 	line "BOITE PC."
@@ -379,7 +379,7 @@ UnknownText_0x1b075c: ; 0x1b075c
 	text "CHAMPION: @"
 	text_from_ram StringBuffer4
 	text ""
-	para "DRESSEURS VAINQUEURS:"
+	para "VAINQUEURS:"
 	line "<PLAYER>"
 	done
 ; 0x1b077f
@@ -466,9 +466,10 @@ UnknownText_0x1b08cc: ; 0x1b08cc
 	para "Nous gardons ca"
 	line "pour vous, mais"
 
-	para "vous ne pouvez avoir"
-	line "qu'un exemplaire de"
-	cont "chaque prix."
+	para "vous ne pouvez"
+	line "avoir qu'un exem-"
+	cont "plaire de chaque"
+	cont "prix."
 
 	para "Revenez quand vous"
 	line "aurez de la place."
@@ -483,11 +484,11 @@ UnknownText_0x1b092a: ; 0x1b092a
 ; 0x1b0954
 
 UnknownText_0x1b0954: ; 0x1b0954
-	text "Les #MON "
-	line "deviennent plus amicaux"
+	text "Les PKMN devien-"
+	line "nent plus amicaux"
 
-	para "si tu passes du temps"
-	line "avec eux."
+	para "si tu passes du"
+	line "temps avec eux."
 	done
 ; 0x1b0989
 
@@ -529,8 +530,8 @@ UnknownText_0x1b09fe: ; 0x1b09fe
 	cont "astuces?"
 
 	para "Je t'appelle si"
-	line "j'apprends des"
-	cont "trucs intéressants."
+	line "je vois des trucs"
+	cont "intéressants."
 
 	para "Tu me donnes ton"
 	line "numéro?"
@@ -543,8 +544,8 @@ UnknownText_0x1b0a82: ; 0x1b0a82
 	cont "astuces?"
 
 	para "Je t'appelle si"
-	line "j'apprends des"
-	cont "trucs intéressants."
+	line "je vois des trucs"
+	cont "intéressants."
 
 	para "Tu me donnes ton"
 	line "numéro?"
@@ -559,7 +560,7 @@ UnknownText_0x1b0adb: ; 0x1b0adb
 ; 0x1b0afd
 
 UnknownText_0x1b0afd: ; 0x1b0afd
-	text "Oh, OK. Pas cool<...>"
+	text "Oh OK. Pas cool<...>"
 
 	para "Si jamais"
 	line "tu changes d'avis,"
@@ -580,7 +581,7 @@ UnknownText_0x1b0b42: ; 0x1b0b42
 ; 0x1b0b75
 
 UnknownText_0x1b0b75: ; 0x1b0b75
-	text "Salut, je t'attendais"
+	text "Hey, j't'attendais"
 	line "pour te montrer!"
 
 	para "Commencons tout"
@@ -624,7 +625,7 @@ UnknownText_0x1b0c9b: ; 0x1b0c9b
 	text "Pour etre honnete,"
 	line "je veux un MARILL."
 
-	para "Mais je me contente"
+	para "Mais j'me contente"
 	line "de mon SNUBBULL"
 	line "tout mignon."
 	done
@@ -634,7 +635,8 @@ UnknownText_0x1b0ce0: ; 0x1b0ce0
 	text "Oh<...> C'est"
 	line "décevant<...>"
 
-	para "Au revoir, MARILL<...>"
+	para "Au revoir, "
+	line "MARILL<...>"
 	done
 ; 0x1b0d0b
 
@@ -678,8 +680,8 @@ UnknownText_0x1b0d9f: ; 0x1b0d9f
 	para "T'es cool a"
 	line "affronter, je"
 
-	para "t'appelerai quand"
-	line "je serai plus fort!"
+	para "t'appelle quand je"
+	line "suis plus fort!"
 	done
 ; 0x1b0e2c
 
@@ -691,8 +693,8 @@ UnknownText_0x1b0e2c: ; 0x1b0e2c
 	para "T'es cool a"
 	line "affronter, je"
 
-	para "t'appelerai quand"
-	line "je serai plus fort!"
+	para "t'appelle quand je"
+	line "suis plus fort!"
 	done
 ; 0x1b0e89
 
@@ -721,7 +723,7 @@ UnknownText_0x1b0edc: ; 0x1b0edc
 
 UnknownText_0x1b0eff: ; 0x1b0eff
 	text "Oh<...> Ton SAC est"
-	line "plein. Je te donnerai"
+	line "plein. J'te donne"
 	cont "ca plus tard."
 	done
 ; 0x1b0f2f
@@ -736,13 +738,13 @@ UnknownText_0x1b0f2f: ; 0x1b0f2f
 	cont "mais"
 
 	para $52, ", j'ai"
-	line "pas gagné une seule"
-	cont "fois."
+	line "pas gagné une"
+	cont "seule fois."
 
 	para "J'ai acheté plein"
-	line "d'objets pour rendre"
+	line "d'objets pour ren-"
 
-	para "mes #MON"
+	para "dre mes PKMN"
 	line "plus forts, mais"
 	cont "rien a faire<...>"
 
@@ -806,7 +808,7 @@ UnknownText_0x1b1136: ; 0x1b1136
 	line "Cette pensée me"
 
 	para "tourmente en perm-"
-	line "-anence<...>"
+	line "anence<...>"
 	done
 ; 0x1b117b
 
@@ -814,8 +816,8 @@ UnknownText_0x1b117b: ; 0x1b117b
 	text "OK<...> Je comprends"
 	line "<...> Mais si tu"
 
-	para "change d'avis, viens"
-	line "me le dire."
+	para "changes d'avis,"
+	line "viens me le dire."
 	done
 ; 0x1b11c4
 
@@ -824,13 +826,13 @@ UnknownText_0x1b11c4: ; 0x1b11c4
 	line "ton téléphone est"
 	cont "pleine."
 
-	para "Tu peux pas enre-"
-	line "-gistrer mon numéro."
+	para "T'peux pas enregi-"
+	line "strer mon numéro."
 	done
 ; 0x1b11fe
 
 UnknownText_0x1b11fe: ; 0x1b11fe
-	text "Hi! Je t'attendais!"
+	text "Hi! J't'attendais!"
 
 	para "Cette fois, je"
 	line "vais gagner!"
@@ -838,21 +840,21 @@ UnknownText_0x1b11fe: ; 0x1b11fe
 ; 0x1b1239
 
 UnknownText_0x1b1239: ; 0x1b1239
-	text "Ca faisait un moment"
-	line "que j'avais pas"
-	cont "perdu<...>"
+	text "Ca f'sait un mom-"
+	line "ment que j'avais"
+	cont "pas perdu<...>"
 
 	para "T'es plutot bon."
 
-	para "On devrait se battre"
-	line "encore un de ces"
-	cont "jours."
+	para "On devrait se"
+	line "battre encore un"
+	cont "de ces jours."
 
 	para "En affrontant"
-	line "un dresseur costaud comme"
+	line "un dresseur fort comme"
 
-	para "toi, je pense devenir"
-	line "plus fort aussi."
+	para "toi, je pense deve-"
+	line "nir plus fort aussi."
 
 	para "T'en penses quoi?"
 
@@ -863,7 +865,7 @@ UnknownText_0x1b1239: ; 0x1b1239
 
 UnknownText_0x1b1314: ; 0x1b1314
 	para "En affrontant"
-	line "un dresseur costaud comme"
+	line "un dresseur fort comme"
 
 	para "toi, je pense devenir"
 	line "plus fort aussi."
@@ -883,22 +885,25 @@ UnknownText_0x1b1392: ; 0x1b1392
 ; 0x1b13af
 
 UnknownText_0x1b13af: ; 0x1b13af
-	text "C'est trop triste<...>"
+	text "C'est triste<...>"
 
 	para "Fait le moi savoir"
-	line "si tu changes d'avis."
+	line "si tu changes"
+	cont "d'avis."
 	done
 ; 0x1b13e4
 
 UnknownText_0x1b13e4: ; 0x1b13e4
-	text "Oh non. Ton téléphone"
-	line "n'a plus de mémoire."
+	text "Oh non. Ton télé-"
+	line "phone n'a plus"
+	cont " de mémoire."
 	done
 ; 0x1b1409
 
 UnknownText_0x1b1409: ; 0x1b1409
 	text "Tu m'as fait at-"
-	line "-tendre! C'est parti!"
+	line "tendre!"
+	cont "C'est parti!"
 	done
 ; 0x1b142d
 
