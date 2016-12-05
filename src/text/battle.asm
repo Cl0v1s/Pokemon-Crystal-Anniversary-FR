@@ -216,7 +216,8 @@ TiedAgainstText: ; 0x809eb
 ; 0x809fc
 
 BattleText_0x809fc: ; 0x809fc
-	text $52, " recoit ¥@"
+	text $52
+	line "recoit ¥@"
 	deciram wc686, $36
 	text ""
 	line "Une partie a été"
@@ -225,8 +226,8 @@ BattleText_0x809fc: ; 0x809fc
 ; 0x80a2a
 
 BattleText_0x80a2a: ; 0x80a2a
-	text "La moitié a été envoyée"
-	line "a MAMAN."
+	text "La moitié a été"
+	line "envoyée a MAMAN."
 	prompt
 ; 0x80a3d
 
@@ -512,8 +513,9 @@ BattleText_0x80dab: ; 0x80dab
 ; 0x80dcc
 
 AlreadyConfusedText: ; 0x80dcc
-	text $59, " est"
-	line "déja confus!"
+	text $59
+	line "est déja"
+	cont "confus!"
 	prompt
 ; 0x80de2
 

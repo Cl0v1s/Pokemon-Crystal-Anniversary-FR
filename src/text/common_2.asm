@@ -1362,7 +1362,7 @@ UnknownText_0x1bcf9c: ; 0x1bcf9c
 
 UnknownText_0x1bcfaf: ; 0x1bcfaf
 	text $3f
-	line "utilise @"
+	line "utilise"
 	cont "@"
 	text_from_ram wd050
 	text $55
